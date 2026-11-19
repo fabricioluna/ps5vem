@@ -34,7 +34,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 12
+      "seguidas": 13
     },
     "promobit": {
       "aviso_enviado": false,
@@ -105,7 +105,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco": {
       "fonte": "kabum",
@@ -116,7 +116,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -127,7 +127,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -160,7 +160,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7499.9,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -171,7 +171,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4593.72,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -182,7 +182,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4699.0,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -193,7 +193,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k": {
       "fonte": "zoom",
@@ -204,7 +204,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-19T21:42:32+00:00"
+      "ultimo_visto": "2026-11-19T21:52:06+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1581835330": {
       "fonte": "zoom",
@@ -407,6 +407,41 @@
       "loja": "KaBuM!",
       "preco": 4184.07,
       "ts": "2026-11-19T21:42:32+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital",
+      "loja": "KaBuM! (oferta relâmpago)",
+      "preco": 4184.07,
+      "ts": "2026-11-19T21:52:06+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/1050570/console-sony-playstation-5-edicao-digital-slim-ssd-825gb-controle-dualsense-astro-s-playroom-branco-cfi-2114b",
+      "loja": "KaBuM!",
+      "preco": 4370.07,
+      "ts": "2026-11-19T21:52:06+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
+      "loja": "Magalu (oferta relâmpago)",
+      "preco": 4509.57,
+      "ts": "2026-11-19T21:52:06+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4589.99,
+      "ts": "2026-11-19T21:52:06+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k",
+      "loja": "Amazon",
+      "preco": 7499.9,
+      "ts": "2026-11-19T21:52:06+00:00"
     }
   ],
   "ultima_execucao": {
@@ -502,6 +537,20 @@
         "titulo": "Suporte Triplo Playstation 5 Slim Ps5 Disco Digital Base Apoio",
         "valida": false,
         "valor_parcela": 49.0
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/579043123917951244714959759543.jpg",
+        "link": "https://www.promobit.com.br/oferta/star-wars-outlaws-3233534/",
+        "loja": "Steam",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 69.99,
+        "sem_juros": false,
+        "titulo": "Star Wars Outlaws",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -670,20 +719,6 @@
         "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
         "valida": false,
         "valor_parcela": 25.99
-      },
-      {
-        "cupom": "20BLACKPRIME",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/146633535217951188914250051478.jpg",
-        "link": "https://www.promobit.com.br/oferta/kingdom-hearts-collection-playstation-5-exclusivo-amazon-3233099/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 271.92,
-        "sem_juros": false,
-        "titulo": "Kingdom Hearts: Collection  - PlayStation 5 (Exclusivo Amazon)",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -952,6 +987,20 @@
         "valor_parcela": 133.99
       },
       {
+        "cupom": "VOLANTENABF",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/739817033317951247115896181134.png",
+        "link": "https://www.promobit.com.br/oferta/volante-logitech-g29-driving-force-para-ps5-ps4-ps3-e-pc-941-3233557/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 1439.1,
+        "sem_juros": false,
+        "titulo": "Volante Logitech G29 Driving Force Para Ps5 Ps4 Ps3 E Pc 941",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": null,
         "fonte": "zoom",
         "imagem": "https://image.zst.com.br/BDC06C552FF04EADDEAE478F5F5C225E_235_235.jpg",
@@ -998,20 +1047,6 @@
         "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
         "valida": true,
         "valor_parcela": 449.9
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/662082289017951187858295758481.jpg",
-        "link": "https://www.promobit.com.br/oferta/playstation5-slim-disk-pacote-astro-bot-e-gran-turismo-7-3233092/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 4274.9,
-        "sem_juros": false,
-        "titulo": "PlayStation5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "alertar": false,
@@ -1181,6 +1216,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-19T21:42:32+00:00"
+    "ts": "2026-11-19T21:52:06+00:00"
   }
 }

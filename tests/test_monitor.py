@@ -166,7 +166,7 @@ def test_grava_retrato_da_execucao_para_pagina(ambiente):
     ex = hist.dados["ultima_execucao"]
     assert ex["fontes"]["a"] == {"status": "ok", "anuncios": 2}
     assert ex["fontes"]["b"]["status"] == "bloqueada"
-    assert ex["limites"] == {"normal": 4000.0, "especial": 3200}
+    assert ex["limites"] == {"normal": 4000.0, "especial": 3700, "parcelas_minimas": 10}
     validos = [i for i in ex["itens"] if i["valida"]]
     assert len(validos) == 1 and validos[0]["nivel"] == "normal" and validos[0]["alertar"]
     assert any(not i["valida"] and "usado" in i["motivo"] for i in ex["itens"])

@@ -20,11 +20,11 @@ def next_data(html: str) -> dict:
     return json.loads(tag.string)
 
 
-def parcelas_do_texto(*textos: str | None) -> tuple[int, bool]:
-    """Procura '12x' e 'sem juros' em textos livres (título, cupom). Devolve (parcelas, sem_juros)."""
+def parcelas_do_texto(*textos: str | None) -> tuple[int | None, bool]:
+    """Procura '12x' e 'sem juros' em textos livres (título, cupom). Devolve (parcelas ou None, sem_juros)."""
     junto = " ".join(t for t in textos if t).lower()
     m = _PARCELAS.search(junto)
-    parcelas = int(m.group(1)) if m and 1 < int(m.group(1)) <= 24 else 1
+    parcelas = int(m.group(1)) if m and 1 < int(m.group(1)) <= 24 else None
     return parcelas, "sem juros" in junto
 
 

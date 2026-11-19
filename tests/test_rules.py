@@ -57,15 +57,33 @@ def test_exigir_sem_juros(config):
 
 
 def test_parcelas_minimas(config):
+    assert config["alerta_normal"]["parcelas_minimas"] == 10
+    d = avaliar(of(3900, parcelas=9), config, Historico(), T0)
+    assert d.nivel == NENHUM and "9x" in d.motivo
+    assert avaliar(of(3900, parcelas=10), config, Historico(), T0).nivel == NORMAL
     config["alerta_normal"]["parcelas_minimas"] = 12
     assert avaliar(of(3900, parcelas=10), config, Historico(), T0).nivel == NENHUM
-    assert avaliar(of(3900, parcelas=12), config, Historico(), T0).nivel == NORMAL
+
+
+def test_parcelamento_nao_informado(config):
+    o = of(3900)
+    o.parcelas, o.valor_parcela = None, None
+    assert avaliar(o, config, Historico(), T0).nivel == NORMAL
+    config["alerta_normal"]["aceitar_parcelamento_nao_informado"] = False
+    assert avaliar(o, config, Historico(), T0).nivel == NENHUM
+
+
+def test_super_promocao_ignora_parcelas(config):
+    # até R$ 3.700 avisa como super promoção mesmo à vista
+    assert avaliar(of(3650, parcelas=1), config, Historico(), T0).nivel == ESPECIAL
 
 
 # ---------- alerta especial ----------
 def test_especial_por_preco_max(config):
-    d = avaliar(of(3200), config, Historico(), T0)
+    assert config["alerta_especial"]["preco_max"] == 3700
+    d = avaliar(of(3700), config, Historico(), T0)
     assert d.nivel == ESPECIAL and d.enviar
+    assert avaliar(of(3701), config, Historico(), T0).nivel == NORMAL
 
 
 def test_especial_por_queda_percentual(config):
@@ -76,8 +94,8 @@ def test_especial_por_queda_percentual(config):
     # 3500 é 22% abaixo de 4500
     d = avaliar(of(3500), config, h, T0)
     assert d.nivel == ESPECIAL and "média" in d.motivo
-    # 3700 é só 18% abaixo -> normal
-    assert avaliar(of(3700), config, h, T0).nivel == NORMAL
+    # 3750 é só 17% abaixo -> normal
+    assert avaliar(of(3750), config, h, T0).nivel == NORMAL
 
 
 def test_queda_percentual_configuravel(config):

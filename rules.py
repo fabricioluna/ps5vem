@@ -51,8 +51,13 @@ def _bate_normal(oferta: Oferta, config: dict, agora: datetime) -> tuple[bool, s
         return False, f"acima do limite normal (R$ {limite:.0f})"
     if cfg.get("exigir_sem_juros") and not oferta.sem_juros:
         return False, "não é sem juros"
-    if (oferta.parcelas or 1) < cfg.get("parcelas_minimas", 1):
-        return False, f"menos de {cfg['parcelas_minimas']} parcelas"
+    minimas = cfg.get("parcelas_minimas", 1)
+    if minimas > 1:
+        if oferta.parcelas is None:
+            if not cfg.get("aceitar_parcelamento_nao_informado", True):
+                return False, "parcelamento não informado"
+        elif oferta.parcelas < minimas:
+            return False, f"só {oferta.parcelas}x (mínimo {minimas}x)"
     return True, f"<= R$ {limite:.0f}"
 
 

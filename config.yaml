@@ -24,10 +24,13 @@ alerta_normal:
   faixas:
     - { das: "00:00", ate: "23:59", preco_max: 4000 }
   exigir_sem_juros: false
-  parcelas_minimas: 1
+  parcelas_minimas: 10       # só avisa se der para parcelar em 10x ou mais
+  # Promobit e Pelando quase nunca informam o parcelamento. true = avisa mesmo assim
+  # (a mensagem diz "parcelamento não informado"); false = ignora essas ofertas.
+  aceitar_parcelamento_nao_informado: true
 
 alerta_especial:
-  preco_max: 3200            # super promoção
+  preco_max: 3700            # super promoção
   queda_percentual: 20       # ou queda de 20% sobre a média recente
   janela_media_dias: 7       # dias usados para calcular a média recente
   prioridade: urgente

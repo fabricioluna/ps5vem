@@ -62,17 +62,19 @@ alerta_normal:
   faixas:
     - { das: "08:00", ate: "17:59", preco_max: 3900 }
     - { das: "18:00", ate: "07:59", preco_max: 4100 }   # faixa que passa da meia-noite é aceita
-  exigir_sem_juros: true      # só avisa se for parcelado sem juros
-  parcelas_minimas: 12        # e em pelo menos 12x
+  exigir_sem_juros: false     # true = só avisa se for parcelado sem juros
+  parcelas_minimas: 10        # só avisa se der para parcelar em 10x ou mais
+  aceitar_parcelamento_nao_informado: true
 ```
-Vale a primeira faixa que contém o horário atual. Atenção: Promobit e Pelando quase nunca informam o
-parcelamento. Se você ligar `exigir_sem_juros` ou `parcelas_minimas > 1`, essas ofertas só passam quando o
-título mencionar "12x sem juros" ou algo parecido. O alerta especial ignora essas duas exigências.
+Vale a primeira faixa que contém o horário atual. Promobit e Pelando quase nunca informam o parcelamento.
+Com `aceitar_parcelamento_nao_informado: true`, essas ofertas avisam mesmo assim (a mensagem diz
+"parcelamento não informado"). Com `false`, só passam ofertas que informam 10x ou mais. O alerta especial
+ignora as exigências de parcelamento: um preço de super promoção avisa mesmo à vista.
 
 **Alerta especial (super promoção / relâmpago):**
 ```yaml
 alerta_especial:
-  preco_max: 3200            # qualquer oferta até esse valor é especial
+  preco_max: 3700            # qualquer oferta até esse valor é especial
   queda_percentual: 20       # ou 20% abaixo da média dos últimos 7 dias
   janela_media_dias: 7
   prioridade: urgente        # minima, baixa, normal, alta ou urgente

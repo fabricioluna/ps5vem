@@ -90,7 +90,8 @@ def _itens_execucao(ofertas: list[Oferta], decisoes: list[tuple[Oferta, Decisao]
 
 
 def _limites(config: dict, agora) -> dict:
-    return {"normal": preco_max_normal(config, agora), "especial": config["alerta_especial"]["preco_max"]}
+    return {"normal": preco_max_normal(config, agora), "especial": config["alerta_especial"]["preco_max"],
+            "parcelas_minimas": config["alerta_normal"].get("parcelas_minimas", 1)}
 
 
 def executar(config: dict, hist: Historico, dry_run: bool, env: dict | None = None) -> int:

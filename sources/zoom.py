@@ -33,7 +33,7 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
         if not preco:
             continue
         inst = h.get("installments") or {}
-        parcelas = int(inst.get("amount_months") or 1)
+        parcelas = int(inst["amount_months"]) if inst.get("amount_months") else None
         loja = h.get("merchantName") or (h.get("bestOffer") or {}).get("merchantName") or "?"
         ofertas.append(Oferta(
             loja=loja,
@@ -41,7 +41,7 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
             preco_total=round(float(preco), 2),
             parcelas=parcelas,
             valor_parcela=inst.get("price"),
-            sem_juros=parcelas > 1 and not h.get("hasInterest", True),
+            sem_juros=bool(parcelas and parcelas > 1 and not h.get("hasInterest", True)),
             cupom=None,
             imagem=h.get("image") if isinstance(h.get("image"), str) else None,
             link=BASE + h["url"],

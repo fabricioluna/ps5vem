@@ -24,7 +24,7 @@ class Oferta:
     preco_total: float
     link: str
     fonte: str
-    parcelas: int = 1
+    parcelas: int | None = None   # None = a fonte não informou o parcelamento
     valor_parcela: float | None = None
     sem_juros: bool = False
     cupom: str | None = None

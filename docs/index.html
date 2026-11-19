@@ -321,6 +321,15 @@
     return Math.round((new Date(isoData + "T00:00:00") - hoje) / 86400000);
   }
   function estado(o) { return o.nivel === "especial" ? "super" : o.nivel === "normal" ? "limite" : "acima"; }
+  function limites() { return (dados && dados.ultima_execucao && dados.ultima_execucao.limites) || {}; }
+  // preço bom, mas o parcelamento informado não chega ao mínimo
+  function poucasParcelas(o) {
+    var lim = limites();
+    return o.nivel === "nenhum" && lim.normal && o.preco_total <= lim.normal && o.parcelas && o.parcelas < (lim.parcelas_minimas || 1);
+  }
+  function rotulo(o) {
+    return poucasParcelas(o) ? "Só " + o.parcelas + "x, abaixo de " + limites().parcelas_minimas + "x" : ESTADO_TXT[estado(o)];
+  }
   function parcelas(o) {
     if (!o.parcelas || o.parcelas <= 1) return "Parcelamento não informado no anúncio";
     return o.parcelas + "x de " + brl(o.valor_parcela || o.preco_total / o.parcelas) + (o.sem_juros ? " sem juros" : "");
@@ -377,6 +386,7 @@
     }
     var o = validas[selecionada], e = estado(o), v;
     if (e === "super") v = "É super promoção. Abra o link e confira antes que acabe.";
+    else if (poucasParcelas(o)) v = "O preço está dentro do limite, mas só parcela em " + o.parcelas + "x. Você pediu " + lim.parcelas_minimas + "x ou mais, então não houve aviso.";
     else if (e === "limite") v = "Está abaixo do seu limite de " + brl(lim.normal) + ". Para virar super promoção, falta cair mais " + brl(o.preco_total - lim.especial) + ".";
     else v = "Ainda acima do seu limite. Falta cair " + brl(o.preco_total - lim.normal) + " para chegar em " + brl(lim.normal) + ".";
     var melhor = selecionada === 0 ? "Melhor oferta agora, " : "";
@@ -385,7 +395,7 @@
       "<h1>" + esc(o.titulo) + "</h1>" +
       '<p class="preco">' + esc(brl(o.preco_total)) + "</p>" +
       '<p class="parcelas">' + esc(parcelas(o)) + (o.cupom ? ". Cupom: " + esc(o.cupom) : "") + "</p>" +
-      '<p class="veredito"><span class="chip ' + e + '">' + ESTADO_TXT[e] + "</span> " + esc(v) + "</p>" +
+      '<p class="veredito"><span class="chip ' + e + '">' + esc(rotulo(o)) + "</span> " + esc(v) + "</p>" +
       '<div class="acoes">' + abrir(o, "Abrir a oferta", "botao") + (notaBf ? '<span class="nota">' + notaBf + "</span>" : "") + "</div>";
   }
 
@@ -412,7 +422,8 @@
     for (var t = lo + 500; t < hi; t += 500) n += '<span style="left:' + escala(t) + '%">' + curto(t) + "</span>";
     el("numeros").innerHTML = n;
     el("lg-super").textContent = "Super promoção: até " + brl(lim.especial);
-    el("lg-limite").textContent = "Dentro do seu limite: até " + brl(lim.normal);
+    var px = lim.parcelas_minimas > 1 ? " em " + lim.parcelas_minimas + "x ou mais" : "";
+    el("lg-limite").textContent = "Dentro do seu limite: até " + brl(lim.normal) + px;
     el("lg-recorde").textContent = dados.menor_preco ? "Menor preço já visto: " + brl(dados.menor_preco.preco) : "Menor preço já visto";
     moverMarcador();
   }
@@ -438,7 +449,7 @@
         '<p class="loja">' + esc(o.loja) + ", via " + esc(NOMES[o.fonte] || o.fonte) + (o.cupom ? ". Cupom: " + esc(o.cupom) : "") + "</p>" +
         '<p class="valor">' + esc(brl(o.preco_total)) + "</p>" +
         '<p class="parc' + (o.sem_juros ? " sem-juros" : "") + '">' + esc(parcelas(o)) + "</p>" +
-        '<div class="chips"><span class="chip ' + e + '">' + ESTADO_TXT[e] + "</span>" +
+        '<div class="chips"><span class="chip ' + e + '">' + esc(rotulo(o)) + "</span>" +
         (o.menor_preco ? '<span class="chip recorde">Menor preço já visto</span>' : "") + "</div></div>" +
         abrir(o, "Ver oferta", "ir") + "</li>";
     }).join("");
@@ -496,7 +507,9 @@
     var achou = validas.map(function (o) { return o.link; }).indexOf(anterior);
     selecionada = achou >= 0 ? achou : 0;
     var lim = ex.limites || {};
-    el("passo-avisa").textContent = "Até " + brl(lim.normal) + " chega um aviso normal; até " + brl(lim.especial) + ", um aviso urgente de super promoção.";
+    var parc = lim.parcelas_minimas > 1 ? " parcelando em " + lim.parcelas_minimas + "x ou mais" : "";
+    el("passo-avisa").textContent = "Até " + brl(lim.normal) + parc + " chega um aviso normal. Até " + brl(lim.especial) +
+      ", chega um aviso urgente de super promoção, mesmo à vista.";
     renderTiles(); renderRegua(); renderDestaque();
     renderLista(); renderAvisos(); renderFontes(ignorados.length); renderVistas(); renderIgnorados(ignorados);
   }

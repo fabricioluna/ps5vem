@@ -1,0 +1,57 @@
+# Configuração do monitor de ofertas. Tudo aqui pode ser editado sem mexer no código.
+
+produto:
+  nome: "PS5 Digital + Astro Bot"
+  # TODAS precisam aparecer no título (sem diferenciar maiúsculas/acentos)
+  palavras_obrigatorias: ["digital", "astro bot"]
+  # NENHUMA pode aparecer no título (palavra inteira). "sem disco"/"sem leitor de disco" é ignorado.
+  palavras_proibidas:
+    - "usado"
+    - "seminovo"
+    - "recondicionado"
+    - "open box"
+    - "vitrine"
+    - "controle"
+    - "disco"
+    - "pro"
+    - "capa"
+    - "skin"
+    - "headset"
+  preco_minimo_valido: 1500   # abaixo disso é golpe ou erro de leitura
+
+alerta_normal:
+  # preço máximo por faixa de horário (horário do fuso_horario abaixo)
+  faixas:
+    - { das: "00:00", ate: "23:59", preco_max: 4000 }
+  exigir_sem_juros: false
+  parcelas_minimas: 1
+
+alerta_especial:
+  preco_max: 3200            # super promoção
+  queda_percentual: 20       # ou queda de 20% sobre a média recente
+  janela_media_dias: 7       # dias usados para calcular a média recente
+  prioridade: urgente
+  # relâmpago: se a oferta aparecer nova e tiver desconto grande,
+  # avisar na hora mesmo que seja de fonte única
+  repetir_a_cada_minutos: 30 # reenvia enquanto a oferta continuar ativa
+
+anti_spam:
+  nao_repetir_mesma_oferta_por_minutos: 180
+  avisar_so_se_preco_cair_mais: 50   # reais, para reenviar a mesma oferta
+
+periodo:
+  inicio: "2026-11-19"
+  fim: "2026-11-30"
+
+fuso_horario: "America/Fortaleza"
+
+notificacao:
+  canal: ntfy          # ntfy ou telegram
+  ntfy_servidor: "https://ntfy.sh"
+  # o tópico vem do secret NTFY_TOPIC; o Telegram usa TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID
+
+fontes:
+  promobit: { ativo: true }
+  pelando: { ativo: true }
+  zoom: { ativo: true }
+  falhas_para_aviso_manutencao: 6

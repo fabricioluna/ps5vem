@@ -5,7 +5,7 @@ import pytest
 
 from filters import avaliar_qualidade
 from http_client import FonteErro
-from sources import pelando, promobit, zoom
+from sources import buscape, kabum, pelando, promobit, zoom
 from tests.conftest import fixture_text
 
 AGORA = datetime(2026, 11, 19, 18, 0, tzinfo=timezone.utc)
@@ -86,10 +86,58 @@ def test_zoom_parse():
 def test_zoom_filtro(config):
     ofs = _validas(zoom.parse(fixture_text("zoom_busca.html")), config)
     titulos = [o.titulo for o in ofs]
-    assert len(ofs) == 2
-    assert all("astro bot" in t.lower() and "digital" in t.lower() for t in titulos)
+    # 2 pacotes com Astro Bot + 3 consoles digitais (825GB, 1TB e edição de 30 anos)
+    assert len(ofs) == 5
+    assert all("digital" in t.lower() for t in titulos)
+    assert any("astro bot" not in t.lower() for t in titulos)   # console sem jogos também entra
     # jogo avulso, controle, leitor de disco e suporte foram rejeitados
     assert not any("Leitor" in t or "Controle" in t or t.startswith("Jogo") for t in titulos)
+
+
+# ---------- Buscapé (mesmo formato do Zoom) ----------
+def test_buscape_parse(config):
+    ofs = buscape.parse(fixture_text("buscape_busca.html"))
+    assert len(ofs) == 8
+    assert set(ofs[0].to_dict()) == CAMPOS
+    assert all(o.fonte == "buscape" and o.link.startswith("https://www.buscape.com.br/") for o in ofs)
+    validas = _validas(ofs, config)
+    assert len(validas) == 4
+    magalu = next(o for o in validas if o.loja == "Magazine Luiza")
+    assert magalu.preco_total == 4179.05 and magalu.parcelas == 10 and magalu.valor_parcela == 439.9
+
+
+# ---------- KaBuM ----------
+def test_kabum_parse():
+    ofs = kabum.parse(fixture_text("kabum_busca.html"), agora=AGORA)
+    assert len(ofs) == 29
+    assert set(ofs[0].to_dict()) == CAMPOS
+    console = next(o for o in ofs if o.link.startswith("https://www.kabum.com.br/produto/1050570/"))
+    assert console.preco_total == 4370.07          # preço à vista (Pix)
+    assert console.parcelas == 10 and console.valor_parcela == 469.9
+    assert console.sem_juros is True               # 10 x 469,90 = 4.699 = preço no cartão
+    assert console.imagem.startswith("https://images.kabum.com.br/")
+
+
+def test_kabum_oferta_relampago():
+    ofs = kabum.parse(fixture_text("kabum_busca.html"), agora=AGORA)
+    relampago = [o for o in ofs if "relâmpago" in o.loja]
+    assert relampago and all(o.cupom is None for o in relampago)
+    # depois que a oferta relâmpago termina, o preço dela deixa de valer
+    depois = kabum.parse(fixture_text("kabum_busca.html"), agora=datetime(2027, 1, 1, tzinfo=timezone.utc))
+    assert not any("relâmpago" in o.loja for o in depois)
+
+
+def test_kabum_filtro(config):
+    titulos = [o.titulo for o in _validas(kabum.parse(fixture_text("kabum_busca.html"), agora=AGORA), config)]
+    assert len(titulos) == 3
+    # o console que vem com "Controle DualSense" no título passa; tampas, suportes e leitor de disco não
+    assert any(t.startswith("Console Sony PlayStation 5 Edição Digital Slim") for t in titulos)
+    assert not any(t.startswith(("Tampa", "Suporte", "Leitor")) for t in titulos)
+
+
+def test_kabum_html_quebrado():
+    with pytest.raises(FonteErro):
+        kabum.parse('<script id="__NEXT_DATA__">{"props": {}}</script>')
 
 
 def test_zoom_html_quebrado():

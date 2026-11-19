@@ -1,6 +1,6 @@
-# Monitor de Ofertas: PS5 Slim Digital + Astro Bot
+# Monitor de Ofertas: PS5 Slim Digital
 
-Monitora o preço do **PlayStation 5 Slim Edição Digital com Astro Bot** (com ou sem Gran Turismo 7) e manda
+Monitora o preço do **PlayStation 5 Slim Edição Digital**, sozinho ou em pacote com jogos, e manda
 uma notificação no celular quando o preço cai abaixo do limite que você definiu. Roda de graça no
 GitHub Actions a cada 10 minutos, sem servidor.
 
@@ -9,8 +9,16 @@ GitHub Actions a cada 10 minutos, sem servidor.
   a cada 30 min enquanto a oferta continuar ativa).
 - Destaca quando é o **menor preço já visto**.
 
-Fontes: **Promobit**, **Pelando** e **Zoom**. Amazon e Mercado Livre não são consultados diretamente, porque
-bloqueiam scraping. As promoções deles costumam aparecer no Promobit e no Pelando.
+Fontes: **Promobit** e **Pelando** (sites de promoções), **Zoom** e **Buscapé** (comparadores de preço) e
+**KaBuM** (loja, inclusive ofertas relâmpago). Amazon, Mercado Livre, Magazine Luiza e Casas Bahia não são
+consultados diretamente, porque bloqueiam robôs; as promoções deles aparecem no Promobit, no Pelando e nos
+comparadores.
+
+O **Pelando bloqueia os servidores do GitHub** (HTTP 403). Rodando no seu computador
+(`python monitor.py`) ele funciona. No GitHub ele aparece como "bloqueou o acesso" e as outras fontes seguem.
+
+Para incluir uma fonte nova: crie `sources/<nome>.py` com `NOME`, `buscar()` e `parse()`, registre em
+`sources/__init__.py`, salve um HTML de exemplo em `tests/fixtures/` com um teste, e ative em `config.yaml`.
 
 ---
 
@@ -164,7 +172,7 @@ Ela tem `noindex` para não aparecer no Google.
 ```
 config.yaml           regras de alerta e fontes (edite aqui)
 monitor.py            ponto de entrada (--dry-run, --test-notify)
-sources/              uma fonte por módulo (promobit, pelando, zoom)
+sources/              uma fonte por módulo (promobit, pelando, zoom, buscape, kabum)
 filters.py            normalização de preço e filtro de qualidade
 rules.py              alerta normal/especial, faixas de horário, anti-spam, período
 notifier.py           ntfy e Telegram com interface única

@@ -85,6 +85,7 @@
   .chip.super { background: var(--super); color: var(--branco); }
   .chip.limite { background: var(--limite-bg); color: var(--azul-fundo); }
   .chip.acima { background: var(--acima-bg); color: var(--suave); }
+  .chip.tipo { background: var(--acima-bg); color: var(--tinta); }
   .chip.recorde { background: transparent; color: inherit; box-shadow: inset 0 0 0 1.5px currentColor; }
 
   /* régua de preço */
@@ -209,7 +210,7 @@
   <div class="fundo" aria-hidden="true"></div>
   <div class="wrap">
     <div class="barra">
-      <span class="nome">Caça ao PS5 Digital + Astro Bot</span>
+      <span class="nome">Caça ao PS5 Slim Digital</span>
       <span class="direita">
         <span class="relogio" id="relogio" title="Horário de Fortaleza"></span>
         <button class="botao-claro" id="recarregar" type="button">Atualizar</button>
@@ -241,8 +242,8 @@
   <div id="erro"></div>
 
   <ol class="passos" aria-label="Como o monitor funciona">
-    <li><strong>Procura sozinho</strong><span>A cada 10 minutos, mais ou menos, confere Promobit, Pelando e Zoom.</span></li>
-    <li><strong>Filtra o console certo</strong><span>Só entra PS5 Slim Edição Digital com Astro Bot. Jogos, acessórios e a versão com disco ficam de fora.</span></li>
+    <li><strong>Procura sozinho</strong><span>A cada 10 minutos, mais ou menos, confere Promobit, Pelando, Zoom, Buscapé e KaBuM.</span></li>
+    <li><strong>Filtra o console certo</strong><span>Só entra o PS5 Slim Edição Digital, sozinho ou em pacote com jogos. Jogos avulsos, acessórios e a versão com disco ficam de fora.</span></li>
     <li><strong>Avisa no celular</strong><span id="passo-avisa">Quando o preço passa do seu limite, chega uma notificação pelo ntfy.</span></li>
   </ol>
 
@@ -288,7 +289,7 @@
   "use strict";
   var TZ = "America/Fortaleza";
   var BLACK_FRIDAY = "2026-11-27";
-  var NOMES = { promobit: "Promobit", pelando: "Pelando", zoom: "Zoom" };
+  var NOMES = { promobit: "Promobit", pelando: "Pelando", zoom: "Zoom", buscape: "Buscapé", kabum: "KaBuM" };
   var ESTADO_TXT = { super: "Super promoção", limite: "Dentro do seu limite", acima: "Acima do limite" };
 
   var dados = null, validas = [], selecionada = 0, escala = null;
@@ -319,6 +320,11 @@
   function diasAte(isoData) {
     var hoje = new Date(new Date().toLocaleString("en-US", { timeZone: TZ })); hoje.setHours(0, 0, 0, 0);
     return Math.round((new Date(isoData + "T00:00:00") - hoje) / 86400000);
+  }
+  // pacote com jogos ou só o console, pelo título do anúncio
+  function tipo(o) {
+    return /astro\s*bot|gran\s*turismo|pacote|bundle|\bjogos?\b|\+\s*\d+\s*jogos|god of war|spider|call of duty|fc\s*2\d/i.test(o.titulo || "")
+      ? "Com jogos" : "Só o console";
   }
   function estado(o) { return o.nivel === "especial" ? "super" : o.nivel === "normal" ? "limite" : "acima"; }
   function limites() { return (dados && dados.ultima_execucao && dados.ultima_execucao.limites) || {}; }
@@ -379,7 +385,7 @@
     var notaBf = bf > 1 ? "Faltam " + bf + " dias para a Black Friday." : bf === 1 ? "A Black Friday é amanhã." : bf === 0 ? "Hoje é Black Friday." : "";
     if (!validas.length) {
       el("destaque").innerHTML = '<p class="onde">Última verificação ' + haQuanto(dados.ultima_execucao.ts) + '</p>' +
-        '<p class="preco">Nada por enquanto</p><p class="veredito">Nenhum PS5 Digital com Astro Bot à venda nas fontes agora. ' +
+        '<p class="preco">Nada por enquanto</p><p class="veredito">Nenhum PS5 Slim Digital à venda nas fontes agora. ' +
         "O monitor continua procurando e avisa no celular quando aparecer algo até " + brl(lim.normal) + ".</p>" +
         (notaBf ? '<div class="acoes"><span class="nota">' + notaBf + "</span></div>" : "");
       return;
@@ -391,7 +397,7 @@
     else v = "Ainda acima do seu limite. Falta cair " + brl(o.preco_total - lim.normal) + " para chegar em " + brl(lim.normal) + ".";
     var melhor = selecionada === 0 ? "Melhor oferta agora, " : "";
     el("destaque").innerHTML =
-      '<p class="onde">' + melhor + "na " + esc(o.loja) + ", achada no " + esc(NOMES[o.fonte] || o.fonte) + " " + haQuanto(dados.ultima_execucao.ts) + "</p>" +
+      '<p class="onde">' + melhor + tipo(o).toLowerCase() + ", na " + esc(o.loja) + ", achada no " + esc(NOMES[o.fonte] || o.fonte) + " " + haQuanto(dados.ultima_execucao.ts) + "</p>" +
       "<h1>" + esc(o.titulo) + "</h1>" +
       '<p class="preco">' + esc(brl(o.preco_total)) + "</p>" +
       '<p class="parcelas">' + esc(parcelas(o)) + (o.cupom ? ". Cupom: " + esc(o.cupom) : "") + "</p>" +
@@ -407,6 +413,8 @@
     vals = vals.filter(function (x) { return typeof x === "number"; });
     var lo = Math.floor((Math.min.apply(null, vals) - 250) / 500) * 500;
     var hi = Math.ceil((Math.max.apply(null, vals) + 250) / 500) * 500;
+    // ofertas muito caras (pré-venda, edição de colecionador) ficam presas na ponta direita
+    if (lim.normal) hi = Math.min(hi, Math.ceil((lim.normal + 1000) / 500) * 500);
     if (hi - lo < 1500) hi = lo + 1500;
     escala = function (v) { return (Math.min(Math.max(v, lo), hi) - lo) / (hi - lo) * 100; };
 
@@ -439,7 +447,7 @@
   /* ---------- parte clara ---------- */
   function renderLista() {
     if (!validas.length) {
-      el("lista").innerHTML = '<li class="vazio">Nenhum PS5 Digital com Astro Bot na última verificação. O que apareceu de jogos e acessórios está nos anúncios ignorados, no fim da página.</li>';
+      el("lista").innerHTML = '<li class="vazio">Nenhum PS5 Slim Digital na última verificação. O que apareceu de jogos e acessórios está nos anúncios ignorados, no fim da página.</li>';
       return;
     }
     el("lista").innerHTML = validas.map(function (o) {
@@ -450,6 +458,7 @@
         '<p class="valor">' + esc(brl(o.preco_total)) + "</p>" +
         '<p class="parc' + (o.sem_juros ? " sem-juros" : "") + '">' + esc(parcelas(o)) + "</p>" +
         '<div class="chips"><span class="chip ' + e + '">' + esc(rotulo(o)) + "</span>" +
+        '<span class="chip tipo">' + tipo(o) + "</span>" +
         (o.menor_preco ? '<span class="chip recorde">Menor preço já visto</span>' : "") + "</div></div>" +
         abrir(o, "Ver oferta", "ir") + "</li>";
     }).join("");

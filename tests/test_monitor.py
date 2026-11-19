@@ -172,3 +172,14 @@ def test_grava_retrato_da_execucao_para_pagina(ambiente):
     assert any(not i["valida"] and "usado" in i["motivo"] for i in ex["itens"])
     assert len(hist.dados["alertas_enviados"]) == 1
     assert of(3900).id in hist.dados["ofertas"]
+
+
+def test_deduplica_mesma_oferta_em_fontes_diferentes():
+    a = Oferta(loja="Amazon", titulo="Playstation 5 Slim Edição Digital 1TB", preco_total=4589.99,
+               link="https://www.zoom.com.br/x", fonte="zoom")
+    b = Oferta(loja="Amazon", titulo="Playstation 5 Slim Edição Digital 1TB", preco_total=4589.99,
+               link="https://www.buscape.com.br/x", fonte="buscape")
+    c = Oferta(loja="KaBuM!", titulo="Playstation 5 Slim Edição Digital 1TB", preco_total=4589.99,
+               link="https://www.kabum.com.br/x", fonte="kabum")
+    unicas = monitor.deduplicar([a, b, c])
+    assert [o.fonte for o in unicas] == ["zoom", "kabum"]

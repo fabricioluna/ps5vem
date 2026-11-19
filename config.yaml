@@ -1,10 +1,15 @@
 # Configuração do monitor de ofertas. Tudo aqui pode ser editado sem mexer no código.
 
 produto:
-  nome: "PS5 Digital + Astro Bot"
-  # TODAS precisam aparecer no título (sem diferenciar maiúsculas/acentos)
-  palavras_obrigatorias: ["digital", "astro bot"]
-  # NENHUMA pode aparecer no título (palavra inteira). "sem disco"/"sem leitor de disco" é ignorado.
+  nome: "PS5 Slim Digital"
+  # TODAS precisam aparecer no título (sem diferenciar maiúsculas/acentos).
+  # Uma lista entre colchetes dentro da lista = basta UMA das opções.
+  # Para aceitar só o pacote com Astro Bot, acrescente: "astro bot"
+  palavras_obrigatorias:
+    - "digital"
+    - ["ps5", "playstation 5", "playstation5"]
+  # NENHUMA pode aparecer no título (palavra inteira). "sem disco"/"sem leitor de disco" é ignorado,
+  # e "controle" só conta quando o anúncio começa por ele (console que vem com controle passa).
   palavras_proibidas:
     - "usado"
     - "seminovo"
@@ -59,11 +64,18 @@ fontes:
     ativo: true
     url: "https://www.promobit.com.br/promocoes/playstation-5/s/"
   pelando:
+    # bloqueia os servidores do GitHub Actions (HTTP 403); funciona rodando no seu computador
     ativo: true
-    url: "https://www.pelando.com.br/busca/ps5-digital-astro-bot"
+    url: "https://www.pelando.com.br/busca/ps5-slim-digital"
   zoom:
     ativo: true
-    url: "https://www.zoom.com.br/busca/playstation+5+slim+digital+astro+bot"
+    url: "https://www.zoom.com.br/busca/playstation+5+slim+digital"
+  buscape:
+    ativo: true
+    url: "https://www.buscape.com.br/busca/playstation+5+slim+digital"
+  kabum:
+    ativo: true
+    url: "https://www.kabum.com.br/busca/ps5-slim-digital"
   # Promobit/Pelando: ignora posts mais antigos que isso (oferta provavelmente acabou)
   idade_maxima_horas: 48
   # após N falhas seguidas de uma fonte, manda um único aviso de manutenção

@@ -28,6 +28,12 @@ def of(titulo, preco=3899.0):
     "PS5 Slim Digital + Pacote Astro Bot e Gran Turismo 7",
     "Console Sony PS5 Edicao Digital 1TB Pacote ASTRO BOT",
     "PlayStation 5 Digital sem leitor de disco + AstroBot",
+    # console sem jogos
+    "Playstation 5 Slim Edição Digital 825GB",
+    "Console PS5 Slim Digital 1TB Branco",
+    # o controle que acompanha o console não derruba o anúncio
+    "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom",
+    "PS5 Slim Digital + God of War",
 ])
 def test_aceita_titulos_validos(config, titulo):
     ok, motivo = avaliar_qualidade(of(titulo), config)
@@ -35,11 +41,11 @@ def test_aceita_titulos_validos(config, titulo):
 
 
 @pytest.mark.parametrize("titulo,trecho", [
-    ("Console PlayStation 5 Slim com Disco + Astro Bot", "astro"),   # falta 'digital'
-    ("PS5 Slim Digital + God of War", "astro bot"),                  # falta astro bot
+    ("Console PlayStation 5 Slim com Disco + Astro Bot", "digital"),  # falta 'digital'
+    ("Console Sony Edição Digital 825GB", "ps5"),                      # não diz que é PS5
     ("PS5 Slim Digital Astro Bot Usado", "usado"),
     ("PS5 Slim Digital Astro Bot Open Box", "open box"),
-    ("Controle DualSense Edição Digital Astro Bot", "controle"),
+    ("Controle DualSense PS5 Edição Digital Astro Bot", "controle"),   # anúncio começa pelo controle
     ("PS5 Pro Digital + Astro Bot", "pro"),
     ("Capa protetora PS5 Digital Astro Bot", "capa"),
     ("PS5 Slim Digital Astro Bot + 10 jogos", "jogos"),

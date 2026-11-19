@@ -15,7 +15,7 @@ from typing import Callable
 
 import yaml
 
-from filters import avaliar_qualidade
+from filters import avaliar_qualidade, normalizar_texto
 from http_client import FonteBloqueada
 from models import Oferta, agora_utc
 from notifier import (Mensagem, NotificacaoErro, brl, criar_notificador, formatar_alerta,
@@ -66,11 +66,17 @@ def coletar(config: dict, hist: Historico) -> tuple[list[Oferta], list[tuple[str
 
 
 def deduplicar(ofertas: list[Oferta]) -> list[Oferta]:
+    """Remove repetidos: mesmo link, ou mesma loja + mesmo título + mesmo preço vindo de fontes
+    diferentes (Zoom e Buscapé mostram as mesmas ofertas). Fica a primeira fonte da lista."""
     por_id: dict[str, Oferta] = {}
     for o in ofertas:
         if o.id not in por_id or o.preco_total < por_id[o.id].preco_total:
             por_id[o.id] = o
-    return sorted(por_id.values(), key=lambda o: o.preco_total)
+    unicas: dict[tuple, Oferta] = {}
+    for o in por_id.values():
+        chave = (normalizar_texto(o.titulo), normalizar_texto(o.loja), o.preco_total)
+        unicas.setdefault(chave, o)
+    return sorted(unicas.values(), key=lambda o: o.preco_total)
 
 
 def _itens_execucao(ofertas: list[Oferta], decisoes: list[tuple[Oferta, Decisao]],

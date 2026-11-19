@@ -49,7 +49,8 @@ def formatar_alerta(oferta: Oferta, nivel: str, menor_preco: bool, config: dict)
     if nivel == "especial":
         titulo = f"SUPER PROMOÇÃO! {titulo}"
 
-    linhas = []
+    # o título do anúncio diz se é só o console ou um pacote com jogos
+    linhas = [oferta.titulo if len(oferta.titulo) <= 90 else oferta.titulo[:87] + "..."]
     if oferta.parcelas and oferta.parcelas > 1:
         valor = oferta.valor_parcela or oferta.preco_total / oferta.parcelas
         linhas.append(f"{oferta.parcelas}x de {brl(round(valor, 2))}" + (" sem juros" if oferta.sem_juros else ""))

@@ -9,6 +9,8 @@ from models import Oferta
 # "+ 10 jogos", "com 5 jogos", "+5 games": kits montados por revendedores
 _KIT_JOGOS = re.compile(r"(?:\+|com)\s*(\d+)\s*(?:jogos|games)")
 # "sem disco" / "sem leitor de disco" descreve a Edição Digital; não é motivo de rejeição
+_CONSOLE = re.compile(r"\b(?:console|playstation\s*5|ps5)\b")
+_CONTROLE = re.compile(r"\bcontroles?\b")
 _SEM_DISCO = re.compile(r"\bsem\s+(?:leitor\s+(?:de\s+)?)?(?:disco|midia\s+fisica)\b")
 
 
@@ -53,13 +55,21 @@ def avaliar_qualidade(oferta: Oferta, config: dict) -> tuple[bool, str]:
     prod = config["produto"]
     titulo = normalizar_texto(oferta.titulo)
 
+    # cada item é uma palavra obrigatória, ou uma lista de alternativas (basta uma delas)
     for termo in prod.get("palavras_obrigatorias", []):
-        if not _contem(titulo, termo):
-            return False, f"falta '{termo}' no título"
+        opcoes = termo if isinstance(termo, list) else [termo]
+        if not any(_contem(titulo, t) for t in opcoes):
+            return False, f"falta '{' ou '.join(opcoes)}' no título"
 
-    titulo_sem_disco = _SEM_DISCO.sub(" ", titulo)
+    titulo_limpo = _SEM_DISCO.sub(" ", titulo)
+    # "Console PS5 Digital ... + Controle DualSense": o controle acompanha o console.
+    # Só conta como proibido quando o anúncio COMEÇA pelo controle ("Controle DualSense para PS5").
+    console = _CONSOLE.search(titulo_limpo)
+    if console:
+        antes, depois = titulo_limpo[:console.start()], titulo_limpo[console.start():]
+        titulo_limpo = antes + _CONTROLE.sub(" ", depois)
     for termo in prod.get("palavras_proibidas", []):
-        if _contem(titulo_sem_disco, termo):
+        if _contem(titulo_limpo, termo):
             return False, f"palavra proibida '{termo}'"
 
     kit = _KIT_JOGOS.search(titulo)

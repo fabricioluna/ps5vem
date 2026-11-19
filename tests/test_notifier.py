@@ -26,9 +26,9 @@ def test_brl():
 
 def test_formato_mensagem_normal(config):
     m = formatar_alerta(of(), "normal", True, config)
-    assert m.titulo == "PS5 Digital + Astro Bot: R$ 3.899"
-    assert m.corpo.splitlines()[:3] == ["12x de R$ 324,92 sem juros", "Loja: Amazon | Cupom: nenhum",
-                                        "Menor preço já visto!"]
+    assert m.titulo == "PS5 Slim Digital: R$ 3.899"
+    assert m.corpo.splitlines()[:4] == ["PS5 Slim Digital Astro Bot", "12x de R$ 324,92 sem juros",
+                                        "Loja: Amazon | Cupom: nenhum", "Menor preço já visto!"]
     assert "https://loja.com/ps5" in m.corpo
     assert m.prioridade == 3 and m.link == "https://loja.com/ps5"
 

@@ -1,1 +1,45 @@
-{"alertas": {}, "falhas": {}, "menor_preco": null, "precos": []}
+{
+  "alertas": {
+    "https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3221514": {
+      "nivel": "normal",
+      "preco": 3799.99,
+      "ts": "2026-11-19T18:26:31+00:00"
+    }
+  },
+  "falhas": {
+    "pelando": {
+      "aviso_enviado": false,
+      "seguidas": 1
+    },
+    "promobit": {
+      "aviso_enviado": false,
+      "seguidas": 0
+    },
+    "zoom": {
+      "aviso_enviado": false,
+      "seguidas": 0
+    }
+  },
+  "menor_preco": {
+    "link": "https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3221514/",
+    "loja": "Havan",
+    "preco": 3799.99,
+    "ts": "2026-11-19T18:26:31+00:00"
+  },
+  "precos": [
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3221514",
+      "loja": "Havan",
+      "preco": 3799.99,
+      "ts": "2026-11-19T18:26:31+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+      "loja": "KaBuM!",
+      "preco": 4184.07,
+      "ts": "2026-11-19T18:26:31+00:00"
+    }
+  ]
+}

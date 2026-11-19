@@ -28,6 +28,7 @@ class Oferta:
     valor_parcela: float | None = None
     sem_juros: bool = False
     cupom: str | None = None
+    imagem: str | None = None   # foto do anúncio (usada só na página web)
     coletado_em: str = field(default_factory=lambda: agora_utc().isoformat(timespec="seconds"))
 
     @property

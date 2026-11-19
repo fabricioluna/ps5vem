@@ -9,7 +9,7 @@ from sources import pelando, promobit, zoom
 from tests.conftest import fixture_text
 
 AGORA = datetime(2026, 11, 19, 18, 0, tzinfo=timezone.utc)
-CAMPOS = {"loja", "titulo", "preco_total", "parcelas", "valor_parcela", "sem_juros", "cupom", "link", "fonte", "coletado_em"}
+CAMPOS = {"loja", "titulo", "preco_total", "parcelas", "valor_parcela", "sem_juros", "cupom", "imagem", "link", "fonte", "coletado_em"}
 
 
 def _validas(ofertas, config):
@@ -26,6 +26,7 @@ def test_promobit_parse():
     assert "Slim Digital" in havan.titulo
     assert havan.link.startswith("https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb")
     assert havan.fonte == "promobit"
+    assert havan.imagem.startswith("https://i.promobit.com.br/300/") and havan.imagem.endswith(".jpg")
 
 
 def test_promobit_filtro_deixa_so_o_ps5_digital(config):
@@ -58,6 +59,7 @@ def test_pelando_parse_ativa(config):
     assert set(ofs[0].to_dict()) == CAMPOS
     havan = ofs[0]
     assert havan.loja == "Havan" and havan.preco_total == 3799.0
+    assert havan.imagem.startswith("https://media.pelando.com.br/") and "/0x300/" in havan.imagem
     assert havan.link == ("https://www.pelando.com.br/d/lojas-fisicas-parcelado-playstation-5-slim-digital"
                           "-825gb-pacote-astro-bot-e-gran-turismo-7-5f4d")
     assert len(_validas(ofs, config)) >= 3
@@ -77,6 +79,7 @@ def test_zoom_parse():
     assert o.preco_total == 4184.07
     assert o.loja == "KaBuM!"
     assert o.parcelas == 10 and o.valor_parcela == 449.9 and o.sem_juros is False
+    assert o.imagem == "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg"
     assert o.link == "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k"
 
 

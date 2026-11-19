@@ -43,6 +43,7 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
             valor_parcela=inst.get("price"),
             sem_juros=parcelas > 1 and not h.get("hasInterest", True),
             cupom=None,
+            imagem=h.get("image") if isinstance(h.get("image"), str) else None,
             link=BASE + h["url"],
             fonte=NOME,
         ))

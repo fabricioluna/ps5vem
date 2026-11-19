@@ -106,7 +106,7 @@ class Historico:
         self.dados["alertas"][oferta.id] = {"preco": oferta.preco_total, "nivel": nivel, "ts": ts}
         self.dados["alertas_enviados"].append({
             "ts": ts, "nivel": nivel, "preco": oferta.preco_total, "loja": oferta.loja,
-            "titulo": oferta.titulo, "link": oferta.link, "fonte": oferta.fonte,
+            "titulo": oferta.titulo, "link": oferta.link, "fonte": oferta.fonte, "imagem": oferta.imagem,
         })
 
     # ---------- catálogo e retrato da execução (página web) ----------
@@ -116,7 +116,7 @@ class Historico:
         if o is None:
             o = self.dados["ofertas"][oferta.id] = {"primeiro_visto": ts, "menor_preco": oferta.preco_total}
         o.update({"titulo": oferta.titulo, "loja": oferta.loja, "fonte": oferta.fonte, "link": oferta.link,
-                  "ultimo_visto": ts, "ultimo_preco": oferta.preco_total,
+                  "ultimo_visto": ts, "ultimo_preco": oferta.preco_total, "imagem": oferta.imagem,
                   "menor_preco": min(o["menor_preco"], oferta.preco_total)})
 
     def registrar_execucao(self, fontes: dict, itens: list[dict], limites: dict,

@@ -50,10 +50,20 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
             valor_parcela=round(float(preco) / parcelas, 2) if parcelas > 1 else None,
             sem_juros=sem_juros,
             cupom=cupom,
+            imagem=_imagem(o.get("offerPhoto")),
             link=f"{BASE}/oferta/{o['offerSlug']}/",
             fonte=NOME,
         ))
     return ofertas
+
+
+def _imagem(foto: str | None) -> str | None:
+    """offerPhoto vem como '/123.jpg'; o CDN serve em tamanhos fixos (120, 180, 300...)."""
+    if not foto:
+        return None
+    if foto.startswith("http"):
+        return foto
+    return f"https://i.promobit.com.br/300/{foto.lstrip('/')}"
 
 
 def _data(s: str | None) -> datetime | None:

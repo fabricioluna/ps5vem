@@ -68,10 +68,19 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
             valor_parcela=round(float(preco) / parcelas, 2) if parcelas > 1 else None,
             sem_juros=sem_juros,
             cupom=cupom,
+            imagem=_imagem(d),
             link=f"{BASE}/d/{d['slug']}",
             fonte=NOME,
         ))
     return ofertas
+
+
+def _imagem(d: dict) -> str | None:
+    """Prefere a maior versão do srcset (300px); senão, imageUrl."""
+    srcset = [i for i in (d.get("imageSrcset") or []) if isinstance(i, dict) and i.get("url")]
+    if srcset:
+        return max(srcset, key=lambda i: i.get("width") or 0)["url"]
+    return d.get("imageUrl") or None
 
 
 def _data(s: str | None) -> datetime | None:

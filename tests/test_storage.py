@@ -10,8 +10,14 @@ def of(preco, link="https://loja.com/ps5?utm=x"):
     return Oferta(loja="Loja", titulo="PS5 Digital Astro Bot", preco_total=preco, link=link, fonte="teste")
 
 
-def test_id_ignora_query_string():
-    assert of(1, "https://Loja.com/ps5/?a=1#x").id == "https://loja.com/ps5"
+def test_id_ignora_rastreamento_e_fragmento():
+    assert of(1, "https://Loja.com/ps5/?utm_source=x&gclid=1#x").id == "https://loja.com/ps5"
+
+
+def test_id_mantem_parametros_que_identificam_a_oferta():
+    a = of(1, "https://www.zoom.com.br/lead?oid=111").id
+    b = of(1, "https://www.zoom.com.br/lead?oid=222").id
+    assert a != b and a.endswith("oid=111")
 
 
 def test_salvar_e_carregar(tmp_path):

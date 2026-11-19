@@ -3,7 +3,14 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+_PARAMS_RASTREAMENTO = {"gclid", "fbclid", "ref", "tag", "src", "source", "_lc"}
+
+
+def _rastreamento(chave: str) -> bool:
+    chave = chave.lower()
+    return chave.startswith("utm_") or chave in _PARAMS_RASTREAMENTO
 
 
 def agora_utc() -> datetime:
@@ -25,9 +32,11 @@ class Oferta:
 
     @property
     def id(self) -> str:
-        """Identificador estável: link sem query string nem fragmento."""
+        """Identificador estável: link sem fragmento e sem parâmetros de rastreamento (utm_*, etc.).
+        Os demais parâmetros ficam, pois às vezes identificam a oferta (ex.: Zoom /lead?oid=123)."""
         p = urlsplit(self.link.strip())
-        return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path.rstrip("/"), "", ""))
+        query = sorted((k, v) for k, v in parse_qsl(p.query) if not _rastreamento(k))
+        return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path.rstrip("/"), urlencode(query), ""))
 
     def to_dict(self) -> dict:
         return asdict(self)

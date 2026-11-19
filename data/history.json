@@ -10,7 +10,7 @@
   "falhas": {
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 3
+      "seguidas": 4
     },
     "promobit": {
       "aviso_enviado": false,
@@ -37,7 +37,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "PlayStation 5 Slim Digital 825GB - Pacote ASTRO BOT e Gran Turismo 7",
       "ultimo_preco": 3799.99,
-      "ultimo_visto": "2026-11-19T19:32:52+00:00"
+      "ultimo_visto": "2026-11-19T19:36:25+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -48,7 +48,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-19T19:32:52+00:00"
+      "ultimo_visto": "2026-11-19T19:36:25+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1581835330": {
       "fonte": "zoom",
@@ -59,7 +59,7 @@
       "primeiro_visto": "2026-11-19T19:32:52+00:00",
       "titulo": "Console playstation 5 slim 825gb digital + gran turismo 7 + astro bot",
       "ultimo_preco": 4507.08,
-      "ultimo_visto": "2026-11-19T19:32:52+00:00"
+      "ultimo_visto": "2026-11-19T19:36:25+00:00"
     }
   },
   "precos": [
@@ -122,7 +122,7 @@
         "link": "https://www.promobit.com.br/oferta/r-50-off-no-jogo-grand-theft-auto-gta-vi-para-ps5-na-kabum-com-cupom-3232837/",
         "loja": "KaBuM!",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 0.01,
         "sem_juros": false,
         "titulo": "R$ 50 OFF no jogo Grand Theft Auto GTA VI para PS5 na KaBuM! com cupom",
@@ -136,7 +136,7 @@
         "link": "https://www.promobit.com.br/oferta/faceplate-decorativo-emblema-frontal-ps5-gta6-grand-theft-auto-vi-fat-slim-pro-gamer-3231186/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 11.9,
         "sem_juros": false,
         "titulo": "Faceplate Decorativo Emblema Frontal PS5 GTA6 Grand Theft Auto VI Fat Slim Pro Gamer",
@@ -164,7 +164,7 @@
         "link": "https://www.promobit.com.br/oferta/mega-man-star-force-legacy-collection-ps5-3232360/",
         "loja": "Mercado Livre",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 117.76,
         "sem_juros": false,
         "titulo": "Mega Man Star Force Legacy Collection - PS5",
@@ -178,7 +178,7 @@
         "link": "https://www.zoom.com.br/lead?oid=1340499180",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 219.0,
         "sem_juros": false,
         "titulo": "ASTRO BOT – PS5",
@@ -192,7 +192,7 @@
         "link": "https://www.zoom.com.br/lead?oid=1341059374",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 219.0,
         "sem_juros": false,
         "titulo": "ASTRO BOT – PS5",
@@ -206,7 +206,7 @@
         "link": "https://www.zoom.com.br/lead?oid=1366764638",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 220.0,
         "sem_juros": false,
         "titulo": "Astro Bot /PS5",
@@ -220,7 +220,7 @@
         "link": "https://www.zoom.com.br/lead?oid=1239360852",
         "loja": "Amazon",
         "motivo": "falta 'astro bot' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 279.34,
         "sem_juros": false,
         "titulo": "Painel protetor para PS5 Slim Optical Drive para PS5 Slim versão digital para PS5 versão digital (versão em disco)",
@@ -248,7 +248,7 @@
         "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3232627/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 297.0,
         "sem_juros": false,
         "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
@@ -262,7 +262,7 @@
         "link": "https://www.promobit.com.br/oferta/gta-vi-ps5-vice-city-rockstar-pre-venda-3232683/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 298.0,
         "sem_juros": false,
         "titulo": "GTA VI PS5 Vice City Rockstar Pré Venda",
@@ -290,7 +290,7 @@
         "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3231579/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 319.9,
         "sem_juros": false,
         "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
@@ -318,7 +318,7 @@
         "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3231294/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 359.92,
         "sem_juros": false,
         "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
@@ -360,7 +360,7 @@
         "link": "https://www.promobit.com.br/oferta/2-unidades-jogo-grand-theft-auto-vi-standard-ps5-3231586/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 639.0,
         "sem_juros": false,
         "titulo": "2 Unidades Jogo Grand Theft Auto VI Standard PS5",
@@ -374,7 +374,7 @@
         "link": "https://www.promobit.com.br/oferta/2-unidades-jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3231539/",
         "loja": "Shopee",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 639.0,
         "sem_juros": false,
         "titulo": "2 Unidades: Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
@@ -402,7 +402,7 @@
         "link": "https://www.promobit.com.br/oferta/007-first-light-legacy-edition-ps5-3231821/",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 1599.92,
         "sem_juros": false,
         "titulo": "007 First Light - Legacy Edition - PS5",
@@ -431,9 +431,9 @@
         "link": "https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3221514/",
         "loja": "Havan",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 66 min",
+        "motivo": "<= R$ 4000; já avisado há 70 min",
         "nivel": "normal",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 3799.99,
         "sem_juros": false,
         "titulo": "PlayStation 5 Slim Digital 825GB - Pacote ASTRO BOT e Gran Turismo 7",
@@ -447,7 +447,7 @@
         "link": "https://www.zoom.com.br/console-de-video-game/playstation-5-slim-1tb-bundle-astro-bot-gran-turismo-7",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 4049.91,
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB Bundle ASTRO BOT + Gran Turismo 7",
@@ -492,7 +492,7 @@
         "link": "https://www.promobit.com.br/oferta/playstation5-slim-disk-pacote-astro-bot-e-gran-turismo-7-3232196/",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 4499.9,
         "sem_juros": false,
         "titulo": "PlayStation5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
@@ -523,7 +523,7 @@
         "link": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
         "loja": "Amazon",
         "motivo": "falta 'astro bot' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 4589.99,
         "sem_juros": false,
         "titulo": "Playstation 5 Slim Edição Digital 1TB",
@@ -537,7 +537,7 @@
         "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k",
         "loja": "Amazon",
         "motivo": "falta 'astro bot' no título",
-        "parcelas": 1,
+        "parcelas": null,
         "preco_total": 7499.9,
         "sem_juros": false,
         "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
@@ -546,9 +546,10 @@
       }
     ],
     "limites": {
-      "especial": 3200,
-      "normal": 4000.0
+      "especial": 3700,
+      "normal": 4000.0,
+      "parcelas_minimas": 10
     },
-    "ts": "2026-11-19T19:32:52+00:00"
+    "ts": "2026-11-19T19:36:25+00:00"
   }
 }

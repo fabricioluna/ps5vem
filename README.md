@@ -142,7 +142,47 @@ Para ativar (já está feito neste repositório): **Settings → Pages → Build
 from a branch → Branch: `main`, pasta `/docs` → Save**. A página é pública, como o próprio repositório.
 Ela tem `noindex` para não aparecer no Google.
 
-## 8. Pausar ou encerrar
+## 8. Rodar também no seu computador (cobre o Pelando)
+
+O Pelando bloqueia o GitHub, mas aceita o seu computador. O script `scripts/rodar_local.py` roda o monitor
+no PC e publica o histórico no mesmo repositório, então página e anti-spam continuam únicos. No Windows:
+
+1. Faça um **clone separado** só para isso (o script descarta mudanças locais a cada execução):
+   ```bash
+   git clone https://github.com/<seu-usuario>/<repo>.git %USERPROFILE%\ps5vem-runner
+   echo dedicado > %USERPROFILE%\ps5vem-runner\.runner
+   ```
+2. Salve o tópico do ntfy fora do repositório, em `%LOCALAPPDATA%\ps5vem\ntfy_topic.txt` (só o nome do tópico).
+3. Crie a tarefa no PowerShell (a cada 10 min, sem abrir janela, até 01/12):
+   ```powershell
+   $py = (Get-Command pythonw).Source
+   $acao = New-ScheduledTaskAction -Execute $py -Argument "`"$env:USERPROFILE\ps5vem-runner\scripts\rodar_local.py`"" -WorkingDirectory "$env:USERPROFILE\ps5vem-runner"
+   $gat = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -RepetitionInterval (New-TimeSpan -Minutes 10) -RepetitionDuration ((Get-Date "2026-12-01") - (Get-Date))
+   $cfg = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew
+   Register-ScheduledTask -TaskName "Monitor PS5" -Action $acao -Trigger $gat -Settings $cfg
+   ```
+- **Log:** `%LOCALAPPDATA%\ps5vem\monitor-local.log`.
+- **Pausar:** abra o Agendador de Tarefas e desabilite "Monitor PS5". **Remover:** `Unregister-ScheduledTask -TaskName "Monitor PS5"`.
+- Só roda com o PC ligado e acordado. Com o PC desligado, o GitHub Actions continua com as outras fontes.
+
+## 9. Se o agendamento do GitHub não rodar sozinho
+
+Às vezes o GitHub demora horas para ativar o `schedule` de um workflow novo, ou atrasa muito. Um serviço
+gratuito como o [cron-job.org](https://cron-job.org) pode disparar o workflow a cada 10 minutos:
+
+1. No GitHub: **Settings (do seu perfil) → Developer settings → Personal access tokens → Fine-grained tokens →
+   Generate new token**. Em *Repository access*, escolha **Only select repositories** e marque este repositório.
+   Em *Permissions → Repository permissions*, dê **Actions: Read and write**. Defina a validade até 01/12.
+2. No cron-job.org, crie um cronjob:
+   - URL: `https://api.github.com/repos/<seu-usuario>/<repo>/actions/workflows/monitor.yml/dispatches`
+   - Agendamento: a cada 10 minutos.
+   - Em *Advanced*: método **POST**; cabeçalhos `Authorization: Bearer <seu token>`,
+     `Accept: application/vnd.github+json` e `Content-Type: application/json`; corpo `{"ref":"main"}`.
+3. Salve e use **Test run**. Deve aparecer uma execução nova em Actions (resposta HTTP 204 = sucesso).
+
+O token fica só no cron-job.org, nunca no repositório. Para parar, desative o cronjob ou apague o token.
+
+## 10. Pausar ou encerrar
 
 - **Pausar:** Actions → Monitor PS5 → menu **⋯** → **Disable workflow** (para reativar, **Enable workflow**).
 - **Encerrar automaticamente:** fora do `periodo` do `config.yaml` (padrão: 19/11 a 30/11/2026), o script
@@ -180,5 +220,6 @@ storage.py            histórico em data/history.json
 http_client.py        requisições (User-Agent, timeout 15 s, 2 tentativas, robots.txt)
 tests/                pytest + fixtures com HTML real das fontes
 docs/index.html       página web com as ofertas (GitHub Pages)
+scripts/rodar_local.py roda o monitor no seu computador (Agendador do Windows)
 .github/workflows/    agendamento no GitHub Actions
 ```

@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Callable
 
@@ -95,6 +96,26 @@ def _itens_execucao(ofertas: list[Oferta], decisoes: list[tuple[Oferta, Decisao]
     return itens
 
 
+HERANCA_MINUTOS = 30
+
+
+def _herdar_itens(hist: Historico, status_fontes: dict, agora) -> list[dict]:
+    """Se uma fonte falhou agora (ex.: Pelando bloqueia o GitHub), mantém na página o que ela mostrou
+    na execução anterior, desde que tenha sido há menos de 30 min (ex.: rodando no seu computador)."""
+    anterior = hist.dados.get("ultima_execucao") or {}
+    if not anterior.get("ts"):
+        return []
+    idade = (agora - datetime.fromisoformat(anterior["ts"])).total_seconds() / 60
+    if idade > HERANCA_MINUTOS:
+        return []
+    falharam = {nome for nome, s in status_fontes.items() if s.get("status") not in ("ok", "desativada")}
+    herdados = []
+    for item in anterior.get("itens", []):
+        if item.get("fonte") in falharam:
+            herdados.append({**item, "visto_em": item.get("visto_em") or anterior["ts"]})
+    return herdados
+
+
 def _limites(config: dict, agora) -> dict:
     return {"normal": preco_max_normal(config, agora), "especial": config["alerta_especial"]["preco_max"],
             "parcelas_minimas": config["alerta_normal"].get("parcelas_minimas", 1)}
@@ -167,7 +188,8 @@ def executar(config: dict, hist: Historico, dry_run: bool, env: dict | None = No
                 log.error("Falha ao enviar notificação '%s': %s", msg.titulo, e)
                 codigo = 1
 
-    hist.registrar_execucao(status_fontes, _itens_execucao(ofertas, decisoes, descartes), _limites(config, agora), agora)
+    itens = _itens_execucao(ofertas, decisoes, descartes) + _herdar_itens(hist, status_fontes, agora)
+    hist.registrar_execucao(status_fontes, itens, _limites(config, agora), agora)
     hist.salvar()
     log.info("Histórico gravado em %s", hist.caminho)
     return codigo

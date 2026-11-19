@@ -454,7 +454,8 @@
       var e = estado(o);
       return '<li class="item">' + foto(o.imagem, o.titulo) +
         "<div><h3>" + abrir(o, o.titulo) + "</h3>" +
-        '<p class="loja">' + esc(o.loja) + ", via " + esc(NOMES[o.fonte] || o.fonte) + (o.cupom ? ". Cupom: " + esc(o.cupom) : "") + "</p>" +
+        '<p class="loja">' + esc(o.loja) + ", via " + esc(NOMES[o.fonte] || o.fonte) + (o.cupom ? ". Cupom: " + esc(o.cupom) : "") +
+        (o.visto_em ? ". Visto " + haQuanto(o.visto_em) + " pelo seu computador" : "") + "</p>" +
         '<p class="valor">' + esc(brl(o.preco_total)) + "</p>" +
         '<p class="parc' + (o.sem_juros ? " sem-juros" : "") + '">' + esc(parcelas(o)) + "</p>" +
         '<div class="chips"><span class="chip ' + e + '">' + esc(rotulo(o)) + "</span>" +

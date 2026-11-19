@@ -1,5 +1,5 @@
 """Testes de integração do monitor.py, sem rede (fontes e notificador substituídos)."""
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -183,3 +183,28 @@ def test_deduplica_mesma_oferta_em_fontes_diferentes():
                link="https://www.kabum.com.br/x", fonte="kabum")
     unicas = monitor.deduplicar([a, b, c])
     assert [o.fonte for o in unicas] == ["zoom", "kabum"]
+
+
+def test_fonte_bloqueada_mantem_itens_recentes_na_pagina(ambiente):
+    rodar, _, _, tmp = ambiente
+    hist = Historico(caminho=tmp / "h.json")
+    # execução anterior (ex.: no computador) viu uma oferta pela fonte "a", há 10 min
+    hist.dados["ultima_execucao"] = {
+        "ts": (DENTRO - timedelta(minutes=10)).isoformat(), "fontes": {}, "limites": {},
+        "itens": [{"fonte": "a", "titulo": "PS5 Slim Digital", "preco_total": 3599.1, "valida": True, "link": "https://x"}],
+    }
+    rodar([FonteFake("a", FonteBloqueada("HTTP 403")), FonteFake("b", [of(3900)])], hist=hist)
+    itens = hist.dados["ultima_execucao"]["itens"]
+    herdado = [i for i in itens if i["fonte"] == "a"]
+    assert len(herdado) == 1 and herdado[0]["visto_em"] == (DENTRO - timedelta(minutes=10)).isoformat()
+
+
+def test_nao_herda_itens_antigos(ambiente):
+    rodar, _, _, tmp = ambiente
+    hist = Historico(caminho=tmp / "h.json")
+    hist.dados["ultima_execucao"] = {
+        "ts": (DENTRO - timedelta(minutes=45)).isoformat(), "fontes": {}, "limites": {},
+        "itens": [{"fonte": "a", "titulo": "x", "preco_total": 3599.1, "valida": True, "link": "https://x"}],
+    }
+    rodar([FonteFake("a", FonteBloqueada("HTTP 403"))], hist=hist)
+    assert not [i for i in hist.dados["ultima_execucao"]["itens"] if i["fonte"] == "a"]

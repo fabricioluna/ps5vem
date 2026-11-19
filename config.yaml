@@ -51,7 +51,17 @@ notificacao:
   # o tópico vem do secret NTFY_TOPIC; o Telegram usa TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID
 
 fontes:
-  promobit: { ativo: true }
-  pelando: { ativo: true }
-  zoom: { ativo: true }
+  # Cada fonte pode ser ligada/desligada. A url pode ser trocada se o site mudar.
+  promobit:
+    ativo: true
+    url: "https://www.promobit.com.br/promocoes/playstation-5/s/"
+  pelando:
+    ativo: true
+    url: "https://www.pelando.com.br/busca/ps5-digital-astro-bot"
+  zoom:
+    ativo: true
+    url: "https://www.zoom.com.br/busca/playstation+5+slim+digital+astro+bot"
+  # Promobit/Pelando: ignora posts mais antigos que isso (oferta provavelmente acabou)
+  idade_maxima_horas: 48
+  # após N falhas seguidas de uma fonte, manda um único aviso de manutenção
   falhas_para_aviso_manutencao: 6

@@ -5,30 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Caça ao PS5</title>
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#1B1236">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    /* céu e mar de Leonida */
-    --noite: #1B1236; --dusk: #5A1F5E; --magenta: #C2357A; --sol: #FFA24C; --sol-claro: #FFD27A;
-    --mar: #0E2A40; --mar-fundo: #091C2C;
-    /* estados (mesma cor no horizonte, nas etiquetas e nos alertas) */
-    --super: #FF4F8B; --limite: #F28A1B; --acima: #8C95A6;
-    /* console */
-    --bg: #F4F6FA; --painel: #FFFFFF; --tinta: #141A26; --suave: #5B6577; --linha: #E1E5EC;
-    --azul: #0070D1; --super-bg: #FFE4EE; --limite-bg: #FFF0DD; --acima-bg: #EDEFF3;
-    --ok: #13804A; --falha: #B4471A;
+    /* paleta do PS5: branco do console, azul PlayStation, navy e cinzas */
+    --branco: #FFFFFF; --ceu-1: #FFFFFF; --ceu-2: #EAF2FC; --ceu-3: #C9DFF7;
+    --azul-ps: #0070D1; --azul-fundo: #003791; --navy: #0B1B3F; --mar-claro: #2E86DA;
+    /* estados: quanto mais forte o azul, melhor o preço */
+    --super: #0070D1; --limite: #7DB4EC; --acima: #C3CAD6;
+    --bg: #F5F7FA; --painel: #FFFFFF; --tinta: #0B1B3F; --suave: #566279; --linha: #E2E7EF;
+    --azul: #0070D1; --super-bg: #0070D1; --limite-bg: #E3EEFA; --acima-bg: #EDF0F4;
+    --ok: #0070D1; --falha: #B4471A;
     --display: "Big Shoulders Display", "Arial Narrow", sans-serif;
     --texto: "Instrument Sans", system-ui, sans-serif;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0F1424; --painel: #171E31; --tinta: #E8ECF4; --suave: #9BA6BA; --linha: #263049;
-      --azul: #5AA2FF; --super-bg: #3A1628; --limite-bg: #3A2612; --acima-bg: #232B3F;
-      --ok: #5CD394; --falha: #FF9A6B;
-    }
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
@@ -39,44 +31,45 @@
   .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 
   /* ---------- hero: o horizonte é o eixo de preços ---------- */
-  .hero { position: relative; color: #fff; overflow: hidden;
-          background: linear-gradient(180deg, var(--noite) 0%, #2C1748 30%, var(--dusk) 52%, var(--magenta) 74%, var(--sol) 100%); }
+  .hero { position: relative; color: var(--navy); overflow: hidden;
+          background: linear-gradient(180deg, var(--ceu-1) 0%, var(--ceu-2) 45%, var(--ceu-3) 100%); }
   .hero-topo { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-top: 20px;
-               font-size: .9rem; color: rgba(255,255,255,.78); }
-  .hero-topo strong { color: #fff; font-weight: 600; }
-  .recarregar { font: inherit; color: #fff; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.3);
+               font-size: .9rem; color: var(--suave); }
+  .hero-topo strong { color: var(--navy); font-weight: 600; }
+  .recarregar { font: inherit; color: var(--azul-ps); background: var(--branco); border: 1px solid #BFD3EA;
                 border-radius: 999px; padding: 5px 14px; cursor: pointer; }
-  .recarregar:hover { background: rgba(255,255,255,.2); }
+  .recarregar:hover { border-color: var(--azul-ps); }
   .manchete { padding: 40px 0 8px; max-width: 760px; }
   .manchete h1 { font: 800 clamp(3.4rem, 10vw, 7rem)/.9 var(--display); margin: 0; letter-spacing: -.01em; }
   .manchete h1 small { display: block; font: 600 clamp(1.3rem, 3vw, 1.9rem)/1.15 var(--display); letter-spacing: .01em;
-                       color: rgba(255,255,255,.85); margin-top: 10px; }
-  .veredito { font-size: 1.12rem; margin: 18px 0 0; max-width: 56ch; color: rgba(255,255,255,.92); }
+                       color: var(--azul-ps); margin-top: 10px; }
+  .veredito { font-size: 1.12rem; margin: 18px 0 0; max-width: 56ch; color: var(--tinta); }
   .acoes { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin-top: 22px; }
-  .botao { display: inline-block; background: #fff; color: var(--noite); font-weight: 600; padding: 11px 22px;
+  .botao { display: inline-block; background: var(--azul-ps); color: var(--branco); font-weight: 600; padding: 11px 24px;
            border-radius: 999px; }
-  .botao:hover { text-decoration: none; background: var(--sol-claro); }
-  .acoes .nota { font-size: .92rem; color: rgba(255,255,255,.75); }
+  .botao:hover { text-decoration: none; background: var(--azul-fundo); }
+  .acoes .nota { font-size: .92rem; color: var(--suave); }
 
   .cena { position: relative; height: 230px; margin-top: 26px; }
   .ceu-fim { position: absolute; inset: 0 0 46% 0; }
   .mar { position: absolute; left: 0; right: 0; bottom: 0; top: 54%; z-index: 2;
-         background: linear-gradient(180deg, #2B1C4A 0%, var(--mar) 45%, var(--mar-fundo) 100%); }
-  .horizonte { position: absolute; left: 0; right: 0; top: 54%; height: 1px; background: rgba(255,255,255,.55); z-index: 3; }
+         background: linear-gradient(180deg, var(--mar-claro) 0%, var(--azul-ps) 40%, var(--azul-fundo) 100%); }
+  .horizonte { position: absolute; left: 0; right: 0; top: 54%; height: 2px; margin-top: -1px; background: var(--branco); z-index: 3; }
   .zona { position: absolute; top: 54%; bottom: 0; z-index: 2; }
-  .zona.super { background: linear-gradient(180deg, rgba(255,79,139,.42), rgba(255,79,139,.06)); }
-  .zona.limite { background: linear-gradient(180deg, rgba(255,150,40,.5), rgba(255,150,40,.06)); }
+  .zona.super { background: linear-gradient(180deg, rgba(255,255,255,.34), rgba(255,255,255,.04));
+                border-right: 1px dashed rgba(255,255,255,.85); }
+  .zona.limite { background: linear-gradient(180deg, rgba(255,255,255,.16), rgba(255,255,255,.02));
+                 border-right: 1px dashed rgba(255,255,255,.6); }
   .zona span { position: absolute; top: 10px; left: 10px; font-size: .78rem; font-weight: 600; white-space: nowrap; }
-  .zona.super span { color: #FFB3CB; }
-  .zona.limite span { color: #FFC98C; }
+  .zona span { color: var(--branco); }
   .marca-eixo { position: absolute; bottom: 10px; z-index: 3; transform: translateX(-50%);
-                font-size: .74rem; color: rgba(255,255,255,.55); font-variant-numeric: tabular-nums; }
+                font-size: .74rem; color: rgba(255,255,255,.75); font-variant-numeric: tabular-nums; }
   .sol { position: absolute; top: 54%; width: 96px; height: 96px; margin: -48px 0 0 -48px; border-radius: 50%; z-index: 1;
-         background: radial-gradient(circle at 50% 45%, #FFF3C4 0%, var(--sol-claro) 38%, var(--sol) 70%, #FF6A3D 100%);
-         box-shadow: 0 0 60px 18px rgba(255,170,80,.55); }
+         background: radial-gradient(circle at 50% 45%, #FFFFFF 0%, #FFFFFF 55%, #EAF4FF 100%);
+         box-shadow: 0 0 0 6px rgba(255,255,255,.6), 0 0 36px 12px rgba(0,112,209,.35), 0 0 90px 30px rgba(255,255,255,.9); }
   .reflexo { position: absolute; top: 54%; width: 160px; margin-left: -80px; height: 46%; z-index: 2; pointer-events: none;
-             background: repeating-linear-gradient(180deg, rgba(255,214,150,.5) 0 2px, transparent 2px 8px),
-                         radial-gradient(ellipse 50% 90% at 50% 0, rgba(255,170,90,.45), transparent 70%);
+             background: repeating-linear-gradient(180deg, rgba(255,255,255,.7) 0 2px, transparent 2px 8px),
+                         radial-gradient(ellipse 50% 90% at 50% 0, rgba(255,255,255,.45), transparent 70%);
              -webkit-mask-image: radial-gradient(ellipse 45% 100% at 50% 0, #000 20%, transparent 80%);
              mask-image: radial-gradient(ellipse 45% 100% at 50% 0, #000 20%, transparent 80%); }
   @media (prefers-reduced-motion: no-preference) {
@@ -84,16 +77,16 @@
     @keyframes por-do-sol { from { transform: translateY(-120px); opacity: 0; } to { transform: none; opacity: 1; } }
   }
   .ponto { position: absolute; top: 54%; z-index: 4; transform: translate(-50%, -50%); }
-  .ponto i { display: block; width: 11px; height: 11px; border-radius: 50%; background: #fff; border: 2px solid var(--noite); }
-  .ponto span { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); white-space: nowrap;
-                font-size: .78rem; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.5); }
+  .ponto i { display: block; width: 12px; height: 12px; border-radius: 50%; background: var(--branco); border: 3px solid var(--navy); }
+  .ponto span { position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+                font-size: .8rem; font-weight: 600; color: var(--navy); }
   .recorde { position: absolute; top: 54%; bottom: 30px; z-index: 3; border-left: 1px dashed rgba(255,255,255,.7); }
   .recorde span { position: absolute; bottom: 0; left: 6px; font-size: .74rem; color: #fff; white-space: nowrap; }
-  .palmeira { position: absolute; bottom: 46%; z-index: 1; fill: #170E2C; pointer-events: none; }
+  .palmeira { position: absolute; bottom: 46%; z-index: 1; fill: var(--navy); pointer-events: none; }
   .palmeira.esq { left: -14px; width: 120px; }
   .palmeira.dir { right: -10px; width: 170px; transform: scaleX(-1); }
   /* carcaça do console fechando o hero */
-  .carcaca { display: block; width: 100%; height: 56px; margin-top: -1px; position: relative; z-index: 5; background: var(--mar-fundo); }
+  .carcaca { display: block; width: 100%; height: 56px; margin-top: -1px; position: relative; z-index: 5; background: var(--azul-fundo); }
   .carcaca path { fill: var(--bg); }
 
   /* ---------- corpo ---------- */
@@ -113,8 +106,8 @@
   .oferta .titulo { font-weight: 600; line-height: 1.35; }
   .oferta .detalhe { color: var(--suave); font-size: .92rem; margin-top: 4px; }
   .etiqueta { display: inline-block; font-size: .8rem; font-weight: 600; padding: 2px 10px; border-radius: 999px; margin: 8px 6px 0 0; }
-  .etiqueta.super { background: var(--super-bg); color: var(--super); }
-  .etiqueta.limite { background: var(--limite-bg); color: var(--limite); }
+  .etiqueta.super { background: var(--super-bg); color: var(--branco); }
+  .etiqueta.limite { background: var(--limite-bg); color: var(--azul-fundo); }
   .etiqueta.acima { background: var(--acima-bg); color: var(--suave); }
   .etiqueta.recorde { background: transparent; color: var(--ok); border: 1px solid currentColor; }
   .vazio { color: var(--suave); padding: 18px 0; }
@@ -155,7 +148,7 @@
   details[open] summary { margin-bottom: 14px; }
   .motivo { color: var(--suave); font-size: .88rem; }
 
-  .erro { background: var(--limite-bg); color: var(--tinta); padding: 14px 18px; border-radius: 12px; margin: 16px 0 0; }
+  .erro { background: #FDEBE3; color: var(--tinta); padding: 14px 18px; border-radius: 12px; margin: 16px 0 0; }
   footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--linha); color: var(--suave); font-size: .9rem; max-width: 70ch; }
 
   @media (max-width: 900px) {

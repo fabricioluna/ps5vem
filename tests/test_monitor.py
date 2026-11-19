@@ -157,3 +157,18 @@ def test_robots_proibido(monkeypatch):
     monkeypatch.setattr(http_client, "permitido_pelo_robots", lambda url: False)
     with pytest.raises(FonteBloqueada):
         http_client.baixar("https://exemplo.com/buscar")
+
+
+def test_grava_retrato_da_execucao_para_pagina(ambiente):
+    rodar, _, _, _ = ambiente
+    _, hist = rodar([FonteFake("a", [of(3900), of(3100, "https://l/2", "PS5 Digital Astro Bot Usado")]),
+                     FonteFake("b", FonteBloqueada("HTTP 403"))])
+    ex = hist.dados["ultima_execucao"]
+    assert ex["fontes"]["a"] == {"status": "ok", "anuncios": 2}
+    assert ex["fontes"]["b"]["status"] == "bloqueada"
+    assert ex["limites"] == {"normal": 4000.0, "especial": 3200}
+    validos = [i for i in ex["itens"] if i["valida"]]
+    assert len(validos) == 1 and validos[0]["nivel"] == "normal" and validos[0]["alertar"]
+    assert any(not i["valida"] and "usado" in i["motivo"] for i in ex["itens"])
+    assert len(hist.dados["alertas_enviados"]) == 1
+    assert of(3900).id in hist.dados["ofertas"]

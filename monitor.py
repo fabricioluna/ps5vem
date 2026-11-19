@@ -20,7 +20,7 @@ from http_client import FonteBloqueada
 from models import Oferta, agora_utc
 from notifier import (Mensagem, NotificacaoErro, brl, criar_notificador, formatar_alerta,
                       mensagem_manutencao, mensagem_teste)
-from rules import NENHUM, Decisao, avaliar, dentro_do_periodo, hora_local
+from rules import NENHUM, Decisao, avaliar, dentro_do_periodo, hora_local, preco_max_normal
 from sources import FONTES
 from storage import Historico
 
@@ -32,18 +32,21 @@ def carregar_config(caminho: Path) -> dict:
     return yaml.safe_load(caminho.read_text(encoding="utf-8"))
 
 
-def coletar(config: dict, hist: Historico) -> tuple[list[Oferta], list[tuple[str, Mensagem]]]:
-    """Consulta todas as fontes ativas. Uma fonte com erro nunca derruba as outras."""
+def coletar(config: dict, hist: Historico) -> tuple[list[Oferta], list[tuple[str, Mensagem]], dict]:
+    """Consulta todas as fontes ativas. Uma fonte com erro nunca derruba as outras.
+    Devolve (ofertas, avisos de manutenção, status por fonte)."""
     cfg_fontes = config.get("fontes") or {}
     limite_falhas = int(cfg_fontes.get("falhas_para_aviso_manutencao", 6))
     idade = cfg_fontes.get("idade_maxima_horas")
     ofertas: list[Oferta] = []
     avisos: list[tuple[str, Mensagem]] = []   # (fonte, aviso de manutenção)
+    status: dict[str, dict] = {}
 
     for nome, modulo in FONTES.items():
         cfg = cfg_fontes.get(nome) or {}
         if not cfg.get("ativo", False):
             log.info("[%s] desativada no config.yaml", nome)
+            status[nome] = {"status": "desativada"}
             continue
         log.info("[%s] consultando...", nome)
         try:
@@ -51,13 +54,15 @@ def coletar(config: dict, hist: Historico) -> tuple[list[Oferta], list[tuple[str
         except Exception as e:  # noqa: BLE001 - qualquer erro de fonte é isolado
             tipo = "BLOQUEADA" if isinstance(e, FonteBloqueada) else "ERRO"
             log.error("[%s] %s: %s", nome, tipo, e)
+            status[nome] = {"status": tipo.lower(), "erro": str(e)[:200]}
             if hist.registrar_falha_fonte(nome, limite_falhas):
                 avisos.append((nome, mensagem_manutencao(nome, hist.dados["falhas"][nome]["seguidas"], str(e))))
             continue
         hist.registrar_sucesso_fonte(nome)
         log.info("[%s] %d anúncios encontrados", nome, len(achadas))
+        status[nome] = {"status": "ok", "anuncios": len(achadas)}
         ofertas.extend(achadas)
-    return ofertas, avisos
+    return ofertas, avisos, status
 
 
 def deduplicar(ofertas: list[Oferta]) -> list[Oferta]:
@@ -68,6 +73,26 @@ def deduplicar(ofertas: list[Oferta]) -> list[Oferta]:
     return sorted(por_id.values(), key=lambda o: o.preco_total)
 
 
+def _itens_execucao(ofertas: list[Oferta], decisoes: list[tuple[Oferta, Decisao]],
+                    descartes: dict[str, str]) -> list[dict]:
+    """Retrato de cada anúncio desta execução, para a página web."""
+    por_id = {o.id: d for o, d in decisoes}
+    itens = []
+    for o in ofertas:
+        item = {k: v for k, v in o.to_dict().items() if k != "coletado_em"}
+        d = por_id.get(o.id)
+        if d is None:
+            item.update(valida=False, motivo=descartes.get(o.id, ""))
+        else:
+            item.update(valida=True, nivel=d.nivel, alertar=d.enviar, menor_preco=d.menor_preco, motivo=d.motivo)
+        itens.append(item)
+    return itens
+
+
+def _limites(config: dict, agora) -> dict:
+    return {"normal": preco_max_normal(config, agora), "especial": config["alerta_especial"]["preco_max"]}
+
+
 def executar(config: dict, hist: Historico, dry_run: bool, env: dict | None = None) -> int:
     agora = agora_utc()
     log.info("Horário local: %s", hora_local(config, agora).strftime("%d/%m/%Y %H:%M"))
@@ -76,22 +101,25 @@ def executar(config: dict, hist: Historico, dry_run: bool, env: dict | None = No
         log.info("Fora do período configurado (%s a %s). Nada a fazer.", p.get("inicio"), p.get("fim"))
         return 0
 
-    brutas, avisos = coletar(config, hist)
+    brutas, avisos, status_fontes = coletar(config, hist)
     ofertas = deduplicar(brutas)
 
     validas: list[Oferta] = []
+    descartes: dict[str, str] = {}
     log.info("---- Filtro de qualidade (%d anúncios) ----", len(ofertas))
     for o in ofertas:
         ok, motivo = avaliar_qualidade(o, config)
         if ok:
             validas.append(o)
         else:
+            descartes[o.id] = motivo
             log.info("  descartado  %-12s %-10s %s | %s", brl(o.preco_total), o.fonte, o.titulo[:70], motivo)
 
     # Decide tudo com base no histórico ANTERIOR a esta execução; só depois registra os preços.
     decisoes: list[tuple[Oferta, Decisao]] = [(o, avaliar(o, config, hist, agora)) for o in validas]
     for o, _ in decisoes:
         hist.registrar_preco(o, agora)
+        hist.registrar_vista(o, agora)
 
     log.info("---- Decisões (%d ofertas válidas) ----", len(decisoes))
     # cada envio leva a ação a registrar no histórico se a notificação sair com sucesso
@@ -132,6 +160,7 @@ def executar(config: dict, hist: Historico, dry_run: bool, env: dict | None = No
                 log.error("Falha ao enviar notificação '%s': %s", msg.titulo, e)
                 codigo = 1
 
+    hist.registrar_execucao(status_fontes, _itens_execucao(ofertas, decisoes, descartes), _limites(config, agora), agora)
     hist.salvar()
     log.info("Histórico gravado em %s", hist.caminho)
     return codigo

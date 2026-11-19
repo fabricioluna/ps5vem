@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from http_client import baixar
+from http_client import FonteErro, baixar
 from models import Oferta, agora_utc
 from sources.base import next_data, parcelas_do_texto, recente
 
@@ -26,6 +26,9 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
     agora = agora or agora_utc()
     dados = next_data(html)
     brutas = dados["props"]["pageProps"]["serverOffers"]["offers"]
+    if not brutas:
+        # a listagem nunca fica vazia de verdade: vazio indica página alterada ou resposta parcial
+        raise FonteErro("página veio sem ofertas (resposta parcial ou HTML mudou)")
     ofertas = []
     for o in brutas:
         status = (o.get("offerStatusName") or "").upper()

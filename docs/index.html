@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor PS5</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #5f6b7a; --line: #e3e6eb;
+    --accent: #2457d6; --ok: #127a3e; --ok-bg: #e3f5ea; --warn: #9a5b00; --warn-bg: #fdf1dc;
+    --hot: #c4271b; --hot-bg: #fde6e3; --off-bg: #eef0f3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111418; --card: #1a1e24; --text: #e7eaee; --muted: #9aa5b3; --line: #2b313a;
+      --accent: #7aa2ff; --ok: #5fd08f; --ok-bg: #173323; --warn: #f1b45a; --warn-bg: #3a2b12;
+      --hot: #ff8a7d; --hot-bg: #3d1a17; --off-bg: #232830;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+  h1 { font-size: 1.4rem; margin: 0; }
+  h2 { font-size: 1.05rem; margin: 32px 0 10px; }
+  .muted { color: var(--muted); }
+  .small { font-size: .85rem; }
+  button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text);
+           border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  .fontes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px;
+          font-size: .82rem; background: var(--off-bg); white-space: nowrap; }
+  .chip.ok { background: var(--ok-bg); color: var(--ok); }
+  .chip.bad { background: var(--warn-bg); color: var(--warn); }
+  .chip.hot { background: var(--hot-bg); color: var(--hot); font-weight: 600; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .tile .label { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .tile .value { font-size: 1.6rem; font-weight: 700; margin: 2px 0; font-variant-numeric: tabular-nums; }
+  .tile .sub { font-size: .85rem; color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
+  td.titulo { min-width: 260px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .vazio { padding: 18px; color: var(--muted); }
+  details { margin-top: 24px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details .card { margin-top: 10px; }
+  .erro { background: var(--warn-bg); color: var(--warn); padding: 12px 16px; border-radius: 10px; margin-top: 16px; }
+  footer { margin-top: 36px; font-size: .82rem; color: var(--muted); }
+  /* celular: cada linha da tabela vira um cartão empilhado */
+  @media (max-width: 640px) {
+    thead { display: none; }
+    table, tbody, tr, td { display: block; width: 100%; }
+    tr { padding: 10px 14px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; }
+    tr:last-child { border-bottom: 0; }
+    td { border: 0; padding: 3px 0; display: flex; gap: 10px; }
+    td::before { content: attr(data-label); flex: 0 0 96px; font-size: .75rem; color: var(--muted);
+                 text-transform: uppercase; letter-spacing: .03em; padding-top: 2px; }
+    td.titulo { min-width: 0; }
+    td.titulo::before { content: none; }
+    td.titulo { order: -1; font-weight: 600; padding-bottom: 6px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Monitor PS5 Slim Digital + Astro Bot</h1>
+      <div class="muted small" id="atualizado">Carregando…</div>
+    </div>
+    <button id="recarregar" type="button">Atualizar</button>
+  </header>
+  <div class="fontes" id="fontes"></div>
+  <div id="erro"></div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <h2>Ofertas encontradas na última verificação</h2>
+  <div class="card" id="atuais"></div>
+
+  <h2>Alertas enviados</h2>
+  <div class="card" id="alertas"></div>
+
+  <h2>Todas as ofertas já vistas <span class="muted small">(últimos 30 dias)</span></h2>
+  <div class="card" id="catalogo"></div>
+
+  <details id="descartes-box">
+    <summary id="descartes-titulo">Anúncios descartados pelo filtro</summary>
+    <div class="card" id="descartes"></div>
+  </details>
+
+  <footer>
+    O monitor roda no GitHub Actions a cada ~10 minutos; esta página relê os dados a cada 2 minutos.
+    Confira sempre o preço no link antes de comprar.
+  </footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var TZ = "America/Fortaleza";
+
+  // Em <usuario>.github.io/<repo>/ lê direto do repositório (sempre atualizado);
+  // aberto localmente, lê ../data/history.json.
+  function urlDados() {
+    var host = location.hostname;
+    if (/\.github\.io$/.test(host)) {
+      var dono = host.split(".")[0];
+      var repo = location.pathname.split("/").filter(Boolean)[0] || "ps5vem";
+      return "https://raw.githubusercontent.com/" + dono + "/" + repo + "/main/data/history.json";
+    }
+    return "../data/history.json";
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function linkSeguro(u) { return /^https?:\/\//i.test(u || "") ? u : "#"; }
+  function brl(v) {
+    if (v == null) return "—";
+    var inteiro = Math.round(v * 100) % 100 === 0;
+    return v.toLocaleString("pt-BR", { style: "currency", currency: "BRL",
+      minimumFractionDigits: inteiro ? 0 : 2, maximumFractionDigits: 2 });
+  }
+  function dataHora(iso) {
+    if (!iso) return "—";
+    return new Date(iso).toLocaleString("pt-BR", { timeZone: TZ, day: "2-digit", month: "2-digit",
+      hour: "2-digit", minute: "2-digit" });
+  }
+  function haQuanto(iso) {
+    var min = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (min < 1) return "agora há pouco";
+    if (min < 60) return "há " + min + " min";
+    var h = Math.floor(min / 60);
+    if (h < 48) return "há " + h + " h" + (min % 60 ? " " + (min % 60) + " min" : "");
+    return "há " + Math.floor(h / 24) + " dias";
+  }
+  function parcelamento(o) {
+    if (!o.parcelas || o.parcelas <= 1) return '<span class="muted">não informado</span>';
+    var valor = o.valor_parcela || o.preco_total / o.parcelas;
+    return esc(o.parcelas + "x de " + brl(valor)) + (o.sem_juros ? " sem juros" : "");
+  }
+  function linkOferta(o) {
+    return '<a href="' + esc(linkSeguro(o.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(o.titulo) + "</a>";
+  }
+  function situacao(o) {
+    var tags = [];
+    if (o.nivel === "especial") tags.push('<span class="chip hot">Super promoção</span>');
+    else if (o.nivel === "normal") tags.push('<span class="chip ok">Dentro do limite</span>');
+    else tags.push('<span class="chip">Acima do limite</span>');
+    if (o.menor_preco) tags.push('<span class="chip ok">Menor preço já visto</span>');
+    if (o.alertar) tags.push('<span class="chip">Alerta enviado</span>');
+    return tags.join(" ");
+  }
+  function tabela(cabecalho, linhas, vazio) {
+    if (!linhas.length) return '<div class="vazio">' + esc(vazio) + "</div>";
+    return "<table><thead><tr>" + cabecalho.map(function (h) { return "<th>" + h + "</th>"; }).join("") +
+      "</tr></thead><tbody>" + linhas.join("") + "</tbody></table>";
+  }
+  function el(id) { return document.getElementById(id); }
+  // copia o nome da coluna para cada célula (usado no layout de celular)
+  function rotular() {
+    Array.prototype.forEach.call(document.querySelectorAll("table"), function (t) {
+      var nomes = Array.prototype.map.call(t.querySelectorAll("th"), function (th) { return th.textContent; });
+      Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function (tr) {
+        Array.prototype.forEach.call(tr.children, function (td, i) { td.setAttribute("data-label", nomes[i] || ""); });
+      });
+    });
+  }
+
+  function render(d) {
+    var ex = d.ultima_execucao;
+    el("erro").innerHTML = "";
+    if (!ex) {
+      el("atualizado").textContent = "Ainda não há dados: aguarde a próxima execução do monitor.";
+      return;
+    }
+    el("atualizado").textContent = "Última verificação: " + haQuanto(ex.ts) + " (" + dataHora(ex.ts) + ", horário de Fortaleza)";
+
+    // status das fontes
+    el("fontes").innerHTML = Object.keys(ex.fontes || {}).map(function (nome) {
+      var f = ex.fontes[nome];
+      if (f.status === "ok") return '<span class="chip ok">● ' + esc(nome) + ": " + f.anuncios + " anúncios</span>";
+      if (f.status === "desativada") return '<span class="chip">○ ' + esc(nome) + ": desativada</span>";
+      return '<span class="chip bad" title="' + esc(f.erro) + '">● ' + esc(nome) + ": " + esc(f.status) + "</span>";
+    }).join("");
+
+    var itens = ex.itens || [];
+    var validas = itens.filter(function (i) { return i.valida; }).sort(function (a, b) { return a.preco_total - b.preco_total; });
+    var descartadas = itens.filter(function (i) { return !i.valida; });
+    var melhor = validas[0];
+    var menor = d.menor_preco;
+    var lim = ex.limites || {};
+
+    // destaques
+    el("tiles").innerHTML = [
+      '<div class="tile"><div class="label">Melhor oferta agora</div><div class="value">' + (melhor ? brl(melhor.preco_total) : "—") +
+        '</div><div class="sub">' + (melhor ? esc(melhor.loja) + " · via " + esc(melhor.fonte) : "nenhuma oferta válida") + "</div></div>",
+      '<div class="tile"><div class="label">Menor preço já visto</div><div class="value">' + (menor ? brl(menor.preco) : "—") +
+        '</div><div class="sub">' + (menor ? esc(menor.loja) + " · " + dataHora(menor.ts) : "") + "</div></div>",
+      '<div class="tile"><div class="label">Limite do alerta normal</div><div class="value">' + brl(lim.normal) +
+        '</div><div class="sub">na faixa de horário atual</div></div>',
+      '<div class="tile"><div class="label">Super promoção</div><div class="value">' + brl(lim.especial) +
+        '</div><div class="sub">ou queda forte sobre a média</div></div>'
+    ].join("");
+
+    // ofertas atuais
+    el("atuais").innerHTML = tabela(["Preço", "Parcelamento", "Loja", "Oferta", "Fonte", "Situação"],
+      validas.map(function (o) {
+        return "<tr><td class=\"num\">" + brl(o.preco_total) + "</td><td>" + parcelamento(o) + "</td><td>" + esc(o.loja) +
+          (o.cupom ? '<div class="muted small">cupom: ' + esc(o.cupom) + "</div>" : "") +
+          '</td><td class="titulo">' + linkOferta(o) + "</td><td>" + esc(o.fonte) + "</td><td>" + situacao(o) + "</td></tr>";
+      }), "Nenhuma oferta do PS5 Digital + Astro Bot na última verificação.");
+
+    // alertas enviados
+    var alertas = (d.alertas_enviados || []).slice().reverse();
+    el("alertas").innerHTML = tabela(["Quando", "Tipo", "Preço", "Loja", "Oferta"],
+      alertas.map(function (a) {
+        var tipo = a.nivel === "especial" ? '<span class="chip hot">Super promoção</span>' : '<span class="chip ok">Normal</span>';
+        return "<tr><td>" + dataHora(a.ts) + "</td><td>" + tipo + '</td><td class="num">' + brl(a.preco) + "</td><td>" +
+          esc(a.loja) + '</td><td class="titulo">' + linkOferta(a) + "</td></tr>";
+      }), "Nenhum alerta enviado ainda.");
+
+    // catálogo
+    var cat = Object.keys(d.ofertas || {}).map(function (k) { return d.ofertas[k]; })
+      .sort(function (a, b) { return a.menor_preco - b.menor_preco; });
+    el("catalogo").innerHTML = tabela(["Menor preço", "Último preço", "Loja", "Oferta", "Fonte", "Visto"],
+      cat.map(function (o) {
+        var ativa = o.ultimo_visto === ex.ts;
+        return '<tr><td class="num">' + brl(o.menor_preco) + '</td><td class="num">' + brl(o.ultimo_preco) + "</td><td>" +
+          esc(o.loja) + '</td><td class="titulo">' + linkOferta(o) + "</td><td>" + esc(o.fonte) + '</td><td class="small">' +
+          (ativa ? '<span class="chip ok">ativa agora</span>' : "última vez " + dataHora(o.ultimo_visto)) +
+          '<div class="muted">desde ' + dataHora(o.primeiro_visto) + "</div></td></tr>";
+      }), "Nenhuma oferta válida registrada ainda.");
+
+    // descartes
+    el("descartes-titulo").textContent = "Anúncios descartados pelo filtro (" + descartadas.length + ")";
+    el("descartes").innerHTML = tabela(["Preço", "Anúncio", "Fonte", "Motivo"],
+      descartadas.sort(function (a, b) { return a.preco_total - b.preco_total; }).map(function (o) {
+        return '<tr><td class="num">' + brl(o.preco_total) + '</td><td class="titulo">' + linkOferta(o) + "</td><td>" +
+          esc(o.fonte) + '</td><td class="muted small">' + esc(o.motivo) + "</td></tr>";
+      }), "Nenhum anúncio descartado.");
+    rotular();
+  }
+
+  function carregar() {
+    fetch(urlDados() + "?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(render)
+      .catch(function (e) {
+        el("erro").innerHTML = '<div class="erro">Não consegui carregar os dados (' + esc(e.message) +
+          "). Se abriu o arquivo direto do computador, use o endereço do GitHub Pages.</div>";
+      });
+  }
+
+  el("recarregar").addEventListener("click", carregar);
+  carregar();
+  setInterval(carregar, 120000);
+})();
+</script>
+</body>
+</html>

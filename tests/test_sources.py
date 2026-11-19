@@ -92,3 +92,21 @@ def test_zoom_filtro(config):
 def test_zoom_html_quebrado():
     with pytest.raises(FonteErro):
         zoom.parse("<html></html>")
+
+
+@pytest.mark.parametrize("modulo,arquivo,vazio", [
+    (promobit, "promobit_playstation5.html", ('"before":2771067,"offers":[', '"before":2771067,"offers":[],"_x":[')),
+    (zoom, "zoom_busca.html", ('"hits":[', '"hits":[],"_x":[')),
+])
+def test_listagem_vazia_conta_como_falha(modulo, arquivo, vazio):
+    html = fixture_text(arquivo).replace(*vazio, 1)
+    with pytest.raises(FonteErro):
+        modulo.parse(html)
+
+
+def test_pelando_listagem_vazia_conta_como_falha():
+    html = fixture_text("pelando_busca.html")
+    i = html.index("&quot;deals&quot;:[1,[")
+    html = html[:i] + "&quot;deals&quot;:[1,[]],&quot;_x&quot;:[1,[" + html[i + len("&quot;deals&quot;:[1,["):]
+    with pytest.raises(FonteErro):
+        pelando.parse(html)

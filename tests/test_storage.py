@@ -61,3 +61,22 @@ def test_falhas_avisam_uma_unica_vez():
     assert h.registrar_falha_fonte("zoom", 6) is False
     h.registrar_sucesso_fonte("zoom")
     assert h.dados["falhas"]["zoom"]["seguidas"] == 0
+
+
+def test_catalogo_de_ofertas_vistas():
+    h = Historico()
+    h.registrar_vista(of(4000), T0)
+    h.registrar_vista(of(3800), T0 + timedelta(hours=1))
+    h.registrar_vista(of(3900), T0 + timedelta(hours=2))
+    o = h.dados["ofertas"][of(1).id]
+    assert o["menor_preco"] == 3800 and o["ultimo_preco"] == 3900
+    assert o["primeiro_visto"] == T0.isoformat(timespec="seconds")
+
+
+def test_log_de_alertas_enviados_limitado():
+    h = Historico()
+    for i in range(205):
+        h.registrar_alerta(of(4000 - i, f"https://l/{i}"), "normal", datetime.now(timezone.utc))
+    h._podar()
+    assert len(h.dados["alertas_enviados"]) == 200
+    assert h.dados["alertas_enviados"][-1]["preco"] == 4000 - 204

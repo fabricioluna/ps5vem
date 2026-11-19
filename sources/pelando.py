@@ -45,6 +45,9 @@ def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | 
         raise FonteErro("bloco SearchFeedContent não encontrado (o HTML da página mudou?)")
     props = _decodificar(json.loads(ilha["props"]))
     deals = ((props.get("initialData") or {}).get("deals") or {}).get("deals") or []
+    if not deals:
+        # a listagem nunca fica vazia de verdade: vazio indica página alterada ou resposta parcial
+        raise FonteErro("página veio sem ofertas (resposta parcial ou HTML mudou)")
 
     ofertas = []
     for d in deals:

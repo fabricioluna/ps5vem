@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from http_client import baixar
+from http_client import FonteErro, baixar
 from models import Oferta
 from sources.base import next_data
 
@@ -24,6 +24,9 @@ def buscar(cfg_fonte: dict, idade_maxima_horas: float | None = None) -> list[Ofe
 def parse(html: str, agora: datetime | None = None, idade_maxima_horas: float | None = None) -> list[Oferta]:
     dados = next_data(html)
     hits = dados["props"]["initialReduxState"]["hits"]["hits"]
+    if not hits:
+        # a listagem nunca fica vazia de verdade: vazio indica página alterada ou resposta parcial
+        raise FonteErro("página veio sem resultados (resposta parcial ou HTML mudou)")
     ofertas = []
     for h in hits:
         preco = h.get("price")

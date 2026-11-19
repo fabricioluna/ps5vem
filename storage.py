@@ -5,7 +5,12 @@ Formato:
   "precos":  [{"id", "preco", "loja", "fonte", "ts"}],   # observações (últimos 30 dias)
   "menor_preco": {"preco", "loja", "link", "ts"} | null,  # menor preço já visto (nunca é podado)
   "alertas": {"<id>": {"preco", "nivel", "ts"}},          # último alerta enviado por oferta
-  "falhas":  {"<fonte>": {"seguidas": int, "aviso_enviado": bool}}
+  "falhas":  {"<fonte>": {"seguidas": int, "aviso_enviado": bool}},
+  # usados pela página web (docs/index.html):
+  "ultima_execucao": {"ts", "limites", "fontes": {...}, "itens": [...]},  # retrato da última verificação
+  "ofertas": {"<id>": {"titulo", "loja", "fonte", "link", "primeiro_visto", "ultimo_visto",
+                       "ultimo_preco", "menor_preco"}},   # catálogo de ofertas válidas vistas
+  "alertas_enviados": [{"ts", "nivel", "preco", "loja", "titulo", "link"}]   # últimos 200
 }
 """
 from __future__ import annotations
@@ -20,11 +25,13 @@ from models import Oferta, agora_utc
 log = logging.getLogger(__name__)
 
 RETENCAO_DIAS = 30
+MAX_ALERTAS_LOG = 200
 CAMINHO_PADRAO = Path(__file__).parent / "data" / "history.json"
 
 
 def _vazio() -> dict:
-    return {"precos": [], "menor_preco": None, "alertas": {}, "falhas": {}}
+    return {"precos": [], "menor_preco": None, "alertas": {}, "falhas": {},
+            "ultima_execucao": None, "ofertas": {}, "alertas_enviados": []}
 
 
 class Historico:
@@ -58,6 +65,8 @@ class Historico:
         limite = (agora or agora_utc()) - timedelta(days=RETENCAO_DIAS)
         self.dados["precos"] = [p for p in self.dados["precos"] if _dt(p["ts"]) >= limite]
         self.dados["alertas"] = {k: v for k, v in self.dados["alertas"].items() if _dt(v["ts"]) >= limite}
+        self.dados["ofertas"] = {k: v for k, v in self.dados["ofertas"].items() if _dt(v["ultimo_visto"]) >= limite}
+        self.dados["alertas_enviados"] = self.dados["alertas_enviados"][-MAX_ALERTAS_LOG:]
 
     # ---------- preços ----------
     def registrar_preco(self, oferta: Oferta, agora: datetime | None = None) -> None:
@@ -93,9 +102,28 @@ class Historico:
         return self.dados["alertas"].get(oferta_id)
 
     def registrar_alerta(self, oferta: Oferta, nivel: str, agora: datetime | None = None) -> None:
-        self.dados["alertas"][oferta.id] = {
-            "preco": oferta.preco_total, "nivel": nivel,
+        ts = (agora or agora_utc()).isoformat(timespec="seconds")
+        self.dados["alertas"][oferta.id] = {"preco": oferta.preco_total, "nivel": nivel, "ts": ts}
+        self.dados["alertas_enviados"].append({
+            "ts": ts, "nivel": nivel, "preco": oferta.preco_total, "loja": oferta.loja,
+            "titulo": oferta.titulo, "link": oferta.link, "fonte": oferta.fonte,
+        })
+
+    # ---------- catálogo e retrato da execução (página web) ----------
+    def registrar_vista(self, oferta: Oferta, agora: datetime | None = None) -> None:
+        ts = (agora or agora_utc()).isoformat(timespec="seconds")
+        o = self.dados["ofertas"].get(oferta.id)
+        if o is None:
+            o = self.dados["ofertas"][oferta.id] = {"primeiro_visto": ts, "menor_preco": oferta.preco_total}
+        o.update({"titulo": oferta.titulo, "loja": oferta.loja, "fonte": oferta.fonte, "link": oferta.link,
+                  "ultimo_visto": ts, "ultimo_preco": oferta.preco_total,
+                  "menor_preco": min(o["menor_preco"], oferta.preco_total)})
+
+    def registrar_execucao(self, fontes: dict, itens: list[dict], limites: dict,
+                           agora: datetime | None = None) -> None:
+        self.dados["ultima_execucao"] = {
             "ts": (agora or agora_utc()).isoformat(timespec="seconds"),
+            "fontes": fontes, "itens": itens, "limites": limites,
         }
 
     # ---------- saúde das fontes ----------

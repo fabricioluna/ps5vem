@@ -115,7 +115,24 @@ $env:NTFY_TOPIC="seu-topico"; python monitor.py --test-notify
 Se uma fonte falhar 6 vezes seguidas (bloqueio ou mudança no site), chega **um único** aviso de manutenção.
 As outras fontes continuam funcionando normalmente.
 
-## 7. Pausar ou encerrar
+## 7. Página web com as ofertas
+
+Endereço: **`https://<seu-usuario>.github.io/<repo>/`**. A página mostra:
+
+- o status de cada fonte na última verificação;
+- a melhor oferta atual, o menor preço já visto e os limites de alerta;
+- as ofertas encontradas, com a decisão (super promoção, dentro ou acima do limite);
+- os alertas já enviados;
+- todas as ofertas vistas nos últimos 30 dias;
+- os anúncios descartados pelo filtro, com o motivo.
+
+Ela lê o `data/history.json` direto do repositório e se atualiza sozinha a cada 2 minutos.
+
+Para ativar (já está feito neste repositório): **Settings → Pages → Build and deployment → Source: Deploy
+from a branch → Branch: `main`, pasta `/docs` → Save**. A página é pública, como o próprio repositório.
+Ela tem `noindex` para não aparecer no Google.
+
+## 8. Pausar ou encerrar
 
 - **Pausar:** Actions → Monitor PS5 → menu **⋯** → **Disable workflow** (para reativar, **Enable workflow**).
 - **Encerrar automaticamente:** fora do `periodo` do `config.yaml` (padrão: 19/11 a 30/11/2026), o script
@@ -152,5 +169,6 @@ notifier.py           ntfy e Telegram com interface única
 storage.py            histórico em data/history.json
 http_client.py        requisições (User-Agent, timeout 15 s, 2 tentativas, robots.txt)
 tests/                pytest + fixtures com HTML real das fontes
+docs/index.html       página web com as ofertas (GitHub Pages)
 .github/workflows/    agendamento no GitHub Actions
 ```

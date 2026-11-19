@@ -165,10 +165,23 @@ no PC e publica o histórico no mesmo repositório, então página e anti-spam c
 - **Pausar:** abra o Agendador de Tarefas e desabilite "Monitor PS5". **Remover:** `Unregister-ScheduledTask -TaskName "Monitor PS5"`.
 - Só roda com o PC ligado e acordado. Com o PC desligado, o GitHub Actions continua com as outras fontes.
 
-## 9. Se o agendamento do GitHub não rodar sozinho
+## 9. Busca 24h no GitHub: a "corrente"
 
-Às vezes o GitHub demora horas para ativar o `schedule` de um workflow novo, ou atrasa muito. Um serviço
-gratuito como o [cron-job.org](https://cron-job.org) pode disparar o workflow a cada 10 minutos:
+O agendamento próprio do GitHub (`schedule`) pode demorar horas para começar ou pular execuções. Por isso o
+workflow funciona como uma **corrente**: cada execução busca, espera ~10 minutos e dispara a próxima, usando
+só a permissão interna do workflow (sem token). Para iniciar, basta rodar o workflow uma vez manualmente
+(Actions → Monitor PS5 → Run workflow).
+
+- **Não duplica:** se já houver uma execução na fila, a corrente não dispara outra.
+- **Para sozinha** depois do fim do `periodo` do `config.yaml`.
+- **Reinício automático:** se a corrente quebrar, o script do computador (seção 8) percebe que não houve
+  execução há mais de 25 minutos e dispara uma nova.
+- **Interromper:** Actions → Monitor PS5 → menu **⋯** → **Disable workflow**.
+- Cada execução ocupa uma máquina do GitHub por ~11 minutos (a maior parte esperando). Em repositório
+  público é gratuito; em privado consumiria a cota rapidamente.
+
+**Alternativa opcional, cron-job.org:** um serviço gratuito pode disparar o workflow a cada 10 minutos,
+no lugar da corrente:
 
 1. No GitHub: **Settings (do seu perfil) → Developer settings → Personal access tokens → Fine-grained tokens →
    Generate new token**. Em *Repository access*, escolha **Only select repositories** e marque este repositório.

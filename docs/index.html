@@ -3,105 +3,245 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Monitor PS5</title>
+<title>Caça ao PS5</title>
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#1B1236">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f6f7f9; --card: #ffffff; --text: #1b1f24; --muted: #5f6b7a; --line: #e3e6eb;
-    --accent: #2457d6; --ok: #127a3e; --ok-bg: #e3f5ea; --warn: #9a5b00; --warn-bg: #fdf1dc;
-    --hot: #c4271b; --hot-bg: #fde6e3; --off-bg: #eef0f3;
+    /* céu e mar de Leonida */
+    --noite: #1B1236; --dusk: #5A1F5E; --magenta: #C2357A; --sol: #FFA24C; --sol-claro: #FFD27A;
+    --mar: #0E2A40; --mar-fundo: #091C2C;
+    /* estados (mesma cor no horizonte, nas etiquetas e nos alertas) */
+    --super: #FF4F8B; --limite: #F28A1B; --acima: #8C95A6;
+    /* console */
+    --bg: #F4F6FA; --painel: #FFFFFF; --tinta: #141A26; --suave: #5B6577; --linha: #E1E5EC;
+    --azul: #0070D1; --super-bg: #FFE4EE; --limite-bg: #FFF0DD; --acima-bg: #EDEFF3;
+    --ok: #13804A; --falha: #B4471A;
+    --display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+    --texto: "Instrument Sans", system-ui, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #111418; --card: #1a1e24; --text: #e7eaee; --muted: #9aa5b3; --line: #2b313a;
-      --accent: #7aa2ff; --ok: #5fd08f; --ok-bg: #173323; --warn: #f1b45a; --warn-bg: #3a2b12;
-      --hot: #ff8a7d; --hot-bg: #3d1a17; --off-bg: #232830;
+    :root:not([data-theme="light"]) {
+      --bg: #0F1424; --painel: #171E31; --tinta: #E8ECF4; --suave: #9BA6BA; --linha: #263049;
+      --azul: #5AA2FF; --super-bg: #3A1628; --limite-bg: #3A2612; --acima-bg: #232B3F;
+      --ok: #5CD394; --falha: #FF9A6B;
     }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
-         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
-  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
-  h1 { font-size: 1.4rem; margin: 0; }
-  h2 { font-size: 1.05rem; margin: 32px 0 10px; }
-  .muted { color: var(--muted); }
-  .small { font-size: .85rem; }
-  button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text);
-           border-radius: 8px; padding: 6px 12px; cursor: pointer; }
-  button:hover { border-color: var(--accent); }
-  .fontes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px;
-          font-size: .82rem; background: var(--off-bg); white-space: nowrap; }
-  .chip.ok { background: var(--ok-bg); color: var(--ok); }
-  .chip.bad { background: var(--warn-bg); color: var(--warn); }
-  .chip.hot { background: var(--hot-bg); color: var(--hot); font-weight: 600; }
-  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 20px; }
-  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
-  .tile .label { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
-  .tile .value { font-size: 1.6rem; font-weight: 700; margin: 2px 0; font-variant-numeric: tabular-nums; }
-  .tile .sub { font-size: .85rem; color: var(--muted); }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); font-weight: 600; }
-  tr:last-child td { border-bottom: 0; }
-  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
-  td.titulo { min-width: 260px; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .vazio { padding: 18px; color: var(--muted); }
-  details { margin-top: 24px; }
-  summary { cursor: pointer; font-weight: 600; }
-  details .card { margin-top: 10px; }
-  .erro { background: var(--warn-bg); color: var(--warn); padding: 12px 16px; border-radius: 10px; margin-top: 16px; }
-  footer { margin-top: 36px; font-size: .82rem; color: var(--muted); }
-  /* celular: cada linha da tabela vira um cartão empilhado */
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--tinta); font: 16px/1.5 var(--texto); }
+  a { color: var(--azul); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; border-radius: 4px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- hero: o horizonte é o eixo de preços ---------- */
+  .hero { position: relative; color: #fff; overflow: hidden;
+          background: linear-gradient(180deg, var(--noite) 0%, #2C1748 30%, var(--dusk) 52%, var(--magenta) 74%, var(--sol) 100%); }
+  .hero-topo { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-top: 20px;
+               font-size: .9rem; color: rgba(255,255,255,.78); }
+  .hero-topo strong { color: #fff; font-weight: 600; }
+  .recarregar { font: inherit; color: #fff; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.3);
+                border-radius: 999px; padding: 5px 14px; cursor: pointer; }
+  .recarregar:hover { background: rgba(255,255,255,.2); }
+  .manchete { padding: 40px 0 8px; max-width: 760px; }
+  .manchete h1 { font: 800 clamp(3.4rem, 10vw, 7rem)/.9 var(--display); margin: 0; letter-spacing: -.01em; }
+  .manchete h1 small { display: block; font: 600 clamp(1.3rem, 3vw, 1.9rem)/1.15 var(--display); letter-spacing: .01em;
+                       color: rgba(255,255,255,.85); margin-top: 10px; }
+  .veredito { font-size: 1.12rem; margin: 18px 0 0; max-width: 56ch; color: rgba(255,255,255,.92); }
+  .acoes { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin-top: 22px; }
+  .botao { display: inline-block; background: #fff; color: var(--noite); font-weight: 600; padding: 11px 22px;
+           border-radius: 999px; }
+  .botao:hover { text-decoration: none; background: var(--sol-claro); }
+  .acoes .nota { font-size: .92rem; color: rgba(255,255,255,.75); }
+
+  .cena { position: relative; height: 230px; margin-top: 26px; }
+  .ceu-fim { position: absolute; inset: 0 0 46% 0; }
+  .mar { position: absolute; left: 0; right: 0; bottom: 0; top: 54%; z-index: 2;
+         background: linear-gradient(180deg, #2B1C4A 0%, var(--mar) 45%, var(--mar-fundo) 100%); }
+  .horizonte { position: absolute; left: 0; right: 0; top: 54%; height: 1px; background: rgba(255,255,255,.55); z-index: 3; }
+  .zona { position: absolute; top: 54%; bottom: 0; z-index: 2; }
+  .zona.super { background: linear-gradient(180deg, rgba(255,79,139,.42), rgba(255,79,139,.06)); }
+  .zona.limite { background: linear-gradient(180deg, rgba(255,150,40,.5), rgba(255,150,40,.06)); }
+  .zona span { position: absolute; top: 10px; left: 10px; font-size: .78rem; font-weight: 600; white-space: nowrap; }
+  .zona.super span { color: #FFB3CB; }
+  .zona.limite span { color: #FFC98C; }
+  .marca-eixo { position: absolute; bottom: 10px; z-index: 3; transform: translateX(-50%);
+                font-size: .74rem; color: rgba(255,255,255,.55); font-variant-numeric: tabular-nums; }
+  .sol { position: absolute; top: 54%; width: 96px; height: 96px; margin: -48px 0 0 -48px; border-radius: 50%; z-index: 1;
+         background: radial-gradient(circle at 50% 45%, #FFF3C4 0%, var(--sol-claro) 38%, var(--sol) 70%, #FF6A3D 100%);
+         box-shadow: 0 0 60px 18px rgba(255,170,80,.55); }
+  .reflexo { position: absolute; top: 54%; width: 160px; margin-left: -80px; height: 46%; z-index: 2; pointer-events: none;
+             background: repeating-linear-gradient(180deg, rgba(255,214,150,.5) 0 2px, transparent 2px 8px),
+                         radial-gradient(ellipse 50% 90% at 50% 0, rgba(255,170,90,.45), transparent 70%);
+             -webkit-mask-image: radial-gradient(ellipse 45% 100% at 50% 0, #000 20%, transparent 80%);
+             mask-image: radial-gradient(ellipse 45% 100% at 50% 0, #000 20%, transparent 80%); }
+  @media (prefers-reduced-motion: no-preference) {
+    .sol, .reflexo { animation: por-do-sol 1.6s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes por-do-sol { from { transform: translateY(-120px); opacity: 0; } to { transform: none; opacity: 1; } }
+  }
+  .ponto { position: absolute; top: 54%; z-index: 4; transform: translate(-50%, -50%); }
+  .ponto i { display: block; width: 11px; height: 11px; border-radius: 50%; background: #fff; border: 2px solid var(--noite); }
+  .ponto span { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+                font-size: .78rem; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.5); }
+  .recorde { position: absolute; top: 54%; bottom: 30px; z-index: 3; border-left: 1px dashed rgba(255,255,255,.7); }
+  .recorde span { position: absolute; bottom: 0; left: 6px; font-size: .74rem; color: #fff; white-space: nowrap; }
+  .palmeira { position: absolute; bottom: 46%; z-index: 1; fill: #170E2C; pointer-events: none; }
+  .palmeira.esq { left: -14px; width: 120px; }
+  .palmeira.dir { right: -10px; width: 170px; transform: scaleX(-1); }
+  /* carcaça do console fechando o hero */
+  .carcaca { display: block; width: 100%; height: 56px; margin-top: -1px; position: relative; z-index: 5; background: var(--mar-fundo); }
+  .carcaca path { fill: var(--bg); }
+
+  /* ---------- corpo ---------- */
+  main.wrap { padding-bottom: 56px; }
+  .grade { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 40px; margin-top: 8px; }
+  h2 { font: 800 2rem/1.05 var(--display); margin: 0 0 4px; letter-spacing: .005em; }
+  .sub { color: var(--suave); margin: 0 0 18px; font-size: .95rem; }
+
+  .ofertas { list-style: none; margin: 0; padding: 0; }
+  .oferta { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 4px 20px; padding: 18px 0 18px 18px;
+            border-bottom: 1px solid var(--linha); position: relative; }
+  .oferta::before { content: ""; position: absolute; left: 0; top: 18px; bottom: 18px; width: 4px; border-radius: 4px; background: var(--acima); }
+  .oferta.super::before { background: var(--super); }
+  .oferta.limite::before { background: var(--limite); }
+  .oferta .preco { font: 800 2rem/1 var(--display); font-variant-numeric: tabular-nums; }
+  .oferta .preco small { display: block; font: 400 .85rem/1.3 var(--texto); color: var(--suave); margin-top: 6px; }
+  .oferta .titulo { font-weight: 600; line-height: 1.35; }
+  .oferta .detalhe { color: var(--suave); font-size: .92rem; margin-top: 4px; }
+  .etiqueta { display: inline-block; font-size: .8rem; font-weight: 600; padding: 2px 10px; border-radius: 999px; margin: 8px 6px 0 0; }
+  .etiqueta.super { background: var(--super-bg); color: var(--super); }
+  .etiqueta.limite { background: var(--limite-bg); color: var(--limite); }
+  .etiqueta.acima { background: var(--acima-bg); color: var(--suave); }
+  .etiqueta.recorde { background: transparent; color: var(--ok); border: 1px solid currentColor; }
+  .vazio { color: var(--suave); padding: 18px 0; }
+
+  aside section + section { margin-top: 40px; }
+  .painel { background: var(--painel); border-radius: 18px; padding: 20px 22px; }
+  aside h2 { font-size: 1.6rem; }
+  .fontes { list-style: none; margin: 0; padding: 0; }
+  .fontes li { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--linha); font-size: .95rem; }
+  .fontes li:last-child { border-bottom: 0; }
+  .fontes .estado { color: var(--suave); text-align: right; }
+  .fontes .estado::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px;
+                            background: var(--ok); vertical-align: 1px; }
+  .fontes .estado.falha { color: var(--falha); }
+  .fontes .estado.falha::before { background: var(--falha); }
+  .fontes .estado.off::before { background: var(--acima); }
+  .contagem { margin: 16px 0 0; font-size: .92rem; color: var(--suave); }
+
+  .linha-tempo { list-style: none; margin: 0; padding: 0 0 0 18px; border-left: 2px solid var(--linha); }
+  .linha-tempo li { position: relative; padding: 0 0 18px 4px; }
+  .linha-tempo li::before { content: ""; position: absolute; left: -25px; top: 6px; width: 12px; height: 12px; border-radius: 50%;
+                            background: var(--limite); border: 2px solid var(--bg); }
+  .linha-tempo li.super::before { background: var(--super); }
+  .linha-tempo time { display: block; font-size: .85rem; color: var(--suave); }
+  .linha-tempo .valor { font: 800 1.35rem/1.1 var(--display); }
+  .linha-tempo a { font-size: .92rem; }
+
+  .historico { margin-top: 56px; }
+  .tabela { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  .tabela th { text-align: left; font-weight: 600; color: var(--suave); font-size: .85rem; padding: 0 12px 10px 0; border-bottom: 2px solid var(--linha); }
+  .tabela td { padding: 12px 12px 12px 0; border-bottom: 1px solid var(--linha); vertical-align: top; }
+  .tabela td.num { font: 800 1.2rem/1.2 var(--display); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .tabela td.quando { color: var(--suave); font-size: .88rem; white-space: nowrap; }
+  .ativa { color: var(--ok); font-weight: 600; }
+
+  details { margin-top: 40px; }
+  summary { cursor: pointer; font-weight: 600; color: var(--azul); }
+  details[open] summary { margin-bottom: 14px; }
+  .motivo { color: var(--suave); font-size: .88rem; }
+
+  .erro { background: var(--limite-bg); color: var(--tinta); padding: 14px 18px; border-radius: 12px; margin: 16px 0 0; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--linha); color: var(--suave); font-size: .9rem; max-width: 70ch; }
+
+  @media (max-width: 900px) {
+    .grade { grid-template-columns: 1fr; gap: 48px; }
+  }
   @media (max-width: 640px) {
-    thead { display: none; }
-    table, tbody, tr, td { display: block; width: 100%; }
-    tr { padding: 10px 14px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; }
-    tr:last-child { border-bottom: 0; }
-    td { border: 0; padding: 3px 0; display: flex; gap: 10px; }
-    td::before { content: attr(data-label); flex: 0 0 96px; font-size: .75rem; color: var(--muted);
-                 text-transform: uppercase; letter-spacing: .03em; padding-top: 2px; }
-    td.titulo { min-width: 0; }
-    td.titulo::before { content: none; }
-    td.titulo { order: -1; font-weight: 600; padding-bottom: 6px; }
+    .wrap { padding: 0 16px; }
+    .manchete { padding-top: 28px; }
+    .cena { height: 200px; }
+    .ponto span, .zona span { display: none; }
+    .zona.super span { display: block; }
+    .palmeira.esq { width: 64px; } .palmeira.dir { width: 84px; }
+    .carcaca { height: 32px; }
+    .sol { width: 72px; height: 72px; margin: -36px 0 0 -36px; }
+    .oferta { grid-template-columns: 1fr; padding-left: 16px; }
+    .tabela thead { display: none; }
+    .tabela, .tabela tbody, .tabela tr, .tabela td { display: block; }
+    .tabela tr { padding: 12px 0; border-bottom: 1px solid var(--linha); }
+    .tabela td { border: 0; padding: 2px 0; }
   }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <div>
-      <h1>Monitor PS5 Slim Digital + Astro Bot</h1>
-      <div class="muted small" id="atualizado">Carregando…</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-topo">
+      <span id="atualizado">Carregando as ofertas…</span>
+      <button class="recarregar" id="recarregar" type="button">Atualizar</button>
     </div>
-    <button id="recarregar" type="button">Atualizar</button>
-  </header>
-  <div class="fontes" id="fontes"></div>
+    <div class="manchete">
+      <h1 id="manchete">PS5 Digital<small>com Astro Bot</small></h1>
+      <p class="veredito" id="veredito"></p>
+      <div class="acoes" id="acoes"></div>
+    </div>
+  </div>
+
+  <div class="cena" id="cena" aria-label="Preços das ofertas no horizonte">
+    <svg class="palmeira esq" viewBox="0 0 120 200" aria-hidden="true"><path d="M58 200c2-40 4-82 10-122l5 1c-5 40-7 81-8 121z"/><path d="M70 78c-14-14-38-20-62-14 22-2 40 6 52 18-18-6-38-2-52 10 18-8 36-8 52 0-10 6-18 18-20 32 8-14 18-24 30-28 0 12-4 26-12 36 12-10 18-22 20-34 6 10 8 22 6 34 6-14 4-28-2-38 14 2 26 10 34 22-4-16-16-26-30-28 14-8 30-8 44 0-12-12-30-14-46-8 12-10 28-14 44-10-16-8-36-4-50 6 2-12 10-22 22-28-14 2-26 12-30 26z"/></svg>
+    <svg class="palmeira dir" viewBox="0 0 120 200" aria-hidden="true"><path d="M50 200c6-46 14-88 26-128l5 2c-12 40-20 82-25 126z"/><path d="M78 74c-12-16-36-26-62-22 22 0 42 10 54 24-18-8-40-6-56 4 20-6 40-4 56 4-12 6-22 16-26 30 10-12 22-20 34-24-2 12-8 24-16 32 14-8 22-20 26-32 4 10 4 22 0 34 8-12 8-26 4-36 14 4 24 14 30 26-2-16-12-28-26-32 14-6 30-4 42 4-10-12-28-16-44-12 12-8 30-10 44-4-14-10-34-8-48 0 4-12 14-20 26-24-16 0-28 8-34 20z"/></svg>
+    <div class="horizonte"></div>
+    <div class="mar"></div>
+    <div id="camada"></div>
+  </div>
+  <svg class="carcaca" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 56V30C260 6 520 0 760 6c260 6 470 20 680 50z"/>
+  </svg>
+</header>
+
+<main class="wrap">
   <div id="erro"></div>
+  <div class="grade">
+    <section aria-labelledby="t-ofertas">
+      <h2 id="t-ofertas">Ofertas agora</h2>
+      <p class="sub" id="sub-ofertas">PS5 Slim Digital com Astro Bot encontrados na última verificação, do mais barato ao mais caro.</p>
+      <ul class="ofertas" id="ofertas"></ul>
+    </section>
 
-  <div class="tiles" id="tiles"></div>
+    <aside>
+      <section class="painel" aria-labelledby="t-fontes">
+        <h2 id="t-fontes">Onde o monitor procura</h2>
+        <ul class="fontes" id="fontes"></ul>
+        <p class="contagem" id="contagem"></p>
+      </section>
+      <section aria-labelledby="t-alertas">
+        <h2 id="t-alertas">Avisos no celular</h2>
+        <p class="sub">O que já foi enviado para o seu ntfy.</p>
+        <ol class="linha-tempo" id="alertas"></ol>
+      </section>
+    </aside>
+  </div>
 
-  <h2>Ofertas encontradas na última verificação</h2>
-  <div class="card" id="atuais"></div>
+  <section class="historico" aria-labelledby="t-hist">
+    <h2 id="t-hist">Tudo o que apareceu nos últimos 30 dias</h2>
+    <p class="sub">Inclui ofertas que já saíram do ar. O menor preço é o mais baixo que cada uma chegou a ter.</p>
+    <div id="catalogo"></div>
+  </section>
 
-  <h2>Alertas enviados</h2>
-  <div class="card" id="alertas"></div>
-
-  <h2>Todas as ofertas já vistas <span class="muted small">(últimos 30 dias)</span></h2>
-  <div class="card" id="catalogo"></div>
-
-  <details id="descartes-box">
-    <summary id="descartes-titulo">Anúncios descartados pelo filtro</summary>
-    <div class="card" id="descartes"></div>
+  <details>
+    <summary id="descartes-titulo">Anúncios ignorados pelo filtro</summary>
+    <div id="descartes"></div>
   </details>
 
-  <footer>
-    O monitor roda no GitHub Actions a cada ~10 minutos; esta página relê os dados a cada 2 minutos.
-    Confira sempre o preço no link antes de comprar.
+  <footer id="rodape">
+    O monitor confere Promobit, Pelando e Zoom a cada 10 minutos, mais ou menos, e esta página se atualiza sozinha.
+    Antes de comprar, confira o preço no site da loja.
   </footer>
 </main>
 
@@ -109,9 +249,9 @@
 (function () {
   "use strict";
   var TZ = "America/Fortaleza";
+  var BLACK_FRIDAY = "2026-11-27";
+  var NOMES = { promobit: "Promobit", pelando: "Pelando", zoom: "Zoom" };
 
-  // Em <usuario>.github.io/<repo>/ lê direto do repositório (sempre atualizado);
-  // aberto localmente, lê ../data/history.json.
   function urlDados() {
     var host = location.hostname;
     if (/\.github\.io$/.test(host)) {
@@ -121,138 +261,182 @@
     }
     return "../data/history.json";
   }
-
+  function el(id) { return document.getElementById(id); }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
-  function linkSeguro(u) { return /^https?:\/\//i.test(u || "") ? u : "#"; }
+  function seguro(u) { return /^https?:\/\//i.test(u || "") ? u : "#"; }
   function brl(v) {
     if (v == null) return "—";
     var inteiro = Math.round(v * 100) % 100 === 0;
     return v.toLocaleString("pt-BR", { style: "currency", currency: "BRL",
       minimumFractionDigits: inteiro ? 0 : 2, maximumFractionDigits: 2 });
   }
-  function dataHora(iso) {
-    if (!iso) return "—";
-    return new Date(iso).toLocaleString("pt-BR", { timeZone: TZ, day: "2-digit", month: "2-digit",
-      hour: "2-digit", minute: "2-digit" });
+  function curto(v) { return Math.round(v).toLocaleString("pt-BR"); }
+  function quando(iso) {
+    return new Date(iso).toLocaleString("pt-BR", { timeZone: TZ, day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })
+      .replace(".", "");
   }
   function haQuanto(iso) {
     var min = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
-    if (min < 1) return "agora há pouco";
+    if (min < 1) return "agora mesmo";
     if (min < 60) return "há " + min + " min";
     var h = Math.floor(min / 60);
-    if (h < 48) return "há " + h + " h" + (min % 60 ? " " + (min % 60) + " min" : "");
-    return "há " + Math.floor(h / 24) + " dias";
+    return h < 48 ? "há " + h + " h" : "há " + Math.floor(h / 24) + " dias";
   }
-  function parcelamento(o) {
-    if (!o.parcelas || o.parcelas <= 1) return '<span class="muted">não informado</span>';
-    var valor = o.valor_parcela || o.preco_total / o.parcelas;
-    return esc(o.parcelas + "x de " + brl(valor)) + (o.sem_juros ? " sem juros" : "");
+  function diasAte(isoData) {
+    var hoje = new Date(new Date().toLocaleString("en-US", { timeZone: TZ }));
+    hoje.setHours(0, 0, 0, 0);
+    return Math.round((new Date(isoData + "T00:00:00") - hoje) / 86400000);
   }
-  function linkOferta(o) {
-    return '<a href="' + esc(linkSeguro(o.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(o.titulo) + "</a>";
+  function estado(o) { return o.nivel === "especial" ? "super" : o.nivel === "normal" ? "limite" : "acima"; }
+  var TEXTO_ESTADO = { super: "Super promoção", limite: "Dentro do seu limite", acima: "Acima do limite" };
+  function parcelas(o) {
+    if (!o.parcelas || o.parcelas <= 1) return "parcelamento não informado";
+    return o.parcelas + "x de " + brl(o.valor_parcela || o.preco_total / o.parcelas) + (o.sem_juros ? " sem juros" : "");
   }
-  function situacao(o) {
-    var tags = [];
-    if (o.nivel === "especial") tags.push('<span class="chip hot">Super promoção</span>');
-    else if (o.nivel === "normal") tags.push('<span class="chip ok">Dentro do limite</span>');
-    else tags.push('<span class="chip">Acima do limite</span>');
-    if (o.menor_preco) tags.push('<span class="chip ok">Menor preço já visto</span>');
-    if (o.alertar) tags.push('<span class="chip">Alerta enviado</span>');
-    return tags.join(" ");
+  function link(o, texto) {
+    return '<a href="' + esc(seguro(o.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(texto || o.titulo) + "</a>";
   }
-  function tabela(cabecalho, linhas, vazio) {
-    if (!linhas.length) return '<div class="vazio">' + esc(vazio) + "</div>";
-    return "<table><thead><tr>" + cabecalho.map(function (h) { return "<th>" + h + "</th>"; }).join("") +
-      "</tr></thead><tbody>" + linhas.join("") + "</tbody></table>";
-  }
-  function el(id) { return document.getElementById(id); }
-  // copia o nome da coluna para cada célula (usado no layout de celular)
-  function rotular() {
-    Array.prototype.forEach.call(document.querySelectorAll("table"), function (t) {
-      var nomes = Array.prototype.map.call(t.querySelectorAll("th"), function (th) { return th.textContent; });
-      Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function (tr) {
-        Array.prototype.forEach.call(tr.children, function (td, i) { td.setAttribute("data-label", nomes[i] || ""); });
-      });
+
+  /* ---------- hero ---------- */
+  function renderHero(ex, validas, d) {
+    var lim = ex.limites || {};
+    var melhor = validas[0];
+    el("atualizado").innerHTML = "Última olhada <strong>" + haQuanto(ex.ts) + "</strong>";
+
+    var bf = diasAte(BLACK_FRIDAY);
+    var notaBf = bf > 1 ? "Faltam " + bf + " dias para a Black Friday." : bf === 1 ? "A Black Friday é amanhã." :
+                 bf === 0 ? "Hoje é Black Friday." : "";
+
+    if (!melhor) {
+      el("manchete").innerHTML = "Nada por enquanto<small>nenhum PS5 Digital com Astro Bot à venda nas fontes</small>";
+      el("veredito").textContent = "O monitor continua procurando e avisa no celular quando aparecer algo abaixo de " + brl(lim.normal) + ".";
+      el("acoes").innerHTML = notaBf ? '<span class="nota">' + notaBf + "</span>" : "";
+    } else {
+      el("manchete").innerHTML = esc(brl(melhor.preco_total)) + "<small>na " + esc(melhor.loja) + ", achado no " +
+        esc(NOMES[melhor.fonte] || melhor.fonte) + "</small>";
+      var v;
+      if (melhor.nivel === "especial") v = "É super promoção: abaixo de " + brl(lim.especial) + " ou bem abaixo da média recente. Vale abrir o link agora.";
+      else if (melhor.nivel === "normal") v = "Está abaixo do seu limite de " + brl(lim.normal) + ". Para virar super promoção, falta cair mais " +
+        brl(melhor.preco_total - lim.especial) + ".";
+      else v = "Ainda acima do seu limite. Falta cair " + brl(melhor.preco_total - lim.normal) + " para chegar em " + brl(lim.normal) + ".";
+      el("veredito").textContent = v;
+      el("acoes").innerHTML = '<a class="botao" href="' + esc(seguro(melhor.link)) + '" target="_blank" rel="noopener noreferrer">Abrir a oferta</a>' +
+        (notaBf ? '<span class="nota">' + notaBf + "</span>" : "");
+    }
+
+    // escala do eixo: do menor valor relevante ao maior, em passos de R$ 500
+    var vals = validas.map(function (o) { return o.preco_total; }).concat([lim.especial, lim.normal]);
+    if (d.menor_preco) vals.push(d.menor_preco.preco);
+    vals = vals.filter(function (x) { return typeof x === "number"; });
+    var lo = Math.floor((Math.min.apply(null, vals) - 250) / 500) * 500;
+    var hi = Math.ceil((Math.max.apply(null, vals) + 250) / 500) * 500;
+    if (hi - lo < 1500) hi = lo + 1500;
+    function x(v) { return 5 + (Math.min(Math.max(v, lo), hi) - lo) / (hi - lo) * 90; }
+
+    var h = "";
+    if (lim.especial) h += '<div class="zona super" style="left:0;width:' + x(lim.especial) + '%"><span>Super promoção até ' + brl(lim.especial) + "</span></div>";
+    if (lim.normal) h += '<div class="zona limite" style="left:' + x(lim.especial || lo) + "%;width:" + (x(lim.normal) - x(lim.especial || lo)) +
+      '%"><span>Seu limite: ' + brl(lim.normal) + "</span></div>";
+    for (var t = lo + 500; t < hi; t += 500) h += '<span class="marca-eixo" style="left:' + x(t) + '%">' + curto(t) + "</span>";
+
+    if (melhor) {
+      h += '<div class="sol" style="left:' + x(melhor.preco_total) + '%" title="' + esc(brl(melhor.preco_total) + " na " + melhor.loja) + '"></div>';
+      h += '<div class="reflexo" style="left:' + x(melhor.preco_total) + '%"></div>';
+    }
+    var ultimoX = melhor ? x(melhor.preco_total) : -100;
+    validas.slice(1).forEach(function (o) {
+      var px = x(o.preco_total);
+      var rotulo = px - ultimoX > 12 ? "<span>" + esc(o.loja) + " " + curto(o.preco_total) + "</span>" : "";
+      if (rotulo) ultimoX = px;
+      h += '<div class="ponto" style="left:' + px + '%" title="' + esc(brl(o.preco_total) + " na " + o.loja) + '"><i></i>' + rotulo + "</div>";
     });
+    if (d.menor_preco && (!melhor || d.menor_preco.preco < melhor.preco_total)) {
+      h += '<div class="recorde" style="left:' + x(d.menor_preco.preco) + '%"><span>menor já visto: ' + curto(d.menor_preco.preco) + "</span></div>";
+    }
+    el("camada").innerHTML = h;
+  }
+
+  /* ---------- corpo ---------- */
+  function renderOfertas(validas) {
+    if (!validas.length) {
+      el("ofertas").innerHTML = '<li class="vazio">Nenhuma oferta do console certo na última verificação. Os anúncios de jogos e acessórios ficam na lista de ignorados, no fim da página.</li>';
+      return;
+    }
+    el("ofertas").innerHTML = validas.map(function (o) {
+      var e = estado(o);
+      return '<li class="oferta ' + e + '"><div class="preco">' + esc(brl(o.preco_total)) + "<small>" + esc(parcelas(o)) + "</small></div>" +
+        '<div><div class="titulo">' + link(o) + '</div><div class="detalhe">' + esc(o.loja) + ", via " + esc(NOMES[o.fonte] || o.fonte) +
+        (o.cupom ? ". Cupom: " + esc(o.cupom) : "") + "</div>" +
+        '<span class="etiqueta ' + e + '">' + TEXTO_ESTADO[e] + "</span>" +
+        (o.menor_preco ? '<span class="etiqueta recorde">Menor preço já visto</span>' : "") + "</div></li>";
+    }).join("");
+  }
+
+  function renderFontes(ex, descartadas) {
+    var f = ex.fontes || {};
+    el("fontes").innerHTML = Object.keys(f).map(function (nome) {
+      var s = f[nome], txt, cls = "";
+      if (s.status === "ok") txt = s.anuncios + (s.anuncios === 1 ? " anúncio" : " anúncios");
+      else if (s.status === "desativada") { txt = "desligada"; cls = " off"; }
+      else if (s.status === "bloqueada") { txt = "bloqueou o acesso"; cls = " falha"; }
+      else { txt = "fora do ar"; cls = " falha"; }
+      return "<li><span>" + esc(NOMES[nome] || nome) + '</span><span class="estado' + cls + '" title="' + esc(s.erro || "") + '">' + txt + "</span></li>";
+    }).join("");
+    el("contagem").textContent = descartadas + " anúncios eram jogos, acessórios ou outro modelo de console e foram ignorados.";
+  }
+
+  function renderAlertas(lista) {
+    if (!lista.length) {
+      el("alertas").innerHTML = '<li class="vazio" style="padding-top:0">Nenhum aviso enviado ainda. Quando uma oferta passar do seu limite, ela aparece aqui.</li>';
+      return;
+    }
+    el("alertas").innerHTML = lista.slice().reverse().slice(0, 12).map(function (a) {
+      return '<li class="' + (a.nivel === "especial" ? "super" : "") + '"><time datetime="' + esc(a.ts) + '">' + esc(quando(a.ts)) + "</time>" +
+        '<div class="valor">' + esc(brl(a.preco)) + "</div>" + link(a, a.loja + (a.nivel === "especial" ? ", super promoção" : "")) + "</li>";
+    }).join("");
+  }
+
+  function renderCatalogo(d, ex) {
+    var cat = Object.keys(d.ofertas || {}).map(function (k) { return d.ofertas[k]; })
+      .sort(function (a, b) { return a.menor_preco - b.menor_preco; });
+    if (!cat.length) { el("catalogo").innerHTML = '<p class="vazio">Ainda não apareceu nenhuma oferta do console.</p>'; return; }
+    el("catalogo").innerHTML = '<table class="tabela"><thead><tr><th>Menor preço</th><th>Oferta</th><th>Loja</th><th>Último preço</th><th>Visto</th></tr></thead><tbody>' +
+      cat.map(function (o) {
+        var ativa = o.ultimo_visto === ex.ts;
+        return '<tr><td class="num">' + esc(brl(o.menor_preco)) + "</td><td>" + link(o) + "</td><td>" + esc(o.loja) + '</td><td class="num">' +
+          esc(brl(o.ultimo_preco)) + '</td><td class="quando">' + (ativa ? '<span class="ativa">No ar agora</span>' : "Saiu " + esc(quando(o.ultimo_visto))) +
+          "<br>Desde " + esc(quando(o.primeiro_visto)) + "</td></tr>";
+      }).join("") + "</tbody></table>";
+  }
+
+  function renderDescartes(lista) {
+    el("descartes-titulo").textContent = "Ver os " + lista.length + " anúncios ignorados pelo filtro";
+    el("descartes").innerHTML = '<table class="tabela"><thead><tr><th>Preço</th><th>Anúncio</th><th>Por que ficou de fora</th></tr></thead><tbody>' +
+      lista.sort(function (a, b) { return a.preco_total - b.preco_total; }).map(function (o) {
+        return '<tr><td class="num">' + esc(brl(o.preco_total)) + "</td><td>" + link(o) + '</td><td class="motivo">' + esc(o.motivo) + "</td></tr>";
+      }).join("") + "</tbody></table>";
   }
 
   function render(d) {
-    var ex = d.ultima_execucao;
     el("erro").innerHTML = "";
+    var ex = d.ultima_execucao;
     if (!ex) {
-      el("atualizado").textContent = "Ainda não há dados: aguarde a próxima execução do monitor.";
+      el("atualizado").textContent = "Ainda sem dados. A primeira verificação aparece aqui em até 10 minutos.";
       return;
     }
-    el("atualizado").textContent = "Última verificação: " + haQuanto(ex.ts) + " (" + dataHora(ex.ts) + ", horário de Fortaleza)";
-
-    // status das fontes
-    el("fontes").innerHTML = Object.keys(ex.fontes || {}).map(function (nome) {
-      var f = ex.fontes[nome];
-      if (f.status === "ok") return '<span class="chip ok">● ' + esc(nome) + ": " + f.anuncios + " anúncios</span>";
-      if (f.status === "desativada") return '<span class="chip">○ ' + esc(nome) + ": desativada</span>";
-      return '<span class="chip bad" title="' + esc(f.erro) + '">● ' + esc(nome) + ": " + esc(f.status) + "</span>";
-    }).join("");
-
     var itens = ex.itens || [];
     var validas = itens.filter(function (i) { return i.valida; }).sort(function (a, b) { return a.preco_total - b.preco_total; });
     var descartadas = itens.filter(function (i) { return !i.valida; });
-    var melhor = validas[0];
-    var menor = d.menor_preco;
-    var lim = ex.limites || {};
-
-    // destaques
-    el("tiles").innerHTML = [
-      '<div class="tile"><div class="label">Melhor oferta agora</div><div class="value">' + (melhor ? brl(melhor.preco_total) : "—") +
-        '</div><div class="sub">' + (melhor ? esc(melhor.loja) + " · via " + esc(melhor.fonte) : "nenhuma oferta válida") + "</div></div>",
-      '<div class="tile"><div class="label">Menor preço já visto</div><div class="value">' + (menor ? brl(menor.preco) : "—") +
-        '</div><div class="sub">' + (menor ? esc(menor.loja) + " · " + dataHora(menor.ts) : "") + "</div></div>",
-      '<div class="tile"><div class="label">Limite do alerta normal</div><div class="value">' + brl(lim.normal) +
-        '</div><div class="sub">na faixa de horário atual</div></div>',
-      '<div class="tile"><div class="label">Super promoção</div><div class="value">' + brl(lim.especial) +
-        '</div><div class="sub">ou queda forte sobre a média</div></div>'
-    ].join("");
-
-    // ofertas atuais
-    el("atuais").innerHTML = tabela(["Preço", "Parcelamento", "Loja", "Oferta", "Fonte", "Situação"],
-      validas.map(function (o) {
-        return "<tr><td class=\"num\">" + brl(o.preco_total) + "</td><td>" + parcelamento(o) + "</td><td>" + esc(o.loja) +
-          (o.cupom ? '<div class="muted small">cupom: ' + esc(o.cupom) + "</div>" : "") +
-          '</td><td class="titulo">' + linkOferta(o) + "</td><td>" + esc(o.fonte) + "</td><td>" + situacao(o) + "</td></tr>";
-      }), "Nenhuma oferta do PS5 Digital + Astro Bot na última verificação.");
-
-    // alertas enviados
-    var alertas = (d.alertas_enviados || []).slice().reverse();
-    el("alertas").innerHTML = tabela(["Quando", "Tipo", "Preço", "Loja", "Oferta"],
-      alertas.map(function (a) {
-        var tipo = a.nivel === "especial" ? '<span class="chip hot">Super promoção</span>' : '<span class="chip ok">Normal</span>';
-        return "<tr><td>" + dataHora(a.ts) + "</td><td>" + tipo + '</td><td class="num">' + brl(a.preco) + "</td><td>" +
-          esc(a.loja) + '</td><td class="titulo">' + linkOferta(a) + "</td></tr>";
-      }), "Nenhum alerta enviado ainda.");
-
-    // catálogo
-    var cat = Object.keys(d.ofertas || {}).map(function (k) { return d.ofertas[k]; })
-      .sort(function (a, b) { return a.menor_preco - b.menor_preco; });
-    el("catalogo").innerHTML = tabela(["Menor preço", "Último preço", "Loja", "Oferta", "Fonte", "Visto"],
-      cat.map(function (o) {
-        var ativa = o.ultimo_visto === ex.ts;
-        return '<tr><td class="num">' + brl(o.menor_preco) + '</td><td class="num">' + brl(o.ultimo_preco) + "</td><td>" +
-          esc(o.loja) + '</td><td class="titulo">' + linkOferta(o) + "</td><td>" + esc(o.fonte) + '</td><td class="small">' +
-          (ativa ? '<span class="chip ok">ativa agora</span>' : "última vez " + dataHora(o.ultimo_visto)) +
-          '<div class="muted">desde ' + dataHora(o.primeiro_visto) + "</div></td></tr>";
-      }), "Nenhuma oferta válida registrada ainda.");
-
-    // descartes
-    el("descartes-titulo").textContent = "Anúncios descartados pelo filtro (" + descartadas.length + ")";
-    el("descartes").innerHTML = tabela(["Preço", "Anúncio", "Fonte", "Motivo"],
-      descartadas.sort(function (a, b) { return a.preco_total - b.preco_total; }).map(function (o) {
-        return '<tr><td class="num">' + brl(o.preco_total) + '</td><td class="titulo">' + linkOferta(o) + "</td><td>" +
-          esc(o.fonte) + '</td><td class="muted small">' + esc(o.motivo) + "</td></tr>";
-      }), "Nenhum anúncio descartado.");
-    rotular();
+    renderHero(ex, validas, d);
+    renderOfertas(validas);
+    renderFontes(ex, descartadas.length);
+    renderAlertas(d.alertas_enviados || []);
+    renderCatalogo(d, ex);
+    renderDescartes(descartadas);
   }
 
   function carregar() {
@@ -260,11 +444,10 @@
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(render)
       .catch(function (e) {
-        el("erro").innerHTML = '<div class="erro">Não consegui carregar os dados (' + esc(e.message) +
-          "). Se abriu o arquivo direto do computador, use o endereço do GitHub Pages.</div>";
+        el("erro").innerHTML = '<p class="erro">Não deu para carregar os dados (' + esc(e.message) +
+          "). Confira a conexão e toque em Atualizar. Se você abriu o arquivo direto do computador, use o endereço do GitHub Pages.</p>";
       });
   }
-
   el("recarregar").addEventListener("click", carregar);
   carregar();
   setInterval(carregar, 120000);

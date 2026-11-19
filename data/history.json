@@ -34,7 +34,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 0
+      "seguidas": 1
     },
     "promobit": {
       "aviso_enviado": false,
@@ -105,18 +105,18 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco": {
       "fonte": "kabum",
       "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/939943/xlarge/Playstation-5-Digital-825gb-Dualsense-Gran-Turismo-7-E-Astro-Bot_1794850716.jpg",
       "link": "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
-      "loja": "Magalu",
+      "loja": "Magalu (oferta relâmpago)",
       "menor_preco": 4509.57,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -127,7 +127,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -149,7 +149,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "PlayStation 5 Slim Digital 825GB - Pacote ASTRO BOT e Gran Turismo 7",
       "ultimo_preco": 3799.99,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k": {
       "fonte": "zoom",
@@ -160,7 +160,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7499.9,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -171,7 +171,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4179.05,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -182,7 +182,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k": {
       "fonte": "zoom",
@@ -193,7 +193,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-19T19:53:06+00:00"
+      "ultimo_visto": "2026-11-19T19:57:58+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1581835330": {
       "fonte": "zoom",
@@ -332,8 +332,8 @@
         "status": "ok"
       },
       "pelando": {
-        "anuncios": 1,
-        "status": "ok"
+        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
+        "status": "bloqueada"
       },
       "promobit": {
         "anuncios": 12,
@@ -348,7 +348,7 @@
       {
         "cupom": "PS5MAGA",
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/748941881017951173611460994037.jpg",
+        "imagem": "https://i.promobit.com.br/300/360969194417938046088264634717.png",
         "link": "https://www.promobit.com.br/oferta/r-100-off-no-console-playstation-5-slim-digital-edition-825gb-com-o-cupom-ps5maga-na-kabum-3232955/",
         "loja": "KaBuM!",
         "motivo": "preço 0.01 abaixo do mínimo válido (1500)",
@@ -362,7 +362,7 @@
       {
         "cupom": "100MAGALU",
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/814291175217951173563504020104.jpg",
+        "imagem": "https://i.promobit.com.br/300/360969194417938046088264634717.png",
         "link": "https://www.promobit.com.br/oferta/r-100-off-no-console-playstation-5-slim-digital-ssd-825gb-com-o-cupom-100magalu-na-kabum-3232954/",
         "loja": "KaBuM!",
         "motivo": "preço 0.01 abaixo do mínimo válido (1500)",
@@ -543,6 +543,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/710087365917951177724831371780.jpg",
+        "link": "https://www.promobit.com.br/oferta/cabo-hdmi-de-ultra-alta-velocidade-powera-para-playstation-5-cabo-hdmi-21-ps5-oficialmente-licenciado-3233008/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 177.79,
+        "sem_juros": false,
+        "titulo": "Cabo HDMI de ultra-alta velocidade PowerA para PlayStation 5 Cabo HDMI 2.1 PS5 Oficialmente Licenciado",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/736912/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Cinza_1746724879.jpg",
         "link": "https://www.kabum.com.br/produto/736912/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-cinza",
@@ -680,20 +694,6 @@
         "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Azul",
         "valida": false,
         "valor_parcela": 34.98
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/646310790217950983999902317352.jpg",
-        "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3231294/",
-        "loja": "Shopee",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 359.92,
-        "sem_juros": false,
-        "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -851,30 +851,13 @@
       },
       {
         "alertar": false,
-        "cupom": null,
-        "fonte": "pelando",
-        "imagem": "https://media.pelando.com.br/sTNWNe5ry_PSFucEBBsQ1MqWEAI=/0x300/filters:format(webp)/d/scp-wv68p-1795111478869.jpg",
-        "link": "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb",
-        "loja": "Loja Vivo",
-        "menor_preco": false,
-        "motivo": "<= R$ 3700 (super promoção); especial já avisado há 9 min",
-        "nivel": "especial",
-        "parcelas": null,
-        "preco_total": 3599.1,
-        "sem_juros": false,
-        "titulo": "PS5 Slim Digital 825GB 1 DualSense 4K 120fps",
-        "valida": true,
-        "valor_parcela": null
-      },
-      {
-        "alertar": false,
         "cupom": "Lojas Físicas / Parcelado",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/console_ps5_slim_digital_825gb_jogos_astro_bot_e_gran_turismo_7_2.jpg",
         "link": "https://www.promobit.com.br/oferta/playstation-5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3221514/",
         "loja": "Havan",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 87 min",
+        "motivo": "<= R$ 4000; já avisado há 91 min",
         "nivel": "normal",
         "parcelas": null,
         "preco_total": 3799.99,
@@ -985,7 +968,7 @@
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/939943/xlarge/Playstation-5-Digital-825gb-Dualsense-Gran-Turismo-7-E-Astro-Bot_1794850716.jpg",
         "link": "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
-        "loja": "Magalu",
+        "loja": "Magalu (oferta relâmpago)",
         "menor_preco": false,
         "motivo": "acima do limite normal (R$ 4000)",
         "nivel": "nenhum",
@@ -1071,6 +1054,24 @@
         "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
         "valida": true,
         "valor_parcela": null
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "pelando",
+        "imagem": "https://media.pelando.com.br/sTNWNe5ry_PSFucEBBsQ1MqWEAI=/0x300/filters:format(webp)/d/scp-wv68p-1795111478869.jpg",
+        "link": "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb",
+        "loja": "Loja Vivo",
+        "menor_preco": false,
+        "motivo": "<= R$ 3700 (super promoção); especial já avisado há 9 min",
+        "nivel": "especial",
+        "parcelas": null,
+        "preco_total": 3599.1,
+        "sem_juros": false,
+        "titulo": "PS5 Slim Digital 825GB 1 DualSense 4K 120fps",
+        "valida": true,
+        "valor_parcela": null,
+        "visto_em": "2026-11-19T19:53:06+00:00"
       }
     ],
     "limites": {
@@ -1078,6 +1079,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-19T19:53:06+00:00"
+    "ts": "2026-11-19T19:57:58+00:00"
   }
 }

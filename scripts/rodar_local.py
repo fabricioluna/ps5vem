@@ -15,11 +15,13 @@ Instalação: veja a seção "Rodar também no seu computador" do README.
 """
 from __future__ import annotations
 
+import json
 import os
+import shutil
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -57,6 +59,25 @@ def python_console() -> str:
     exe = Path(sys.executable)
     alt = exe.with_name("python.exe")
     return str(alt if exe.name.lower() == "pythonw.exe" and alt.exists() else exe)
+
+
+def reativar_corrente() -> None:
+    """No GitHub, cada execução do workflow dispara a próxima (a "corrente"). Se ela quebrar
+    (falha do GitHub), não há execução nova há mais de 25 min: disparamos uma pelo gh CLI."""
+    gh = shutil.which("gh")
+    if not gh:
+        return
+    r = rodar(gh, "run", "list", "--workflow", "monitor.yml", "--limit", "1", "--json", "createdAt,status", checar=False)
+    if r.returncode != 0:
+        log(f"Não consegui consultar o GitHub Actions: {r.stderr.strip()[-200:]}")
+        return
+    runs = json.loads(r.stdout or "[]")
+    if runs:
+        criado = datetime.fromisoformat(runs[0]["createdAt"].replace("Z", "+00:00"))
+        if runs[0]["status"] != "completed" or datetime.now(timezone.utc) - criado < timedelta(minutes=25):
+            return
+    if rodar(gh, "workflow", "run", "monitor.yml", "--ref", "main", checar=False).returncode == 0:
+        log("A corrente do GitHub estava parada; disparei uma nova execução.")
 
 
 def main() -> int:
@@ -102,6 +123,7 @@ def main() -> int:
                     log("Histórico publicado (após sincronizar).")
             else:
                 log("Histórico publicado.")
+        reativar_corrente()
         return 0
     except Exception as e:  # noqa: BLE001
         log(f"ERRO: {e}")

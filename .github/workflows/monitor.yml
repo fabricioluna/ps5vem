@@ -2,12 +2,13 @@ name: Monitor PS5
 
 on:
   schedule:
-    # a cada 10 minutos (o GitHub pode atrasar ou pular execuções em horários de pico)
+    # a cada 10 minutos (o GitHub pode atrasar, pular ou demorar a ativar este agendamento)
     - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write   # para a "corrente": cada execução dispara a próxima
 
 # impede duas execuções ao mesmo tempo (a próxima espera a atual terminar)
 concurrency:
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -48,3 +49,28 @@ jobs:
           git add data/history.json
           git commit -m "chore: atualiza histórico [skip ci]"
           git push || (git pull --rebase && git push)
+
+      # Corrente: o agendamento do GitHub pode não rodar, então cada execução espera
+      # ~10 minutos e dispara a próxima. Para sozinha depois do fim do período do config.yaml.
+      # Para interromper: Actions -> Monitor PS5 -> ... -> Disable workflow.
+      - name: Agendar a próxima busca (corrente)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          fim=$(python -c "import yaml; print(yaml.safe_load(open('config.yaml', encoding='utf-8'))['periodo']['fim'])")
+          hoje=$(TZ=America/Fortaleza date +%F)
+          if [[ "$hoje" > "$fim" ]]; then
+            echo "Período terminou em $fim. A corrente para aqui."
+            exit 0
+          fi
+          echo "Esperando 9 minutos antes de disparar a próxima busca..."
+          sleep 540
+          na_fila=$(gh run list --workflow monitor.yml --json status,databaseId \
+            --jq "[.[] | select((.status == \"queued\" or .status == \"in_progress\" or .status == \"waiting\" or .status == \"pending\") and .databaseId != ${{ github.run_id }})] | length")
+          if [ "$na_fila" -gt 0 ]; then
+            echo "Já existe outra execução na fila ($na_fila). Não vou duplicar."
+            exit 0
+          fi
+          gh workflow run monitor.yml --ref main
+          echo "Próxima busca disparada."

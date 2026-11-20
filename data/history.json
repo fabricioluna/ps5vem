@@ -94,7 +94,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     },
     "promobit": {
       "aviso_enviado": false,
@@ -176,7 +176,7 @@
       "primeiro_visto": "2026-11-20T21:53:06+00:00",
       "titulo": "Console PlayStation 5 Slim Digital 825GB com controle Dualsense",
       "ultimo_preco": 4149.0,
-      "ultimo_visto": "2026-11-20T21:56:03+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.kabum.com.br/produto/1050570/console-sony-playstation-5-edicao-digital-slim-ssd-825gb-controle-dualsense-astro-s-playroom-branco-cfi-2114b": {
       "fonte": "kabum",
@@ -209,7 +209,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -220,7 +220,7 @@
       "primeiro_visto": "2026-11-20T07:38:43+00:00",
       "titulo": "Console Playstation 5 Slim Digital Edition, 825GB, USB, HDMI, Branco",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -231,7 +231,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -253,7 +253,7 @@
       "primeiro_visto": "2026-11-20T19:33:06+00:00",
       "titulo": "Console PlayStation 5 Sony Edição Digital Marvel's Wolverine Pacote de Edição Limitada, 825 GB, Amarelo - 1000056865",
       "ultimo_preco": 4742.07,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital-3233875": {
       "fonte": "promobit",
@@ -330,7 +330,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -341,7 +341,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4703.53,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -352,7 +352,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -363,7 +363,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k": {
       "fonte": "zoom",
@@ -374,7 +374,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -385,7 +385,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-20T22:15:06+00:00"
+      "ultimo_visto": "2026-11-20T22:23:05+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -2236,15 +2236,15 @@
         "status": "ok"
       },
       "pelando": {
-        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
-        "status": "bloqueada"
+        "anuncios": 0,
+        "status": "ok"
       },
       "promobit": {
         "anuncios": 12,
         "status": "ok"
       },
       "zoom": {
-        "anuncios": 12,
+        "anuncios": 11,
         "status": "ok"
       }
     },
@@ -2516,20 +2516,6 @@
         "valor_parcela": 25.99
       },
       {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/162698874117952007329771019617.png",
-        "link": "https://www.promobit.com.br/oferta/ea-sports-fc-27-para-ps5-3235921/",
-        "loja": "Magazine Luiza",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 260.1,
-        "sem_juros": false,
-        "titulo": "EA Sports FC 27 para PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": "GRAND100MP",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/363192192917952116727133516920.png",
@@ -2600,6 +2586,34 @@
         "valor_parcela": 34.98
       },
       {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/709995169017952126131479262386.jpg",
+        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-dualsense-ed-especiais-rhythm-blue-hyperpop-collection-3236618/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 375.81,
+        "sem_juros": false,
+        "titulo": "Controle sem fio DualSense Ed. Especiais Rhythm Blue - Hyperpop Collection",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/573964849217952126137844236992.jpg",
+        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-dualsense-ed-especiais-chroma-indigo-3236619/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 375.81,
+        "sem_juros": false,
+        "titulo": "Controle sem fio DualSense Ed. Especiais Chroma Indigo",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": "CONTROLENAMAO",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/949804858617952062563747673600.png",
@@ -2654,20 +2668,6 @@
         "titulo": "Tampas para Console PlayStation 5 Slim, Remix Green - Hyperpop, Verde - 1000048554",
         "valida": false,
         "valor_parcela": 49.9
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/239604272817952001586129006695.png",
-        "link": "https://www.promobit.com.br/oferta/controle-dualsense-grand-theft-auto-vi-preto-edicao-limitada-3235890/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 599.0,
-        "sem_juros": false,
-        "titulo": "Controle DualSense Grand Theft Auto VI Preto Edição Limitada",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2770,9 +2770,9 @@
       {
         "alertar": false,
         "cupom": null,
-        "fonte": "zoom",
+        "fonte": "buscape",
         "imagem": "https://image.zst.com.br/0699BF21795A1D601202559D9CD0E847_375_375.jpg",
-        "link": "https://www.zoom.com.br/lead?oid=1579254773",
+        "link": "https://www.buscape.com.br/lead?oid=1579254773",
         "loja": "Fast Shop",
         "menor_preco": false,
         "motivo": "acima do limite normal (R$ 4000)",
@@ -2837,9 +2837,9 @@
       },
       {
         "cupom": null,
-        "fonte": "buscape",
+        "fonte": "zoom",
         "imagem": "https://image.zst.com.br/FA73E66CA6E9B0E2ADB1AF545D58F7F3_375_375.jpg",
-        "link": "https://www.buscape.com.br/lead?oid=1579230841",
+        "link": "https://www.zoom.com.br/lead?oid=1579230841",
         "loja": "Fast Shop",
         "motivo": "falta 'digital' no título",
         "parcelas": 8,
@@ -2848,20 +2848,6 @@
         "titulo": "Console PlayStation 5 Slim Disc 1TB com Controle DualSense",
         "valida": false,
         "valor_parcela": 560.5
-      },
-      {
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/FA73E66CA6E9B0E2ADB1AF545D58F7F3_375_375.jpg",
-        "link": "https://www.zoom.com.br/lead?oid=1579230841",
-        "loja": "Fast Shop",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 4484.0,
-        "sem_juros": false,
-        "titulo": "Console PlayStation 5 Slim Disc 1TB com Controle DualSense",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "alertar": false,
@@ -3030,6 +3016,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-20T22:15:06+00:00"
+    "ts": "2026-11-20T22:23:05+00:00"
   }
 }

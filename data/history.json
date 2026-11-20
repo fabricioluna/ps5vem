@@ -94,7 +94,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     },
     "promobit": {
       "aviso_enviado": false,
@@ -122,6 +122,17 @@
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7499.9,
       "ultimo_visto": "2026-11-19T19:43:51+00:00"
+    },
+    "https://www.buscape.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
+      "fonte": "buscape",
+      "imagem": "https://image.zst.com.br/20D469F740204695F01103C98C23C3C5_235_235.jpg",
+      "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+      "loja": "Magazine Luiza",
+      "menor_preco": 4593.72,
+      "primeiro_visto": "2026-11-20T20:33:06+00:00",
+      "titulo": "PlayStation 5 Edição Digital 825GB",
+      "ultimo_preco": 4593.72,
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "buscape",
@@ -187,7 +198,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -198,7 +209,7 @@
       "primeiro_visto": "2026-11-20T07:38:43+00:00",
       "titulo": "Console Playstation 5 Slim Digital Edition, 825GB, USB, HDMI, Branco",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -209,7 +220,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -231,7 +242,7 @@
       "primeiro_visto": "2026-11-20T19:33:06+00:00",
       "titulo": "Console PlayStation 5 Sony Edição Digital Marvel's Wolverine Pacote de Edição Limitada, 825 GB, Amarelo - 1000056865",
       "ultimo_preco": 4742.07,
-      "ultimo_visto": "2026-11-20T20:23:06+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital-3233875": {
       "fonte": "promobit",
@@ -308,7 +319,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -318,8 +329,8 @@
       "menor_preco": 4593.72,
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
-      "ultimo_preco": 4593.72,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_preco": 4703.53,
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -330,7 +341,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4179.05,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -341,7 +352,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k": {
       "fonte": "zoom",
@@ -352,7 +363,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -363,7 +374,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-20T20:30:29+00:00"
+      "ultimo_visto": "2026-11-20T20:33:06+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1581835330": {
       "fonte": "zoom",
@@ -2029,6 +2040,41 @@
       "loja": "Amazon",
       "preco": 7599.9,
       "ts": "2026-11-20T20:23:06+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
+      "loja": "Magalu (oferta relâmpago)",
+      "preco": 4509.57,
+      "ts": "2026-11-20T20:33:06+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4589.99,
+      "ts": "2026-11-20T20:33:06+00:00"
+    },
+    {
+      "fonte": "buscape",
+      "id": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4593.72,
+      "ts": "2026-11-20T20:33:06+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4703.53,
+      "ts": "2026-11-20T20:33:06+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025",
+      "loja": "KaBuM!",
+      "preco": 4742.07,
+      "ts": "2026-11-20T20:33:06+00:00"
     }
   ],
   "ultima_execucao": {
@@ -2042,11 +2088,11 @@
         "status": "ok"
       },
       "pelando": {
-        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
-        "status": "bloqueada"
+        "anuncios": 0,
+        "status": "ok"
       },
       "promobit": {
-        "anuncios": 0,
+        "anuncios": 12,
         "status": "ok"
       },
       "zoom": {
@@ -2096,6 +2142,48 @@
         "titulo": "Suporte Triplo Playstation 5 Slim Ps5 Disco Digital Base Apoio",
         "valida": false,
         "valor_parcela": 49.0
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/757507158217952046929036586483.png",
+        "link": "https://www.promobit.com.br/oferta/mega-man-star-force-legacy-collection-ps5-3236153/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 74.33,
+        "sem_juros": false,
+        "titulo": "Mega Man Star Force Legacy Collection - PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/971848868017951998515244450222.png",
+        "link": "https://www.promobit.com.br/oferta/sackboy-uma-grande-aventura-para-ps5-sumo-3235869/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 99.0,
+        "sem_juros": false,
+        "titulo": "Sackboy: Uma Grande Aventura para PS5 Sumo",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/736233568217951990513537150395.png",
+        "link": "https://www.promobit.com.br/oferta/uncharted-colecao-legado-dos-ladroes-para-ps5-3235812/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 99.0,
+        "sem_juros": false,
+        "titulo": "Uncharted: Coleção Legado dos Ladrões para PS5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2169,6 +2257,48 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/764429041417951997858684435119.png",
+        "link": "https://www.promobit.com.br/oferta/the-last-of-us-part-ii-remastered-para-ps5-naughty-dog-3235866/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 139.5,
+        "sem_juros": false,
+        "titulo": "The Last of Us Part II Remastered para PS5 - Naughty Dog",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/192542376517951999123698336930.png",
+        "link": "https://www.promobit.com.br/oferta/helldivers-2-para-ps5-arrowhead-game-studios-ab-3235870/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 139.5,
+        "sem_juros": false,
+        "titulo": "Helldivers 2 para PS5 Arrowhead Game Studios AB",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/127553248617951997322518370641.png",
+        "link": "https://www.promobit.com.br/oferta/god-of-war-ragnarok-standard-para-ps5-santa-monica-studio-3235862/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 139.5,
+        "sem_juros": false,
+        "titulo": "God of War Ragnarök Standard para PS5 Santa Mônica Studio",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/908889/xlarge/Base-Suporte-Para-PS5-Playstation-5-FAT-Digital-Plataforma-Stand-Parafuso_1770928919.jpg",
         "link": "https://www.kabum.com.br/produto/908889/nyko-modular-kit-de-carga-cabo-carregador-ps4-playstation-4",
@@ -2194,6 +2324,34 @@
         "titulo": "Suporte Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
         "valida": false,
         "valor_parcela": 26.65
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/385177851317951997895652347018.png",
+        "link": "https://www.promobit.com.br/oferta/horizon-forbidden-west-complete-edition-para-ps5-3235867/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 179.1,
+        "sem_juros": false,
+        "titulo": "Horizon Forbidden West: Complete Edition para PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/836947626517951991081176076292.png",
+        "link": "https://www.promobit.com.br/oferta/death-stranding-2-on-the-beach-para-ps5-kojima-3235817/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 179.1,
+        "sem_juros": false,
+        "titulo": "Death Stranding 2: On The Beach para PS5 Kojima",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2264,6 +2422,34 @@
         "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
         "valida": false,
         "valor_parcela": 25.99
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/162698874117952007329771019617.png",
+        "link": "https://www.promobit.com.br/oferta/ea-sports-fc-27-para-ps5-3235921/",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 260.1,
+        "sem_juros": false,
+        "titulo": "EA Sports FC 27 para PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "GRAND100MP",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/677988934117952048317026741463.png",
+        "link": "https://www.promobit.com.br/oferta/grand-theft-auto-vi-playstation-5-3236134/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 279.92,
+        "sem_juros": false,
+        "titulo": "Grand Theft Auto Vi - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2348,6 +2534,20 @@
         "titulo": "Tampas para Console PlayStation 5 Slim, Remix Green - Hyperpop, Verde - 1000048554",
         "valida": false,
         "valor_parcela": 49.9
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/239604272817952001586129006695.png",
+        "link": "https://www.promobit.com.br/oferta/controle-dualsense-grand-theft-auto-vi-preto-edicao-limitada-3235890/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 599.0,
+        "sem_juros": false,
+        "titulo": "Controle DualSense Grand Theft Auto VI Preto Edição Limitada",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2555,9 +2755,9 @@
       {
         "alertar": false,
         "cupom": null,
-        "fonte": "zoom",
+        "fonte": "buscape",
         "imagem": "https://image.zst.com.br/20D469F740204695F01103C98C23C3C5_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+        "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
         "loja": "Magazine Luiza",
         "menor_preco": false,
         "motivo": "acima do limite normal (R$ 4000)",
@@ -2568,6 +2768,40 @@
         "titulo": "PlayStation 5 Edição Digital 825GB",
         "valida": true,
         "valor_parcela": 473.58
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/20D469F740204695F01103C98C23C3C5_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+        "loja": "Magazine Luiza",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": 10,
+        "preco_total": 4703.53,
+        "sem_juros": false,
+        "titulo": "PlayStation 5 Edição Digital 825GB",
+        "valida": true,
+        "valor_parcela": 484.9
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/477051174117952029072267401833.png",
+        "link": "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025/",
+        "loja": "KaBuM!",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": null,
+        "preco_total": 4742.07,
+        "sem_juros": false,
+        "titulo": "Console PlayStation 5 Sony Edição Digital Marvel's Wolverine Pacote de Edição Limitada, 825 GB, Amarelo - 1000056865",
+        "valida": true,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -2634,6 +2868,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-20T20:30:29+00:00"
+    "ts": "2026-11-20T20:33:06+00:00"
   }
 }

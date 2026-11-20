@@ -34,7 +34,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 0
+      "seguidas": 1
     },
     "promobit": {
       "aviso_enviado": false,
@@ -116,7 +116,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -127,7 +127,7 @@
       "primeiro_visto": "2026-11-20T07:38:43+00:00",
       "titulo": "Console Playstation 5 Slim Digital Edition, 825GB, USB, HDMI, Branco",
       "ultimo_preco": 4404.28,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -138,7 +138,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -182,7 +182,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7499.9,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -193,7 +193,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4593.72,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -204,7 +204,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4404.28,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -215,7 +215,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k": {
       "fonte": "zoom",
@@ -226,7 +226,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -237,7 +237,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-20T12:53:07+00:00"
+      "ultimo_visto": "2026-11-20T12:55:12+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1581835330": {
       "fonte": "zoom",
@@ -1329,6 +1329,13 @@
       "loja": "KaBuM!",
       "preco": 4184.07,
       "ts": "2026-11-20T12:36:09+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/lead?oid=1574164149",
+      "loja": "KaBuM!",
+      "preco": 4370.07,
+      "ts": "2026-11-20T12:55:12+00:00"
     }
   ],
   "ultima_execucao": {
@@ -1342,11 +1349,11 @@
         "status": "ok"
       },
       "pelando": {
-        "anuncios": 0,
-        "status": "ok"
+        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
+        "status": "bloqueada"
       },
       "promobit": {
-        "anuncios": 12,
+        "anuncios": 10,
         "status": "ok"
       },
       "zoom": {
@@ -1410,20 +1417,6 @@
         "titulo": "Capa De Proteção Antipoeira Para Playstation 5 Slim Digital E Ulta Preta",
         "valida": false,
         "valor_parcela": 33.3
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/201550473517951522604752499830.jpg",
-        "link": "https://www.promobit.com.br/oferta/2-jogos-dlcs-colecao-nioh-collection-ps5-midia-fisica-3234467/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 106.0,
-        "sem_juros": false,
-        "titulo": "2 Jogos + DLCs: Coleção NIOH Collection - PS5 - Mídia Física",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -1609,6 +1602,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/302119497317951221949097615085.jpg",
+        "link": "https://www.promobit.com.br/oferta/gta-6-ps5-3233361/",
+        "loja": "Shopee",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 279.0,
+        "sem_juros": false,
+        "titulo": "GTA 6 PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732584/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Preta_1746724879.jpg",
         "link": "https://www.kabum.com.br/produto/732584/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-preta",
@@ -1636,6 +1643,20 @@
         "valor_parcela": 29.99
       },
       {
+        "cupom": "P1XDAY15AF",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/756293070117951010873796352187.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3231579/",
+        "loja": "Shopee",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 319.9,
+        "sem_juros": false,
+        "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": "INOVATECHML",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/469092147217951762597652566943.png",
@@ -1658,6 +1679,34 @@
         "motivo": "falta 'digital' no título",
         "parcelas": null,
         "preco_total": 323.93,
+        "sem_juros": false,
+        "titulo": "Grand Theft Auto Vi - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "R$30 Off Resgatar",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/637228941717950945397446375823.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-vi-edicao-standard-playstation-5-3230972/",
+        "loja": "Shopee",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 335.92,
+        "sem_juros": false,
+        "titulo": "Jogo Grand Theft Auto VI Edição Standard - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/307229355717951236991160633721.png",
+        "link": "https://www.promobit.com.br/oferta/grand-theft-auto-vi-playstation-5-3233463/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 343.92,
         "sem_juros": false,
         "titulo": "Grand Theft Auto Vi - Playstation 5",
         "valida": false,
@@ -1791,20 +1840,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/136265691817951717514036233800.jpg",
-        "link": "https://www.promobit.com.br/oferta/headset-sem-fio-playstation-pulse-elite-midnight-black-3234554/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 766.9,
-        "sem_juros": false,
-        "titulo": "Headset sem fio PlayStation PULSE Elite Midnight Black",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/640235/xlarge/Unidade-De-Disco-Para-Ps5-Slim-Sony-Edi-o-Digital-Drive-Leitor-De-Disco-Playstation-5_1776082717.jpg",
         "link": "https://www.kabum.com.br/produto/640235/unidade-de-disco-para-ps5-slim-sony-edicao-digital-drive-leitor-de-disco-playstation-5",
@@ -1830,20 +1865,6 @@
         "titulo": "Leitor Drive De Disco Console Ps5 Playstation 5 Slim Cor Branco",
         "valida": false,
         "valor_parcela": 133.99
-      },
-      {
-        "cupom": "10x de R$ 279,49 sem juros",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/973121588017951718747852400073.jpg",
-        "link": "https://www.promobit.com.br/oferta/vr2-playstation-3234559/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 2794.9,
-        "sem_juros": true,
-        "titulo": "VR2 PlayStation",
-        "valida": false,
-        "valor_parcela": 279.49
       },
       {
         "cupom": null,
@@ -1945,20 +1966,6 @@
         "valor_parcela": 473.57
       },
       {
-        "cupom": "12x de R$ 375,01 sem juros",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/740172076017951716972427514104.jpg",
-        "link": "https://www.promobit.com.br/oferta/playstation5-slim-disk-pacote-astro-bot-e-gran-turismo-7-3234552/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 12,
-        "preco_total": 4499.9,
-        "sem_juros": true,
-        "titulo": "PlayStation5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
-        "valida": false,
-        "valor_parcela": 374.99
-      },
-      {
         "alertar": false,
         "cupom": null,
         "fonte": "kabum",
@@ -2024,34 +2031,6 @@
         "valor_parcela": 473.58
       },
       {
-        "cupom": "12x de R$ 398,39 sem juros",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/658745444817951718081482766420.jpg",
-        "link": "https://www.promobit.com.br/oferta/bundle-marvels-wolverine-playstation-5-slim-disk-pacote-astro-bot-e-gran-turismo-7-3234557/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 12,
-        "preco_total": 4779.8,
-        "sem_juros": true,
-        "titulo": "Bundle Marvel's Wolverine + PlayStation 5 Slim Disk - Pacote Astro Bot e Gran Turismo 7",
-        "valida": false,
-        "valor_parcela": 398.32
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/765527028617924459186669959683.jpg",
-        "link": "https://www.promobit.com.br/oferta/bundle-gta-vi-playstation-5-slim-disk-pacote-astro-bot-e-gran-turismo-7-3153689/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 5548.9,
-        "sem_juros": false,
-        "titulo": "Bundle GTA VI + PlayStation 5 Slim Disk Pacote Astro Bot e Gran Turismo 7",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": null,
         "fonte": "zoom",
         "imagem": "https://i.zst.com.br/thumbs/45/1e/35/-1247754554.jpg",
@@ -2102,6 +2081,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-20T12:53:07+00:00"
+    "ts": "2026-11-20T12:55:12+00:00"
   }
 }

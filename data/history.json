@@ -164,7 +164,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 48
+      "seguidas": 49
     },
     "promobit": {
       "aviso_enviado": false,
@@ -290,7 +290,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -312,7 +312,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -444,7 +444,7 @@
       "primeiro_visto": "2026-11-21T20:58:40+00:00",
       "titulo": "PlayStation5 Slim Edição Digital",
       "ultimo_preco": 4169.0,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k": {
       "fonte": "zoom",
@@ -455,7 +455,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -466,7 +466,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4703.53,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -477,7 +477,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4699.0,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -488,7 +488,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -510,7 +510,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4499.0,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -521,7 +521,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-21T23:48:51+00:00"
+      "ultimo_visto": "2026-11-21T23:58:21+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -4220,20 +4220,6 @@
         "valor_parcela": 49.0
       },
       {
-        "cupom": "CUPOMLU",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/477719496417952281498250900396.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-marvels-spider-man-2-playstation-5-3237119/",
-        "loja": "Magazine Luiza",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 89.0,
-        "sem_juros": false,
-        "titulo": "Jogo Marvels Spider Man 2 PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": "BLACKNUPAY20",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/767459541517952662112080169601.png",
@@ -4263,6 +4249,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/490783148717953047119805967904.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-colecao-nioh-playstation-5-3239261/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 106.86,
+        "sem_juros": false,
+        "titulo": "Jogo Coleção NIOH - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1036159/xlarge/Base-De-Resfriamento-Com-3-Velocidades-Compativel-Com-Ps5-slim-pro-Disco-E-Digital-Suporte-Vertical_1783419827.jpg",
         "link": "https://www.kabum.com.br/produto/1036159/base-de-resfriamento-com-3-velocidades-compativel-com-ps5-slim-pro-disco-e-digital-suporte-vertical",
@@ -4274,20 +4274,6 @@
         "titulo": "Base De Resfriamento Com 3 Velocidades Compativel Com Ps5/slim/pro Disco E Digital Suporte Vertical",
         "valida": false,
         "valor_parcela": 25.33
-      },
-      {
-        "cupom": "BLACKNUPAY20",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/745674556717952653136094159756.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-red-dead-redemption-playstation-5-3237620/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 129.9,
-        "sem_juros": false,
-        "titulo": "Jogo Red Dead Redemption - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -4640,6 +4626,20 @@
         "valor_parcela": 67.7
       },
       {
+        "cupom": "BLACKAE4",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/298010764617953045881219682282.png",
+        "link": "https://www.promobit.com.br/oferta/headset-gamer-sony-playstation-pulse-elite-sem-fio-para-ps5-usb-e-p2-branco-3239259/",
+        "loja": "Aliexpress",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 732.39,
+        "sem_juros": false,
+        "titulo": "Headset Gamer Sony PlayStation Pulse Elite Sem fio para PS5 USB e P2 Branco",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/640235/xlarge/Unidade-De-Disco-Para-Ps5-Slim-Sony-Edi-o-Digital-Drive-Leitor-De-Disco-Playstation-5_1776082717.jpg",
@@ -4896,6 +4896,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-21T23:48:51+00:00"
+    "ts": "2026-11-21T23:58:21+00:00"
   }
 }

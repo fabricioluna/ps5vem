@@ -156,15 +156,15 @@
   "falhas": {
     "buscape": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     },
     "kabum": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 46
+      "seguidas": 47
     },
     "promobit": {
       "aviso_enviado": false,
@@ -172,7 +172,7 @@
     },
     "zoom": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     }
   },
   "menor_preco": {
@@ -290,7 +290,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -312,7 +312,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -444,7 +444,7 @@
       "primeiro_visto": "2026-11-21T20:58:40+00:00",
       "titulo": "PlayStation5 Slim Edição Digital",
       "ultimo_preco": 4169.0,
-      "ultimo_visto": "2026-11-21T23:29:41+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k": {
       "fonte": "zoom",
@@ -455,7 +455,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -466,18 +466,18 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4703.53,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
       "imagem": "https://image.zst.com.br/984A7587666DA7BE2BC7FF42BD3731E3_235_235.jpg",
       "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
-      "loja": "KaBuM!",
+      "loja": "Magazine Luiza",
       "menor_preco": 4179.05,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
-      "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_preco": 4699.0,
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -488,7 +488,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -510,7 +510,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4499.0,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -521,7 +521,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-21T23:20:15+00:00"
+      "ultimo_visto": "2026-11-21T23:39:16+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -4109,17 +4109,59 @@
       "loja": "KaBuM!",
       "preco": 4509.57,
       "ts": "2026-11-21T23:10:51+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+      "loja": "KaBuM!",
+      "preco": 4184.07,
+      "ts": "2026-11-21T23:39:16+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4499.0,
+      "ts": "2026-11-21T23:39:16+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/939943/console-playstation-5-slim-digital-ssd-825gb-4k-uhd-120hz-ray-tracing-controle-dualsense-e-2-jogos-bivolt-branco",
+      "loja": "Magalu (oferta relâmpago)",
+      "preco": 4509.57,
+      "ts": "2026-11-21T23:39:16+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4699.0,
+      "ts": "2026-11-21T23:39:16+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4703.53,
+      "ts": "2026-11-21T23:39:16+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k",
+      "loja": "Amazon",
+      "preco": 7599.9,
+      "ts": "2026-11-21T23:39:16+00:00"
     }
   ],
   "ultima_execucao": {
     "fontes": {
       "buscape": {
-        "erro": "HTTP 403 em https://www.buscape.com.br/busca/playstation+5+slim+digital",
-        "status": "bloqueada"
+        "anuncios": 10,
+        "status": "ok"
       },
       "kabum": {
-        "erro": "HTTP 403 em https://www.kabum.com.br/busca/ps5-slim-digital",
-        "status": "bloqueada"
+        "anuncios": 28,
+        "status": "ok"
       },
       "pelando": {
         "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
@@ -4130,11 +4172,53 @@
         "status": "ok"
       },
       "zoom": {
-        "erro": "HTTP 403 em https://www.zoom.com.br/busca/playstation+5+slim+digital",
-        "status": "bloqueada"
+        "anuncios": 10,
+        "status": "ok"
       }
     },
     "itens": [
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/996197/xlarge/Tampa-De-Silicone-Protetor-Anti-Poeira-Playstation-5-Slim_1767984526.jpg",
+        "link": "https://www.kabum.com.br/produto/996197/tampa-de-silicone-protetor-anti-poeira-playstation-5-slim",
+        "loja": "TECHBRASIL",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 1,
+        "preco_total": 34.9,
+        "sem_juros": false,
+        "titulo": "Tampa De Silicone Protetor Anti Poeira Playstation 5 Slim",
+        "valida": false,
+        "valor_parcela": 34.9
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/676371/xlarge/Suporte-Base-Horizontal-Transparente-Para-Playstation-5-Slim-Digital-Ultra-_1767962620.jpg",
+        "link": "https://www.kabum.com.br/produto/676371/suporte-base-horizontal-transparente-para-playstation-5-slim-digital-ultra-",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 44.9 abaixo do mínimo válido (1500)",
+        "parcelas": 1,
+        "preco_total": 44.9,
+        "sem_juros": false,
+        "titulo": "Suporte Base Horizontal Transparente Para Playstation 5 Slim Digital Ultra.",
+        "valida": false,
+        "valor_parcela": 44.9
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704467/Suporte-Triplo-Playstation-5-Slim-Ps5-Disco-Digital-Base-Apoio_1738197962_gg.jpg",
+        "link": "https://www.kabum.com.br/produto/704467/suporte-triplo-playstation-5-slim-ps5-disco-digital-base-apoio",
+        "loja": "Loja Nekomata",
+        "motivo": "palavra proibida 'disco'",
+        "parcelas": 1,
+        "preco_total": 49.0,
+        "sem_juros": false,
+        "titulo": "Suporte Triplo Playstation 5 Slim Ps5 Disco Digital Base Apoio",
+        "valida": false,
+        "valor_parcela": 49.0
+      },
       {
         "cupom": "CUPOMLU",
         "fonte": "promobit",
@@ -4164,6 +4248,34 @@
         "valor_parcela": null
       },
       {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/904814/xlarge/Capa-De-Prote-o-Antipoeira-Para-Playstation-5-Slim-Digital-E-Ulta-Preta_1770928920.jpg",
+        "link": "https://www.kabum.com.br/produto/904814/capa-de-protecao-antipoeira-para-playstation-5-slim-digital-e-ulta-preta",
+        "loja": "TECHBRASIL",
+        "motivo": "palavra proibida 'capa'",
+        "parcelas": 3,
+        "preco_total": 99.9,
+        "sem_juros": true,
+        "titulo": "Capa De Proteção Antipoeira Para Playstation 5 Slim Digital E Ulta Preta",
+        "valida": false,
+        "valor_parcela": 33.3
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1036159/xlarge/Base-De-Resfriamento-Com-3-Velocidades-Compativel-Com-Ps5-slim-pro-Disco-E-Digital-Suporte-Vertical_1783419827.jpg",
+        "link": "https://www.kabum.com.br/produto/1036159/base-de-resfriamento-com-3-velocidades-compativel-com-ps5-slim-pro-disco-e-digital-suporte-vertical",
+        "loja": "Ponto do Nerd",
+        "motivo": "palavra proibida 'disco'",
+        "parcelas": 6,
+        "preco_total": 129.2,
+        "sem_juros": true,
+        "titulo": "Base De Resfriamento Com 3 Velocidades Compativel Com Ps5/slim/pro Disco E Digital Suporte Vertical",
+        "valida": false,
+        "valor_parcela": 25.33
+      },
+      {
         "cupom": "BLACKNUPAY20",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/745674556717952653136094159756.png",
@@ -4176,6 +4288,48 @@
         "titulo": "Jogo Red Dead Redemption - PlayStation 5",
         "valida": false,
         "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/996193/xlarge/Cooler-LED-RGB-Para-Playstation-5-Slim-Pro-3-Ventoinhas-1-Usb-3-0_1767984523.jpg",
+        "link": "https://www.kabum.com.br/produto/996193/cooler-led-rgb-para-playstation-5-slim-pro-3-ventoinhas-1-usb-3-0",
+        "loja": "TECHBRASIL",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 5,
+        "preco_total": 129.9,
+        "sem_juros": true,
+        "titulo": "Cooler LED RGB Para Playstation 5 Slim Pro 3 Ventoinhas 1 Usb 3.0",
+        "valida": false,
+        "valor_parcela": 25.98
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625052/xlarge/Hub-Usb-5-Portas-Playstation-5-Digital-E-Ultra-Carregador_1746630646.jpg",
+        "link": "https://www.kabum.com.br/produto/625052/hub-usb-5-portas-playstation-5-digital-e-ultra-carregador",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 129.9 abaixo do mínimo válido (1500)",
+        "parcelas": 5,
+        "preco_total": 129.9,
+        "sem_juros": true,
+        "titulo": "Hub Usb 5 Portas Playstation 5 Digital E Ultra Carregador",
+        "valida": false,
+        "valor_parcela": 25.98
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/908889/xlarge/Base-Suporte-Para-PS5-Playstation-5-FAT-Digital-Plataforma-Stand-Parafuso_1770928919.jpg",
+        "link": "https://www.kabum.com.br/produto/908889/nyko-modular-kit-de-carga-cabo-carregador-ps4-playstation-4",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 139.9 abaixo do mínimo válido (1500)",
+        "parcelas": 5,
+        "preco_total": 139.9,
+        "sem_juros": true,
+        "titulo": "Base Suporte Para PS5 Playstation 5 FAT Digital Plataforma Stand + Parafuso",
+        "valida": false,
+        "valor_parcela": 27.98
       },
       {
         "cupom": null,
@@ -4206,6 +4360,20 @@
         "valor_parcela": null
       },
       {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625046/xlarge/Suporte-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1746630649.jpg",
+        "link": "https://www.kabum.com.br/produto/625046/suporte-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 159.9 abaixo do mínimo válido (1500)",
+        "parcelas": 6,
+        "preco_total": 159.9,
+        "sem_juros": true,
+        "titulo": "Suporte Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
+        "valida": false,
+        "valor_parcela": 26.65
+      },
+      {
         "cupom": "CUPOMLU",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/120127933517952847908316182833.png",
@@ -4218,6 +4386,62 @@
         "titulo": "Assassins Creed Shadows Edição Limitada PS5",
         "valida": false,
         "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/736912/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Cinza_1746724879.jpg",
+        "link": "https://www.kabum.com.br/produto/736912/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-cinza",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 179.9 abaixo do mínimo válido (1500)",
+        "parcelas": 7,
+        "preco_total": 179.9,
+        "sem_juros": true,
+        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Digital Ultra E Ps4 Case Bag Cinza",
+        "valida": false,
+        "valor_parcela": 25.7
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704634/xlarge/Fonte-Alimenta-o-8-5v-5-6a-Compat-vel-Playstation-2-Slim-70000-Series_1745459428.jpg",
+        "link": "https://www.kabum.com.br/produto/704634/fonte-alimentacao-8-5v-5-6a-compativel-playstation-2-slim-70000-series",
+        "loja": "MERCADOONLINESP",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 7,
+        "preco_total": 180.49,
+        "sem_juros": true,
+        "titulo": "Fonte Alimentação 8,5v 5,6a Compatível Playstation 2 Slim 70000 Series",
+        "valida": false,
+        "valor_parcela": 27.14
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625051/xlarge/Suporte-Multifun-o-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1747745988.jpg",
+        "link": "https://www.kabum.com.br/produto/625051/suporte-multifuncao-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 189.9 abaixo do mínimo válido (1500)",
+        "parcelas": 7,
+        "preco_total": 189.9,
+        "sem_juros": true,
+        "titulo": "Suporte Multifunção Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
+        "valida": false,
+        "valor_parcela": 27.12
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732581/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Preta_1746724879.jpg",
+        "link": "https://www.kabum.com.br/produto/732581/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-preta",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 199.9 abaixo do mínimo válido (1500)",
+        "parcelas": 7,
+        "preco_total": 199.9,
+        "sem_juros": true,
+        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Digital Ultra E Ps4 Case Bag Preta",
+        "valida": false,
+        "valor_parcela": 28.55
       },
       {
         "cupom": null,
@@ -4234,6 +4458,48 @@
         "valor_parcela": null
       },
       {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732587/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Cinza_1746714680.jpg",
+        "link": "https://www.kabum.com.br/produto/732587/bolsa-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-cinza",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 259.9 abaixo do mínimo válido (1500)",
+        "parcelas": 10,
+        "preco_total": 259.9,
+        "sem_juros": true,
+        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
+        "valida": false,
+        "valor_parcela": 25.99
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732584/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Preta_1746724879.jpg",
+        "link": "https://www.kabum.com.br/produto/732584/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-preta",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 289.9 abaixo do mínimo válido (1500)",
+        "parcelas": 10,
+        "preco_total": 289.9,
+        "sem_juros": true,
+        "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Preta",
+        "valida": false,
+        "valor_parcela": 28.99
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/676702/xlarge/Suporte-Multifun-o-Cooler-LED-Para-Playstation-5-Fat-Slim-Carregador-Base-Branco_1767962627.jpg",
+        "link": "https://www.kabum.com.br/produto/676702/suporte-multifuncao-cooler-led-para-playstation-5-fat-slim-carregador-base-branco",
+        "loja": "TECHBRASIL",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 299.9,
+        "sem_juros": true,
+        "titulo": "Suporte Multifunção Cooler LED Para Playstation 5 Fat Slim Carregador Base Branco",
+        "valida": false,
+        "valor_parcela": 29.99
+      },
+      {
         "cupom": "BLACKAE3",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/207618963617952974492296619924.png",
@@ -4246,6 +4512,20 @@
         "titulo": "Controle sem Fio DualSense Midnight Black PS5",
         "valida": false,
         "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732583/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Azul_1746724879.jpg",
+        "link": "https://www.kabum.com.br/produto/732583/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-azul",
+        "loja": "TECHBRASIL",
+        "motivo": "preço 349.9 abaixo do mínimo válido (1500)",
+        "parcelas": 10,
+        "preco_total": 349.9,
+        "sem_juros": true,
+        "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Azul",
+        "valida": false,
+        "valor_parcela": 34.98
       },
       {
         "cupom": "SITETODO2111",
@@ -4263,6 +4543,48 @@
       },
       {
         "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568_1787058272_original.jpg",
+        "link": "https://www.kabum.com.br/produto/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 449.1,
+        "sem_juros": true,
+        "titulo": "Tampa para Console PlayStation 5 Slim, Rhythm Blue - Hyperpop, Azul - 1000048568",
+        "valida": false,
+        "valor_parcela": 49.9
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/1004725/tampa-para-console-playstation-5-slim-techno-red-vermelho-1000048563_1787052476_original.jpg",
+        "link": "https://www.kabum.com.br/produto/1004725/tampa-para-console-playstation-5-slim-techno-red-vermelho-1000048563",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 449.1,
+        "sem_juros": true,
+        "titulo": "Tampa para Console PlayStation 5 Slim, Techno Red, Vermelho - 1000048563",
+        "valida": false,
+        "valor_parcela": 49.9
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/1004813/tampa-para-console-playstation-5-slim-remix-green-hyperpop-verde-1000048554_1787163030_original.jpg",
+        "link": "https://www.kabum.com.br/produto/1004813/tampas-para-console-playstation-5-slim-remix-green-hyperpop-verde-1000048554",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 449.1,
+        "sem_juros": true,
+        "titulo": "Tampas para Console PlayStation 5 Slim, Remix Green - Hyperpop, Verde - 1000048554",
+        "valida": false,
+        "valor_parcela": 49.9
+      },
+      {
+        "cupom": null,
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/355203203217952801795219825653.jpg",
         "link": "https://www.promobit.com.br/oferta/warhammer-40000-space-marine-2-ultima-limited-edition-ps5-3238212/",
@@ -4274,6 +4596,76 @@
         "titulo": "Warhammer 40,000: Space Marine 2 - Ultima Limited Edition - PS5",
         "valida": false,
         "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/536958/unidade-de-disco-para-consoles-ps5-slim-sony-edicao-digital-branco-cfi-zdd1ax_1711376131_original.jpg",
+        "link": "https://www.kabum.com.br/produto/536958/leitor-de-disco-para-playstation-5-slim-ps5-pro-sony-edicao-digital-branco-cfi-2000-slim",
+        "loja": "KaBuM! (oferta relâmpago)",
+        "motivo": "palavra proibida 'disco'",
+        "parcelas": 10,
+        "preco_total": 602.06,
+        "sem_juros": false,
+        "titulo": "Leitor de Disco Para Playstation 5 Slim, PS5 Pro Sony, Edição digital, Branco - CFI-2000 - slim",
+        "valida": false,
+        "valor_parcela": 60.2
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/874334/xlarge/Tampas-Capas-Ps5-Slim-Chroma-Teal-Verde-Playstation-5-Sony_1776081815.jpg",
+        "link": "https://www.kabum.com.br/produto/874334/tampas-capas-ps5-slim-chroma-teal-verde-playstation-5-sony",
+        "loja": "RUGAL GAMES",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 657.0,
+        "sem_juros": true,
+        "titulo": "Tampas Capas Ps5 Slim Chroma Teal Verde   Playstation 5 Sony",
+        "valida": false,
+        "valor_parcela": 65.7
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/999194/xlarge/Tampas-Do-Console-Ps5-Slim-Midnight-Black-Sony-Playstation-5_1776081815.jpg",
+        "link": "https://www.kabum.com.br/produto/999194/tampas-do-console-ps5-slim-midnight-black-sony-playstation-5",
+        "loja": "RUGAL GAMES",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 677.0,
+        "sem_juros": true,
+        "titulo": "Tampas Do Console Ps5 Slim Midnight Black   Sony Playstation 5",
+        "valida": false,
+        "valor_parcela": 67.7
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/640235/xlarge/Unidade-De-Disco-Para-Ps5-Slim-Sony-Edi-o-Digital-Drive-Leitor-De-Disco-Playstation-5_1776082717.jpg",
+        "link": "https://www.kabum.com.br/produto/640235/unidade-de-disco-para-ps5-slim-sony-edicao-digital-drive-leitor-de-disco-playstation-5",
+        "loja": "RUGAL GAMES",
+        "motivo": "palavra proibida 'disco'",
+        "parcelas": 10,
+        "preco_total": 997.0,
+        "sem_juros": true,
+        "titulo": "Unidade De Disco Para Ps5 Slim Sony Edição Digital Drive Leitor De Disco Playstation 5",
+        "valida": false,
+        "valor_parcela": 99.7
+      },
+      {
+        "cupom": null,
+        "fonte": "kabum",
+        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1029087/xlarge/Leitor-Drive-De-Disco-Console-Ps5-Playstation-5-Slim-Cor-Branco_1776104020.jpg",
+        "link": "https://www.kabum.com.br/produto/1029087/leitor-drive-de-disco-console-ps5-playstation-5-slim-cor-branco",
+        "loja": "MERCADOONLINESP",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 1299.79,
+        "sem_juros": true,
+        "titulo": "Leitor Drive De Disco Console Ps5 Playstation 5 Slim Cor Branco",
+        "valida": false,
+        "valor_parcela": 133.99
       },
       {
         "cupom": "TECH2111",
@@ -4307,381 +4699,6 @@
         "valor_parcela": null
       },
       {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/996197/xlarge/Tampa-De-Silicone-Protetor-Anti-Poeira-Playstation-5-Slim_1767984526.jpg",
-        "link": "https://www.kabum.com.br/produto/996197/tampa-de-silicone-protetor-anti-poeira-playstation-5-slim",
-        "loja": "TECHBRASIL",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 1,
-        "preco_total": 34.9,
-        "sem_juros": false,
-        "titulo": "Tampa De Silicone Protetor Anti Poeira Playstation 5 Slim",
-        "valida": false,
-        "valor_parcela": 34.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/676371/xlarge/Suporte-Base-Horizontal-Transparente-Para-Playstation-5-Slim-Digital-Ultra-_1767962620.jpg",
-        "link": "https://www.kabum.com.br/produto/676371/suporte-base-horizontal-transparente-para-playstation-5-slim-digital-ultra-",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 44.9 abaixo do mínimo válido (1500)",
-        "parcelas": 1,
-        "preco_total": 44.9,
-        "sem_juros": false,
-        "titulo": "Suporte Base Horizontal Transparente Para Playstation 5 Slim Digital Ultra.",
-        "valida": false,
-        "valor_parcela": 44.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704467/Suporte-Triplo-Playstation-5-Slim-Ps5-Disco-Digital-Base-Apoio_1738197962_gg.jpg",
-        "link": "https://www.kabum.com.br/produto/704467/suporte-triplo-playstation-5-slim-ps5-disco-digital-base-apoio",
-        "loja": "Loja Nekomata",
-        "motivo": "palavra proibida 'disco'",
-        "parcelas": 1,
-        "preco_total": 49.0,
-        "sem_juros": false,
-        "titulo": "Suporte Triplo Playstation 5 Slim Ps5 Disco Digital Base Apoio",
-        "valida": false,
-        "valor_parcela": 49.0,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/904814/xlarge/Capa-De-Prote-o-Antipoeira-Para-Playstation-5-Slim-Digital-E-Ulta-Preta_1770928920.jpg",
-        "link": "https://www.kabum.com.br/produto/904814/capa-de-protecao-antipoeira-para-playstation-5-slim-digital-e-ulta-preta",
-        "loja": "TECHBRASIL",
-        "motivo": "palavra proibida 'capa'",
-        "parcelas": 3,
-        "preco_total": 99.9,
-        "sem_juros": true,
-        "titulo": "Capa De Proteção Antipoeira Para Playstation 5 Slim Digital E Ulta Preta",
-        "valida": false,
-        "valor_parcela": 33.3,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1036159/xlarge/Base-De-Resfriamento-Com-3-Velocidades-Compativel-Com-Ps5-slim-pro-Disco-E-Digital-Suporte-Vertical_1783419827.jpg",
-        "link": "https://www.kabum.com.br/produto/1036159/base-de-resfriamento-com-3-velocidades-compativel-com-ps5-slim-pro-disco-e-digital-suporte-vertical",
-        "loja": "Ponto do Nerd",
-        "motivo": "palavra proibida 'disco'",
-        "parcelas": 6,
-        "preco_total": 129.2,
-        "sem_juros": true,
-        "titulo": "Base De Resfriamento Com 3 Velocidades Compativel Com Ps5/slim/pro Disco E Digital Suporte Vertical",
-        "valida": false,
-        "valor_parcela": 25.33,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/996193/xlarge/Cooler-LED-RGB-Para-Playstation-5-Slim-Pro-3-Ventoinhas-1-Usb-3-0_1767984523.jpg",
-        "link": "https://www.kabum.com.br/produto/996193/cooler-led-rgb-para-playstation-5-slim-pro-3-ventoinhas-1-usb-3-0",
-        "loja": "TECHBRASIL",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 5,
-        "preco_total": 129.9,
-        "sem_juros": true,
-        "titulo": "Cooler LED RGB Para Playstation 5 Slim Pro 3 Ventoinhas 1 Usb 3.0",
-        "valida": false,
-        "valor_parcela": 25.98,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625052/xlarge/Hub-Usb-5-Portas-Playstation-5-Digital-E-Ultra-Carregador_1746630646.jpg",
-        "link": "https://www.kabum.com.br/produto/625052/hub-usb-5-portas-playstation-5-digital-e-ultra-carregador",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 129.9 abaixo do mínimo válido (1500)",
-        "parcelas": 5,
-        "preco_total": 129.9,
-        "sem_juros": true,
-        "titulo": "Hub Usb 5 Portas Playstation 5 Digital E Ultra Carregador",
-        "valida": false,
-        "valor_parcela": 25.98,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/908889/xlarge/Base-Suporte-Para-PS5-Playstation-5-FAT-Digital-Plataforma-Stand-Parafuso_1770928919.jpg",
-        "link": "https://www.kabum.com.br/produto/908889/nyko-modular-kit-de-carga-cabo-carregador-ps4-playstation-4",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 139.9 abaixo do mínimo válido (1500)",
-        "parcelas": 5,
-        "preco_total": 139.9,
-        "sem_juros": true,
-        "titulo": "Base Suporte Para PS5 Playstation 5 FAT Digital Plataforma Stand + Parafuso",
-        "valida": false,
-        "valor_parcela": 27.98,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625046/xlarge/Suporte-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1746630649.jpg",
-        "link": "https://www.kabum.com.br/produto/625046/suporte-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 159.9 abaixo do mínimo válido (1500)",
-        "parcelas": 6,
-        "preco_total": 159.9,
-        "sem_juros": true,
-        "titulo": "Suporte Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
-        "valida": false,
-        "valor_parcela": 26.65,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/736912/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Cinza_1746724879.jpg",
-        "link": "https://www.kabum.com.br/produto/736912/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-cinza",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 179.9 abaixo do mínimo válido (1500)",
-        "parcelas": 7,
-        "preco_total": 179.9,
-        "sem_juros": true,
-        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Digital Ultra E Ps4 Case Bag Cinza",
-        "valida": false,
-        "valor_parcela": 25.7,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704634/xlarge/Fonte-Alimenta-o-8-5v-5-6a-Compat-vel-Playstation-2-Slim-70000-Series_1745459428.jpg",
-        "link": "https://www.kabum.com.br/produto/704634/fonte-alimentacao-8-5v-5-6a-compativel-playstation-2-slim-70000-series",
-        "loja": "MERCADOONLINESP",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 7,
-        "preco_total": 180.49,
-        "sem_juros": true,
-        "titulo": "Fonte Alimentação 8,5v 5,6a Compatível Playstation 2 Slim 70000 Series",
-        "valida": false,
-        "valor_parcela": 27.14,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625051/xlarge/Suporte-Multifun-o-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1747745988.jpg",
-        "link": "https://www.kabum.com.br/produto/625051/suporte-multifuncao-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 189.9 abaixo do mínimo válido (1500)",
-        "parcelas": 7,
-        "preco_total": 189.9,
-        "sem_juros": true,
-        "titulo": "Suporte Multifunção Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
-        "valida": false,
-        "valor_parcela": 27.12,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732581/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Preta_1746724879.jpg",
-        "link": "https://www.kabum.com.br/produto/732581/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-preta",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 199.9 abaixo do mínimo válido (1500)",
-        "parcelas": 7,
-        "preco_total": 199.9,
-        "sem_juros": true,
-        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Digital Ultra E Ps4 Case Bag Preta",
-        "valida": false,
-        "valor_parcela": 28.55,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732587/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Cinza_1746714680.jpg",
-        "link": "https://www.kabum.com.br/produto/732587/bolsa-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-cinza",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 259.9 abaixo do mínimo válido (1500)",
-        "parcelas": 10,
-        "preco_total": 259.9,
-        "sem_juros": true,
-        "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
-        "valida": false,
-        "valor_parcela": 25.99,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732584/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Preta_1746724879.jpg",
-        "link": "https://www.kabum.com.br/produto/732584/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-preta",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 289.9 abaixo do mínimo válido (1500)",
-        "parcelas": 10,
-        "preco_total": 289.9,
-        "sem_juros": true,
-        "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Preta",
-        "valida": false,
-        "valor_parcela": 28.99,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/676702/xlarge/Suporte-Multifun-o-Cooler-LED-Para-Playstation-5-Fat-Slim-Carregador-Base-Branco_1767962627.jpg",
-        "link": "https://www.kabum.com.br/produto/676702/suporte-multifuncao-cooler-led-para-playstation-5-fat-slim-carregador-base-branco",
-        "loja": "TECHBRASIL",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 299.9,
-        "sem_juros": true,
-        "titulo": "Suporte Multifunção Cooler LED Para Playstation 5 Fat Slim Carregador Base Branco",
-        "valida": false,
-        "valor_parcela": 29.99,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732583/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Azul_1746724879.jpg",
-        "link": "https://www.kabum.com.br/produto/732583/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-azul",
-        "loja": "TECHBRASIL",
-        "motivo": "preço 349.9 abaixo do mínimo válido (1500)",
-        "parcelas": 10,
-        "preco_total": 349.9,
-        "sem_juros": true,
-        "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Azul",
-        "valida": false,
-        "valor_parcela": 34.98,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568_1787058272_original.jpg",
-        "link": "https://www.kabum.com.br/produto/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 449.1,
-        "sem_juros": true,
-        "titulo": "Tampa para Console PlayStation 5 Slim, Rhythm Blue - Hyperpop, Azul - 1000048568",
-        "valida": false,
-        "valor_parcela": 49.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/1004725/tampa-para-console-playstation-5-slim-techno-red-vermelho-1000048563_1787052476_original.jpg",
-        "link": "https://www.kabum.com.br/produto/1004725/tampa-para-console-playstation-5-slim-techno-red-vermelho-1000048563",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 449.1,
-        "sem_juros": true,
-        "titulo": "Tampa para Console PlayStation 5 Slim, Techno Red, Vermelho - 1000048563",
-        "valida": false,
-        "valor_parcela": 49.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/1004813/tampa-para-console-playstation-5-slim-remix-green-hyperpop-verde-1000048554_1787163030_original.jpg",
-        "link": "https://www.kabum.com.br/produto/1004813/tampas-para-console-playstation-5-slim-remix-green-hyperpop-verde-1000048554",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 449.1,
-        "sem_juros": true,
-        "titulo": "Tampas para Console PlayStation 5 Slim, Remix Green - Hyperpop, Verde - 1000048554",
-        "valida": false,
-        "valor_parcela": 49.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/536958/unidade-de-disco-para-consoles-ps5-slim-sony-edicao-digital-branco-cfi-zdd1ax_1711376131_original.jpg",
-        "link": "https://www.kabum.com.br/produto/536958/leitor-de-disco-para-playstation-5-slim-ps5-pro-sony-edicao-digital-branco-cfi-2000-slim",
-        "loja": "KaBuM! (oferta relâmpago)",
-        "motivo": "palavra proibida 'disco'",
-        "parcelas": 10,
-        "preco_total": 602.06,
-        "sem_juros": false,
-        "titulo": "Leitor de Disco Para Playstation 5 Slim, PS5 Pro Sony, Edição digital, Branco - CFI-2000 - slim",
-        "valida": false,
-        "valor_parcela": 60.2,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/874334/xlarge/Tampas-Capas-Ps5-Slim-Chroma-Teal-Verde-Playstation-5-Sony_1776081815.jpg",
-        "link": "https://www.kabum.com.br/produto/874334/tampas-capas-ps5-slim-chroma-teal-verde-playstation-5-sony",
-        "loja": "RUGAL GAMES",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 657.0,
-        "sem_juros": true,
-        "titulo": "Tampas Capas Ps5 Slim Chroma Teal Verde   Playstation 5 Sony",
-        "valida": false,
-        "valor_parcela": 65.7,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/999194/xlarge/Tampas-Do-Console-Ps5-Slim-Midnight-Black-Sony-Playstation-5_1776081815.jpg",
-        "link": "https://www.kabum.com.br/produto/999194/tampas-do-console-ps5-slim-midnight-black-sony-playstation-5",
-        "loja": "RUGAL GAMES",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 677.0,
-        "sem_juros": true,
-        "titulo": "Tampas Do Console Ps5 Slim Midnight Black   Sony Playstation 5",
-        "valida": false,
-        "valor_parcela": 67.7,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/640235/xlarge/Unidade-De-Disco-Para-Ps5-Slim-Sony-Edi-o-Digital-Drive-Leitor-De-Disco-Playstation-5_1776082717.jpg",
-        "link": "https://www.kabum.com.br/produto/640235/unidade-de-disco-para-ps5-slim-sony-edicao-digital-drive-leitor-de-disco-playstation-5",
-        "loja": "RUGAL GAMES",
-        "motivo": "palavra proibida 'disco'",
-        "parcelas": 10,
-        "preco_total": 997.0,
-        "sem_juros": true,
-        "titulo": "Unidade De Disco Para Ps5 Slim Sony Edição Digital Drive Leitor De Disco Playstation 5",
-        "valida": false,
-        "valor_parcela": 99.7,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "cupom": null,
-        "fonte": "kabum",
-        "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/1029087/xlarge/Leitor-Drive-De-Disco-Console-Ps5-Playstation-5-Slim-Cor-Branco_1776104020.jpg",
-        "link": "https://www.kabum.com.br/produto/1029087/leitor-drive-de-disco-console-ps5-playstation-5-slim-cor-branco",
-        "loja": "MERCADOONLINESP",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 1299.79,
-        "sem_juros": true,
-        "titulo": "Leitor Drive De Disco Console Ps5 Playstation 5 Slim Cor Branco",
-        "valida": false,
-        "valor_parcela": 133.99,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
@@ -4696,8 +4713,7 @@
         "sem_juros": false,
         "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
         "valida": true,
-        "valor_parcela": 449.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 449.9
       },
       {
         "alertar": false,
@@ -4714,8 +4730,7 @@
         "sem_juros": false,
         "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
         "valida": true,
-        "valor_parcela": 449.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 449.9
       },
       {
         "alertar": false,
@@ -4732,8 +4747,7 @@
         "sem_juros": false,
         "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
         "valida": true,
-        "valor_parcela": 469.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 469.9
       },
       {
         "alertar": false,
@@ -4750,26 +4764,7 @@
         "sem_juros": false,
         "titulo": "Playstation 5 Slim Edição Digital 1TB",
         "valida": true,
-        "valor_parcela": null,
-        "visto_em": "2026-11-21T23:20:15+00:00"
-      },
-      {
-        "alertar": false,
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/984A7587666DA7BE2BC7FF42BD3731E3_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
-        "loja": "KaBuM!",
-        "menor_preco": false,
-        "motivo": "acima do limite normal (R$ 4000)",
-        "nivel": "nenhum",
-        "parcelas": 10,
-        "preco_total": 4509.57,
-        "sem_juros": false,
-        "titulo": "Playstation 5 Slim Edição Digital 825GB",
-        "valida": true,
-        "valor_parcela": 484.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": null
       },
       {
         "alertar": false,
@@ -4786,8 +4781,7 @@
         "sem_juros": true,
         "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
         "valida": true,
-        "valor_parcela": 484.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 484.9
       },
       {
         "cupom": null,
@@ -4801,8 +4795,7 @@
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB",
         "valida": false,
-        "valor_parcela": 476.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 476.9
       },
       {
         "cupom": null,
@@ -4816,8 +4809,24 @@
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB Bundle ASTRO BOT + Gran Turismo 7",
         "valida": false,
-        "valor_parcela": 499.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 499.9
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/984A7587666DA7BE2BC7FF42BD3731E3_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
+        "loja": "Magazine Luiza",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": 10,
+        "preco_total": 4699.0,
+        "sem_juros": true,
+        "titulo": "Playstation 5 Slim Edição Digital 825GB",
+        "valida": true,
+        "valor_parcela": 469.9
       },
       {
         "alertar": false,
@@ -4834,8 +4843,7 @@
         "sem_juros": false,
         "titulo": "PlayStation 5 Edição Digital 825GB",
         "valida": true,
-        "valor_parcela": 484.9,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": 484.9
       },
       {
         "cupom": null,
@@ -4849,8 +4857,7 @@
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB Bundle Returnal + Ratchet & Clank",
         "valida": false,
-        "valor_parcela": null,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -4864,8 +4871,7 @@
         "sem_juros": false,
         "titulo": "Console PS5 c/Drive Slim 1 TB c/ 1 Controle + Jogo Fifa 25",
         "valida": false,
-        "valor_parcela": null,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": null
       },
       {
         "alertar": false,
@@ -4882,8 +4888,7 @@
         "sem_juros": false,
         "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
         "valida": true,
-        "valor_parcela": null,
-        "visto_em": "2026-11-21T23:20:15+00:00"
+        "valor_parcela": null
       }
     ],
     "limites": {
@@ -4891,6 +4896,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-21T23:29:41+00:00"
+    "ts": "2026-11-21T23:39:16+00:00"
   }
 }

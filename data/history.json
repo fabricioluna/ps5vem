@@ -164,7 +164,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 126
+      "seguidas": 127
     },
     "promobit": {
       "aviso_enviado": false,
@@ -290,7 +290,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -312,7 +312,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -455,7 +455,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -466,7 +466,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4703.53,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -477,7 +477,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4699.0,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -488,7 +488,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4184.07,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -510,7 +510,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4589.99,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -521,7 +521,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-22T12:16:52+00:00"
+      "ultimo_visto": "2026-11-22T12:26:20+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -4851,6 +4851,20 @@
       "loja": "Amazon",
       "preco": 7599.9,
       "ts": "2026-11-22T11:48:22+00:00"
+    },
+    {
+      "fonte": "kabum",
+      "id": "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital",
+      "loja": "KaBuM! (oferta relâmpago)",
+      "preco": 4184.07,
+      "ts": "2026-11-22T12:26:20+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/lead?oid=1574164149",
+      "loja": "KaBuM!",
+      "preco": 4370.07,
+      "ts": "2026-11-22T12:26:20+00:00"
     }
   ],
   "ultima_execucao": {
@@ -4930,6 +4944,20 @@
         "preco_total": 90.5,
         "sem_juros": false,
         "titulo": "Jogo Uncharted: Coleção Legado dos Ladrões para PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "BLACKNUPAY20",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/767459541517952662112080169601.png",
+        "link": "https://www.promobit.com.br/oferta/jogo-resident-evil-3-remake-playstation-5-3237656/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 95.92,
+        "sem_juros": false,
+        "titulo": "Jogo Resident Evil 3 Remake - PlayStation 5",
         "valida": false,
         "valor_parcela": null
       },
@@ -5382,20 +5410,6 @@
         "valor_parcela": 133.99
       },
       {
-        "cupom": "TECH2111",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/655537712817952743142538999395.png",
-        "link": "https://www.promobit.com.br/oferta/volante-gamer-g29-driving-force-logitech-g-3238002/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 1399.0,
-        "sem_juros": false,
-        "titulo": "Volante Gamer G29 Driving Force Logitech G",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
@@ -5593,6 +5607,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-22T12:16:52+00:00"
+    "ts": "2026-11-22T12:26:20+00:00"
   }
 }

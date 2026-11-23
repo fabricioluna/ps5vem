@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 24
+      "seguidas": 25
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -529,8 +529,8 @@
       "menor_preco": 4179.05,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
-      "ultimo_preco": 4699.0,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_preco": 4179.05,
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4599.9,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -574,7 +574,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -607,7 +607,7 @@
       "primeiro_visto": "2026-11-23T19:24:59+00:00",
       "titulo": "Console PlayStation 5 - Digital Edition",
       "ultimo_preco": 4885.0,
-      "ultimo_visto": "2026-11-23T19:34:28+00:00"
+      "ultimo_visto": "2026-11-23T19:44:44+00:00"
     }
   },
   "precos": [
@@ -6896,6 +6896,20 @@
       "loja": "Amazon",
       "preco": 4599.9,
       "ts": "2026-11-23T19:34:28+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4179.05,
+      "ts": "2026-11-23T19:44:44+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+      "loja": "KaBuM!",
+      "preco": 4369.05,
+      "ts": "2026-11-23T19:44:44+00:00"
     }
   ],
   "ultima_execucao": {
@@ -6995,20 +7009,6 @@
       {
         "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/951149242917954492569968928764.jpg",
-        "link": "https://www.promobit.com.br/oferta/horizon-zero-dawn-remastered-edition-3243532/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 106.86,
-        "sem_juros": false,
-        "titulo": "Horizon Zero Dawn - Remastered Edition",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/459660599517954530483000346966.jpg",
         "link": "https://www.promobit.com.br/oferta/street-fighter-6-year-1-2-fighters-ps5-3243767/",
         "loja": "Amazon",
@@ -7031,6 +7031,20 @@
         "preco_total": 121.1,
         "sem_juros": false,
         "titulo": "Metaphor ReFantazio PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/532303172517954627569948605497.jpg",
+        "link": "https://www.promobit.com.br/oferta/the-last-of-us-part-ii-remastered-3244487/",
+        "loja": "Nuuvem",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 128.9,
+        "sem_juros": false,
+        "titulo": "The Last of Us Part II Remastered",
         "valida": false,
         "valor_parcela": null
       },
@@ -7077,16 +7091,16 @@
         "valor_parcela": 25.98
       },
       {
-        "cupom": "BLACKAE1",
+        "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/685971464017954503529940507923.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-marvels-spider-man-2-playstation-5-3243567/",
-        "loja": "Aliexpress",
+        "imagem": "https://i.promobit.com.br/300/188191575617954624527387312285.jpg",
+        "link": "https://www.promobit.com.br/oferta/avatar-frontiers-of-pandora-from-the-ashes-edition-ps5-3244470/",
+        "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 132.25,
+        "preco_total": 135.15,
         "sem_juros": false,
-        "titulo": "Jogo Marvels Spider Man 2 PlayStation 5",
+        "titulo": "Avatar: Frontiers of Pandora From the Ashes Edition - PS5",
         "valida": false,
         "valor_parcela": null
       },
@@ -7115,20 +7129,6 @@
         "preco_total": 144.35,
         "sem_juros": false,
         "titulo": "Raidou: Remastered – The Mystery of the Soulless Army - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/412651724617954487711285337644.jpg",
-        "link": "https://www.promobit.com.br/oferta/the-last-of-us-part-ii-remastered-3243499/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 153.36,
-        "sem_juros": false,
-        "titulo": "The Last Of Us Part Ii Remastered",
         "valida": false,
         "valor_parcela": null
       },
@@ -7458,6 +7458,37 @@
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/984A7587666DA7BE2BC7FF42BD3731E3_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
+        "loja": "Magazine Luiza",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": 10,
+        "preco_total": 4179.05,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim Edição Digital 825GB",
+        "valida": true,
+        "valor_parcela": 439.9
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/448226385917954626929556925780.jpg",
+        "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-disk-1tb-3244483/",
+        "loja": "Shopee",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 4296.31,
+        "sem_juros": false,
+        "titulo": "CONSOLE PLAYSTATION 5 SLIM DISK 1TB",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "zoom",
         "imagem": "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg",
         "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
         "loja": "KaBuM!",
@@ -7571,23 +7602,6 @@
         "valor_parcela": null
       },
       {
-        "alertar": false,
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/984A7587666DA7BE2BC7FF42BD3731E3_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k",
-        "loja": "Magazine Luiza",
-        "menor_preco": false,
-        "motivo": "acima do limite normal (R$ 4000)",
-        "nivel": "nenhum",
-        "parcelas": 10,
-        "preco_total": 4699.0,
-        "sem_juros": true,
-        "titulo": "Playstation 5 Slim Edição Digital 825GB",
-        "valida": true,
-        "valor_parcela": 469.9
-      },
-      {
         "cupom": null,
         "fonte": "zoom",
         "imagem": "https://image.zst.com.br/BDC06C552FF04EADDEAE478F5F5C225E_235_235.jpg",
@@ -7669,6 +7683,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-23T19:34:28+00:00"
+    "ts": "2026-11-23T19:44:44+00:00"
   }
 }

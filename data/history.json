@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 30
+      "seguidas": 31
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4509.57,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4885.0,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4699.0,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4599.9,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -574,7 +574,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -607,7 +607,7 @@
       "primeiro_visto": "2026-11-23T19:24:59+00:00",
       "titulo": "Console PlayStation 5 - Digital Edition",
       "ultimo_preco": 4885.0,
-      "ultimo_visto": "2026-11-23T20:32:26+00:00"
+      "ultimo_visto": "2026-11-23T20:41:52+00:00"
     }
   },
   "precos": [
@@ -6959,6 +6959,13 @@
       "loja": "Amazon",
       "preco": 4885.0,
       "ts": "2026-11-23T20:32:26+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4599.9,
+      "ts": "2026-11-23T20:41:52+00:00"
     }
   ],
   "ultima_execucao": {
@@ -7058,20 +7065,6 @@
       {
         "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/721809038217954616922016389123.jpg",
-        "link": "https://www.promobit.com.br/oferta/metaphor-refantazio-ps5-3244412/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 121.1,
-        "sem_juros": false,
-        "titulo": "Metaphor ReFantazio PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/532303172517954627569948605497.jpg",
         "link": "https://www.promobit.com.br/oferta/the-last-of-us-part-ii-remastered-3244487/",
         "loja": "Nuuvem",
@@ -7141,20 +7134,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/188191575617954624527387312285.jpg",
-        "link": "https://www.promobit.com.br/oferta/avatar-frontiers-of-pandora-from-the-ashes-edition-ps5-3244470/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 135.15,
-        "sem_juros": false,
-        "titulo": "Avatar: Frontiers of Pandora From the Ashes Edition - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/908889/xlarge/Base-Suporte-Para-PS5-Playstation-5-FAT-Digital-Plataforma-Stand-Parafuso_1770928919.jpg",
         "link": "https://www.kabum.com.br/produto/908889/nyko-modular-kit-de-carga-cabo-carregador-ps4-playstation-4",
@@ -7166,20 +7145,6 @@
         "titulo": "Base Suporte Para PS5 Playstation 5 FAT Digital Plataforma Stand + Parafuso",
         "valida": false,
         "valor_parcela": 27.98
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/547116143017954616117104956904.jpg",
-        "link": "https://www.promobit.com.br/oferta/raidou-remastered-the-mystery-of-the-soulless-army-ps5-3244409/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 144.35,
-        "sem_juros": false,
-        "titulo": "Raidou: Remastered – The Mystery of the Soulless Army - PS5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -7253,6 +7218,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/594969216117954655566808792684.jpg",
+        "link": "https://www.promobit.com.br/oferta/silent-hill-2-playstation-5-3244737/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 180.44,
+        "sem_juros": false,
+        "titulo": "Silent Hill 2 - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704634/xlarge/Fonte-Alimenta-o-8-5v-5-6a-Compat-vel-Playstation-2-Slim-70000-Series_1745459428.jpg",
         "link": "https://www.kabum.com.br/produto/704634/fonte-alimentacao-8-5v-5-6a-compativel-playstation-2-slim-70000-series",
@@ -7296,14 +7275,14 @@
       {
         "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/932017737017954617943825259191.jpg",
-        "link": "https://www.promobit.com.br/oferta/split-fiction-midia-fisica-ps5-3244423/",
+        "imagem": "https://i.promobit.com.br/300/135574251417954660861322465200.jpg",
+        "link": "https://www.promobit.com.br/oferta/tintin-reporter-cigars-of-the-pharaoh-limited-edition-ps5-3244765/",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 239.28,
+        "preco_total": 212.35,
         "sem_juros": false,
-        "titulo": "Split Fiction - Mídia Física - PS5",
+        "titulo": "Tintin Reporter: Cigars Of The Pharaoh Limited Edition - PS5",
         "valida": false,
         "valor_parcela": null
       },
@@ -7365,6 +7344,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/580043914317954658344157859583.jpg",
+        "link": "https://www.promobit.com.br/oferta/ps5-3244747/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 286.9,
+        "sem_juros": false,
+        "titulo": "PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732584/xlarge/Bolsa-Premium-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Preta_1746724879.jpg",
         "link": "https://www.kabum.com.br/produto/732584/bolsa-premium-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-preta",
@@ -7390,6 +7383,20 @@
         "titulo": "Suporte Multifunção Cooler LED Para Playstation 5 Fat Slim Carregador Base Branco",
         "valida": false,
         "valor_parcela": 29.99
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/906080982917954659517837913057.jpg",
+        "link": "https://www.promobit.com.br/oferta/assassins-creed-black-flag-resynced-ps5-ed-de-lancamento-3244762/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 348.7,
+        "sem_juros": false,
+        "titulo": "Assassin's Creed Black Flag Resynced - PS5 - Ed. de Lançamento",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -7586,20 +7593,6 @@
         "valor_parcela": 484.9
       },
       {
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
-        "loja": "Magazine Luiza",
-        "motivo": "falta 'digital' no título",
-        "parcelas": 10,
-        "preco_total": 4530.55,
-        "sem_juros": false,
-        "titulo": "Playstation 5 Slim 1TB",
-        "valida": false,
-        "valor_parcela": 476.9
-      },
-      {
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
@@ -7684,6 +7677,20 @@
       {
         "cupom": null,
         "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 5199.9,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim 1TB",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "zoom",
         "imagem": "https://i.zst.com.br/thumbs/45/1e/35/-1247754554.jpg",
         "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1-tb-sony-4k",
         "loja": "Amazon",
@@ -7732,6 +7739,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-23T20:32:26+00:00"
+    "ts": "2026-11-23T20:41:52+00:00"
   }
 }

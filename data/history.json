@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 0
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4179.05,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4599.9,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -574,7 +574,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T13:56:49+00:00"
+      "ultimo_visto": "2026-11-24T14:03:07+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -8064,8 +8064,8 @@
         "status": "ok"
       },
       "pelando": {
-        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
-        "status": "bloqueada"
+        "anuncios": 0,
+        "status": "ok"
       },
       "promobit": {
         "anuncios": 11,
@@ -8219,6 +8219,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/828143547017955282688526812250.jpg",
+        "link": "https://www.promobit.com.br/oferta/final-fantasy-xvi-playstation-5-3247388/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 152.91,
+        "sem_juros": false,
+        "titulo": "Final Fantasy XVI - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625046/xlarge/Suporte-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1746630649.jpg",
         "link": "https://www.kabum.com.br/produto/625046/suporte-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
@@ -8230,34 +8244,6 @@
         "titulo": "Suporte Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
         "valida": false,
         "valor_parcela": 26.65
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/677464728317954698475266092955.jpg",
-        "link": "https://www.promobit.com.br/oferta/horizon-forbidden-west-complete-edition-3245009/",
-        "loja": "?",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 160.02,
-        "sem_juros": false,
-        "titulo": "Horizon Forbidden West Complete Edition",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/673463733317954703301395282468.jpg",
-        "link": "https://www.promobit.com.br/oferta/gris-ps5-midia-fisica-3245040/",
-        "loja": "Shopee",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 170.9,
-        "sem_juros": false,
-        "titulo": "Gris PS5 Midia Fisica",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -8284,20 +8270,6 @@
         "preco_total": 179.97,
         "sem_juros": false,
         "titulo": "Jogo Shinobi Art Of Vengeance Deluxe Edition Ps5 Midia Fisic",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/594969216117954655566808792684.jpg",
-        "link": "https://www.promobit.com.br/oferta/silent-hill-2-playstation-5-3244737/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 180.44,
-        "sem_juros": false,
-        "titulo": "Silent Hill 2 - Playstation 5",
         "valida": false,
         "valor_parcela": null
       },
@@ -8331,6 +8303,20 @@
       },
       {
         "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/599469929317955282702832186709.jpg",
+        "link": "https://www.promobit.com.br/oferta/ea-sports-f1-25-ps5-3247386/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 188.91,
+        "sem_juros": false,
+        "titulo": "EA Sports F1 25 - PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/625051/xlarge/Suporte-Multifun-o-Cooler-Carregador-3-Usb-Playstation-5-Digital-Ultra-Base_1747745988.jpg",
         "link": "https://www.kabum.com.br/produto/625051/suporte-multifuncao-cooler-carregador-3-usb-playstation-5-digital-ultra-base",
@@ -8342,6 +8328,20 @@
         "titulo": "Suporte Multifunção Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
         "valida": false,
         "valor_parcela": 27.12
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/625798520517955280949982395417.jpg",
+        "link": "https://www.promobit.com.br/oferta/final-fantasy-vii-rebirth-playstation-5-3247377/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 197.91,
+        "sem_juros": false,
+        "titulo": "Final Fantasy VII Rebirth - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -8358,16 +8358,16 @@
         "valor_parcela": 28.55
       },
       {
-        "cupom": "25BF26PRIME",
+        "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/177107418617954883331670706601.png",
-        "link": "https://www.promobit.com.br/oferta/3-jogos-kingdom-hearts-collection-i-iii-ps5-midia-fisica-3246033/",
+        "imagem": "https://i.promobit.com.br/300/926246076217955283398404494927.jpg",
+        "link": "https://www.promobit.com.br/oferta/dune-awakening-playstation-5-3247391/",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 254.0,
+        "preco_total": 233.91,
         "sem_juros": false,
-        "titulo": "3 Jogos: Kingdom Hearts Collection I-III - PS5 - Mídia Física",
+        "titulo": "Dune: Awakening - PlayStation 5",
         "valida": false,
         "valor_parcela": null
       },
@@ -8414,16 +8414,16 @@
         "valor_parcela": 29.99
       },
       {
-        "cupom": null,
+        "cupom": "BLACKAE3",
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/906080982917954659517837913057.jpg",
-        "link": "https://www.promobit.com.br/oferta/assassins-creed-black-flag-resynced-ps5-ed-de-lancamento-3244762/",
-        "loja": "Amazon",
+        "imagem": "https://i.promobit.com.br/300/380619017317955284586643820415.png",
+        "link": "https://www.promobit.com.br/oferta/controle-para-ps5-sem-fio-dualsense-playstation-chroma-teal-verde-3247403/",
+        "loja": "Aliexpress",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 348.7,
+        "preco_total": 340.82,
         "sem_juros": false,
-        "titulo": "Assassin's Creed Black Flag Resynced - PS5 - Ed. de Lançamento",
+        "titulo": "Controle para PS5 sem Fio DualSense PlayStation Chroma Teal Verde",
         "valida": false,
         "valor_parcela": null
       },
@@ -8526,6 +8526,20 @@
         "valor_parcela": 67.7
       },
       {
+        "cupom": "BLACKAE4",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/881913778017955283919230088969.png",
+        "link": "https://www.promobit.com.br/oferta/headset-gamer-sony-playstation-pulse-elite-sem-fio-para-ps5-usb-e-p2-branco-3247395/",
+        "loja": "Aliexpress",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 721.81,
+        "sem_juros": false,
+        "titulo": "Headset Gamer Sony PlayStation Pulse Elite Sem fio para PS5 USB e P2 Branco",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": "PULSE5OFF",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/849697588717954887952747807537.png",
@@ -8566,20 +8580,6 @@
         "titulo": "Leitor Drive De Disco Console Ps5 Playstation 5 Slim Cor Branco",
         "valida": false,
         "valor_parcela": 133.99
-      },
-      {
-        "cupom": "25BF26PRIME",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/290741192817954877832511115071.jpg",
-        "link": "https://www.promobit.com.br/oferta/007-first-light-legacy-edition-ps5-3246006/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 1499.92,
-        "sem_juros": false,
-        "titulo": "007 First Light - Legacy Edition - PS5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "alertar": false,
@@ -8793,6 +8793,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-24T13:56:49+00:00"
+    "ts": "2026-11-24T14:03:07+00:00"
   }
 }

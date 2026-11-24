@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 4
+      "seguidas": 5
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4179.05,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4599.0,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -574,7 +574,7 @@
       "primeiro_visto": "2026-11-19T22:39:30+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T15:03:14+00:00"
+      "ultimo_visto": "2026-11-24T15:12:47+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -8138,7 +8138,7 @@
         "status": "bloqueada"
       },
       "promobit": {
-        "anuncios": 11,
+        "anuncios": 12,
         "status": "ok"
       },
       "zoom": {
@@ -8258,20 +8258,6 @@
         "titulo": "Hub Usb 5 Portas Playstation 5 Digital E Ultra Carregador",
         "valida": false,
         "valor_parcela": 25.98
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/942821237717954919303118442781.png",
-        "link": "https://www.promobit.com.br/oferta/marvels-spider-man-2-ps5-3246211/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 139.0,
-        "sem_juros": false,
-        "titulo": "Marvel's Spider-Man 2 PS5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -8652,6 +8638,34 @@
         "valor_parcela": 133.99
       },
       {
+        "cupom": "TODO2211SITE",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/513918162917955326763980895903.png",
+        "link": "https://www.promobit.com.br/oferta/volante-gamer-g29-driving-force-logitech-g-3247750/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 1359.0,
+        "sem_juros": false,
+        "titulo": "Volante Gamer G29 Driving Force Logitech G",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "TODO2411SITE",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/979752992417955326748923128950.png",
+        "link": "https://www.promobit.com.br/oferta/volante-gamer-g29-driving-force-logitech-g-3247751/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 1369.0,
+        "sem_juros": false,
+        "titulo": "Volante Gamer G29 Driving Force Logitech G",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
@@ -8863,6 +8877,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-24T15:03:14+00:00"
+    "ts": "2026-11-24T15:12:47+00:00"
   }
 }

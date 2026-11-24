@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 27
+      "seguidas": 28
     },
     "promobit": {
       "aviso_enviado": false,
@@ -288,7 +288,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4179.05,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4691.08,
-      "ultimo_visto": "2026-11-24T23:45:53+00:00"
+      "ultimo_visto": "2026-11-24T23:55:32+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -8750,20 +8750,6 @@
         "valor_parcela": 49.0
       },
       {
-        "cupom": "20% Off Liquida",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/124189712017955373374269823853.png",
-        "link": "https://www.promobit.com.br/oferta/mega-man-star-force-legacy-collection-ps5-3248204/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 73.66,
-        "sem_juros": false,
-        "titulo": "Mega Man Star Force Legacy Collection - Ps5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": "VOCEDEZ",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/543659120017955409349357632917.png",
@@ -8972,6 +8958,20 @@
         "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
         "valida": false,
         "valor_parcela": 25.99
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/701826236717955638926980071715.jpg",
+        "link": "https://www.promobit.com.br/oferta/marvels-wolverine-playstation-5-3250226/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 263.15,
+        "sem_juros": false,
+        "titulo": "Marvel's Wolverine - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9198,16 +9198,16 @@
         "valor_parcela": 133.99
       },
       {
-        "cupom": "AFFBF05",
+        "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/661525829017955349322877906078.png",
-        "link": "https://www.promobit.com.br/oferta/oculos-de-realidade-virtual-para-ps5-oled-3247961/",
-        "loja": "Aliexpress",
+        "imagem": "https://i.promobit.com.br/300/385212196017955639315668125093.jpg",
+        "link": "https://www.promobit.com.br/oferta/vr2-playstation-3250237/",
+        "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 2439.0,
+        "preco_total": 2603.07,
         "sem_juros": false,
-        "titulo": "Óculos de Realidade Virtual para PS5 Oled",
+        "titulo": "VR2 PlayStation",
         "valida": false,
         "valor_parcela": null
       },
@@ -9423,6 +9423,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-24T23:45:53+00:00"
+    "ts": "2026-11-24T23:55:32+00:00"
   }
 }

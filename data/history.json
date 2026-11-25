@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 21
+      "seguidas": 22
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-25T21:46:53+00:00",
       "titulo": "Console Playstation 5 Slim Digital 825gb SSD 1 Controle Dualsense",
       "ultimo_preco": 6146.41,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.kabum.com.br/produto/1050570/console-sony-playstation-5-edicao-digital-slim-ssd-825gb-controle-dualsense-astro-s-playroom-branco-cfi-2114b": {
       "fonte": "kabum",
@@ -321,7 +321,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -365,7 +365,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -574,7 +574,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4289.9,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -596,7 +596,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-25T21:56:20+00:00"
+      "ultimo_visto": "2026-11-25T22:05:46+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -9888,7 +9888,7 @@
   "ultima_execucao": {
     "fontes": {
       "buscape": {
-        "anuncios": 9,
+        "anuncios": 8,
         "status": "ok"
       },
       "kabum": {
@@ -10510,23 +10510,6 @@
         "valor_parcela": 469.9
       },
       {
-        "alertar": false,
-        "cupom": null,
-        "fonte": "buscape",
-        "imagem": "https://image.zst.com.br/20D469F740204695F01103C98C23C3C5_235_235.jpg",
-        "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k",
-        "loja": "Magazine Luiza",
-        "menor_preco": false,
-        "motivo": "acima do limite normal (R$ 4000)",
-        "nivel": "nenhum",
-        "parcelas": 10,
-        "preco_total": 4558.03,
-        "sem_juros": false,
-        "titulo": "PlayStation 5 Edição Digital 825GB",
-        "valida": true,
-        "valor_parcela": 469.9
-      },
-      {
         "cupom": null,
         "fonte": "zoom",
         "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
@@ -10653,6 +10636,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-25T21:56:20+00:00"
+    "ts": "2026-11-25T22:05:46+00:00"
   }
 }

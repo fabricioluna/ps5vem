@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 34
+      "seguidas": 35
     },
     "promobit": {
       "aviso_enviado": false,
@@ -266,7 +266,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.buscape.com.br/lead?oid=1579254773": {
       "fonte": "buscape",
@@ -288,7 +288,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4691.08,
-      "ultimo_visto": "2026-11-25T00:52:26+00:00"
+      "ultimo_visto": "2026-11-25T01:01:52+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -8954,20 +8954,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/568721629017955335728482169194.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-jujutsu-kaisen-cursed-clash-ps5-midia-fisica-3247837/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 180.0,
-        "sem_juros": false,
-        "titulo": "Jogo Jujutsu Kaisen Cursed Clash Ps5 Midia Fisica",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/704634/xlarge/Fonte-Alimenta-o-8-5v-5-6a-Compat-vel-Playstation-2-Slim-70000-Series_1745459428.jpg",
         "link": "https://www.kabum.com.br/produto/704634/fonte-alimentacao-8-5v-5-6a-compativel-playstation-2-slim-70000-series",
@@ -8993,6 +8979,20 @@
         "titulo": "Suporte Multifunção Cooler Carregador 3 Usb Playstation 5 Digital Ultra Base",
         "valida": false,
         "valor_parcela": 27.12
+      },
+      {
+        "cupom": "Ativar 10% off",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/436702940517955681061871429929.jpg",
+        "link": "https://www.promobit.com.br/oferta/final-fantasy-vii-rebirth-playstation-5-3250456/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 197.91,
+        "sem_juros": false,
+        "titulo": "Final Fantasy VII Rebirth - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9503,6 +9503,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-25T00:52:26+00:00"
+    "ts": "2026-11-25T01:01:52+00:00"
   }
 }

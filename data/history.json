@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 33
+      "seguidas": 34
     },
     "promobit": {
       "aviso_enviado": false,
@@ -261,12 +261,12 @@
       "fonte": "buscape",
       "imagem": "https://image.zst.com.br/FF8178D8AF29BB183D0609F03FE97ED7_235_235.jpg",
       "link": "https://www.buscape.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
-      "loja": "Magazine Luiza",
+      "loja": "Amazon",
       "menor_preco": 4499.0,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
-      "ultimo_preco": 4691.08,
-      "ultimo_visto": "2026-11-25T00:33:24+00:00"
+      "ultimo_preco": 4699.9,
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.buscape.com.br/lead?oid=1579254773": {
       "fonte": "buscape",
@@ -288,7 +288,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -508,7 +508,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -519,7 +519,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -541,7 +541,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4691.08,
-      "ultimo_visto": "2026-11-25T00:42:53+00:00"
+      "ultimo_visto": "2026-11-25T00:52:26+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -8723,6 +8723,13 @@
       "loja": "Magazine Luiza",
       "preco": 4691.08,
       "ts": "2026-11-25T00:42:53+00:00"
+    },
+    {
+      "fonte": "buscape",
+      "id": "https://www.buscape.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4699.9,
+      "ts": "2026-11-25T00:52:26+00:00"
     }
   ],
   "ultima_execucao": {
@@ -8820,20 +8827,6 @@
         "valor_parcela": 49.0
       },
       {
-        "cupom": "VOCEDEZ",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/543659120017955409349357632917.png",
-        "link": "https://www.promobit.com.br/oferta/fatal-fury-city-of-the-wolves-special-edition-ps5-3248510/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 89.99,
-        "sem_juros": false,
-        "titulo": "Fatal Fury City Of The Wolves Special Edition - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/904814/xlarge/Capa-De-Prote-o-Antipoeira-Para-Playstation-5-Slim-Digital-E-Ulta-Preta_1770928920.jpg",
@@ -8902,6 +8895,20 @@
         "titulo": "Base Suporte Para PS5 Playstation 5 FAT Digital Plataforma Stand + Parafuso",
         "valida": false,
         "valor_parcela": 27.98
+      },
+      {
+        "cupom": "Ativar 10% Off",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/788857937717955678109423223414.jpg",
+        "link": "https://www.promobit.com.br/oferta/final-fantasy-xvi-playstation-5-3250446/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 152.91,
+        "sem_juros": false,
+        "titulo": "Final Fantasy XVI - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9002,16 +9009,30 @@
         "valor_parcela": 28.55
       },
       {
-        "cupom": "VOCEDEZ",
+        "cupom": "Ativar 10% Off",
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/840703067917955458584298427367.png",
-        "link": "https://www.promobit.com.br/oferta/hollow-knight-ps5-3248644/",
-        "loja": "Mercado Livre",
+        "imagem": "https://i.promobit.com.br/300/185687118817955675789384600488.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-pragmata-playstation-5-3250436/",
+        "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 242.96,
+        "preco_total": 203.12,
         "sem_juros": false,
-        "titulo": "Hollow Knight - PS5",
+        "titulo": "Jogo PRAGMATA - PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "Ativar 10% Off",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/291816306117955676887486850865.jpg",
+        "link": "https://www.promobit.com.br/oferta/ea-sports-fc-27-playstation-5-3250441/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 246.56,
+        "sem_juros": false,
+        "titulo": "EA Sports FC 27 - PlayStation 5",
         "valida": false,
         "valor_parcela": null
       },
@@ -9070,20 +9091,6 @@
         "titulo": "Suporte Multifunção Cooler LED Para Playstation 5 Fat Slim Carregador Base Branco",
         "valida": false,
         "valor_parcela": 29.99
-      },
-      {
-        "cupom": "CUPOMLU",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/904578984817955383495525579386.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-grand-theft-auto-gta-vi-ps5-tt000272ps5-3248303/",
-        "loja": "Magazine Luiza",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 345.0,
-        "sem_juros": false,
-        "titulo": "Jogo Grand Theft Auto GTA VI, PS5 - TT000272PS5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9415,6 +9422,23 @@
         "valor_parcela": 509.9
       },
       {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "buscape",
+        "imagem": "https://image.zst.com.br/FF8178D8AF29BB183D0609F03FE97ED7_235_235.jpg",
+        "link": "https://www.buscape.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+        "loja": "Amazon",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": null,
+        "preco_total": 4699.9,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim Edição Digital 1TB",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
         "cupom": null,
         "fonte": "zoom",
         "imagem": "https://image.zst.com.br/BDC06C552FF04EADDEAE478F5F5C225E_235_235.jpg",
@@ -9427,20 +9451,6 @@
         "titulo": "Playstation 5 Slim 1TB Bundle ASTRO BOT + Gran Turismo 7",
         "valida": false,
         "valor_parcela": 509.9
-      },
-      {
-        "cupom": null,
-        "fonte": "buscape",
-        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
-        "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 5199.9,
-        "sem_juros": false,
-        "titulo": "Playstation 5 Slim 1TB",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9493,6 +9503,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-25T00:42:53+00:00"
+    "ts": "2026-11-25T00:52:26+00:00"
   }
 }

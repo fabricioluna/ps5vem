@@ -184,7 +184,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 14
+      "seguidas": 15
     },
     "promobit": {
       "aviso_enviado": false,
@@ -310,7 +310,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -332,7 +332,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -354,7 +354,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -530,7 +530,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -552,7 +552,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -563,7 +563,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -585,7 +585,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-25T12:32:24+00:00"
+      "ultimo_visto": "2026-11-25T12:41:51+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -9326,20 +9326,6 @@
     "itens": [
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/521956017217954470503768810304.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-mortal-kombat-1-ps5-3243364/",
-        "loja": "Playstation",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 29.92,
-        "sem_juros": false,
-        "titulo": "Jogo Mortal Kombat 1 - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/996197/xlarge/Tampa-De-Silicone-Protetor-Anti-Poeira-Playstation-5-Slim_1767984526.jpg",
         "link": "https://www.kabum.com.br/produto/996197/tampa-de-silicone-protetor-anti-poeira-playstation-5-slim",
@@ -9395,6 +9381,20 @@
         "valor_parcela": 49.0
       },
       {
+        "cupom": "PLAYCLASSIC",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/768394318917956101712184552537.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-lost-soul-aside-ps5-3251615/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 90.12,
+        "sem_juros": false,
+        "titulo": "Jogo Lost Soul Aside PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/904814/xlarge/Capa-De-Prote-o-Antipoeira-Para-Playstation-5-Slim-Digital-E-Ulta-Preta_1770928920.jpg",
@@ -9407,6 +9407,20 @@
         "titulo": "Capa De Proteção Antipoeira Para Playstation 5 Slim Digital E Ulta Preta",
         "valida": false,
         "valor_parcela": 33.3
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/693509385517956099897050572928.jpg",
+        "link": "https://www.promobit.com.br/oferta/marvels-spider-man-2-ps5-3251577/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 124.24,
+        "sem_juros": false,
+        "titulo": "Marvel's Spider-Man 2 PS5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9449,6 +9463,34 @@
         "titulo": "Hub Usb 5 Portas Playstation 5 Digital E Ultra Carregador",
         "valida": false,
         "valor_parcela": 25.98
+      },
+      {
+        "cupom": "PLAYCLASSIC",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/244499445717956101716642976974.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-the-last-of-us-part-ii-remastered-ps5-1000030252-3251616/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 133.59,
+        "sem_juros": false,
+        "titulo": "Jogo The Last of Us Part II Remastered PS5 - 1000030252",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "PLAYCLASSIC",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/141889100317956101716805334444.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-marvels-spider-man-2-ps5-3251613/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 133.59,
+        "sem_juros": false,
+        "titulo": "Jogo Marvel's Spider-Man 2 PS5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9494,20 +9536,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/906023168217955448017515615671.png",
-        "link": "https://www.promobit.com.br/oferta/monster-hunter-stories-3-twisted-reflection-ps5-3248482/",
-        "loja": "Mercado Livre",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 179.1,
-        "sem_juros": false,
-        "titulo": "Monster Hunter Stories 3 Twisted Reflection - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/736912/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Cinza_1746724879.jpg",
         "link": "https://www.kabum.com.br/produto/736912/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-cinza",
@@ -9533,6 +9561,34 @@
         "titulo": "Fonte Alimentação 8,5v 5,6a Compatível Playstation 2 Slim 70000 Series",
         "valida": false,
         "valor_parcela": 27.14
+      },
+      {
+        "cupom": "PLAYCLASSIC",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/737927902017956101127925919980.png",
+        "link": "https://www.promobit.com.br/oferta/jogo-marvel-tokon-fighting-souls-para-ps5-1000052661-3251606/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 181.02,
+        "sem_juros": false,
+        "titulo": "Jogo Marvel Tokon: Fighting Souls para PS5 - 1000052661",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": "PLAYCLASSIC",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/244068117217956101129053125597.png",
+        "link": "https://www.promobit.com.br/oferta/jogo-saros-edicao-standard-para-ps5-3251607/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 181.02,
+        "sem_juros": false,
+        "titulo": "Jogo SAROS Edição Standard para PS5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9591,20 +9647,6 @@
         "valor_parcela": null
       },
       {
-        "cupom": "Ativar 10% Off",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/291816306117955676887486850865.jpg",
-        "link": "https://www.promobit.com.br/oferta/ea-sports-fc-27-playstation-5-3250441/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 246.56,
-        "sem_juros": false,
-        "titulo": "EA Sports FC 27 - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732587/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Cinza_1746714680.jpg",
@@ -9617,20 +9659,6 @@
         "titulo": "Bolsa Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Cinza",
         "valida": false,
         "valor_parcela": 25.99
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/701826236717955638926980071715.jpg",
-        "link": "https://www.promobit.com.br/oferta/marvels-wolverine-playstation-5-3250226/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 263.15,
-        "sem_juros": false,
-        "titulo": "Marvel's Wolverine - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9673,20 +9701,6 @@
         "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Azul",
         "valida": false,
         "valor_parcela": 34.98
-      },
-      {
-        "cupom": "BLACK25PRIME",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/221108919317955527547688168757.jpg",
-        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-playstation-dualsense-edicao-limitada-adamantium-de-marvels-wolver-3249558/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 439.0,
-        "sem_juros": false,
-        "titulo": "Controle sem fio PlayStation DualSense Edição Limitada Adamantium de Marvel's Wolver",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -9839,20 +9853,6 @@
         "preco_total": 2599.0,
         "sem_juros": false,
         "titulo": "Óculos de Realidade Virtual para PS5 Oled Sony PlayStation VR2",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/385212196017955639315668125093.jpg",
-        "link": "https://www.promobit.com.br/oferta/vr2-playstation-3250237/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 2603.07,
-        "sem_juros": false,
-        "titulo": "VR2 PlayStation",
         "valida": false,
         "valor_parcela": null
       },
@@ -10037,6 +10037,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-25T12:32:24+00:00"
+    "ts": "2026-11-25T12:41:51+00:00"
   }
 }

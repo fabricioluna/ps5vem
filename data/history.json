@@ -36,9 +36,9 @@
       "ts": "2026-11-20T17:01:23+00:00"
     },
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901": {
-      "nivel": "normal",
-      "preco": 3929.0,
-      "ts": "2026-11-25T22:43:45+00:00"
+      "nivel": "especial",
+      "preco": 3732.55,
+      "ts": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "nivel": "normal",
@@ -186,6 +186,16 @@
       "preco": 3929.0,
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
       "ts": "2026-11-25T22:43:45+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/868337574317956460164582543423.png",
+      "link": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901/",
+      "loja": "Amazon",
+      "nivel": "especial",
+      "preco": 3732.55,
+      "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
+      "ts": "2026-11-25T23:12:10+00:00"
     }
   ],
   "falhas": {
@@ -199,7 +209,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 28
+      "seguidas": 29
     },
     "promobit": {
       "aviso_enviado": false,
@@ -336,7 +346,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -369,7 +379,7 @@
       "primeiro_visto": "2026-11-20T07:38:43+00:00",
       "titulo": "Console Playstation 5 Slim Digital Edition, 825GB, USB, HDMI, Branco",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -380,7 +390,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -541,11 +551,11 @@
       "imagem": "https://i.promobit.com.br/300/868337574317956460164582543423.png",
       "link": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901/",
       "loja": "Amazon",
-      "menor_preco": 3929.0,
+      "menor_preco": 3732.55,
       "primeiro_visto": "2026-11-25T22:43:45+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
-      "ultimo_preco": 3929.0,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_preco": 3732.55,
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-branco-3241401": {
       "fonte": "promobit",
@@ -567,7 +577,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -578,7 +588,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -589,7 +599,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -600,7 +610,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4289.9,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -622,7 +632,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-25T23:02:41+00:00"
+      "ultimo_visto": "2026-11-25T23:12:10+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -9972,6 +9982,13 @@
       "loja": "Amazon",
       "preco": 7599.9,
       "ts": "2026-11-25T23:02:41+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901",
+      "loja": "Amazon",
+      "preco": 3732.55,
+      "ts": "2026-11-25T23:12:10+00:00"
     }
   ],
   "ultima_execucao": {
@@ -10225,6 +10242,20 @@
       {
         "cupom": null,
         "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/563559048717956476147985307744.jpg",
+        "link": "https://www.promobit.com.br/oferta/persona-5-royal-compativel-com-playstation-5-3255063/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 191.34,
+        "sem_juros": false,
+        "titulo": "Persona 5 Royal - Compatível com PlayStation 5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/892499659117956384956111506294.jpg",
         "link": "https://www.promobit.com.br/oferta/trails-in-the-sky-1st-chapter-playstation-5-3254228/",
         "loja": "Amazon",
@@ -10249,20 +10280,6 @@
         "titulo": "Bolsa Mochila Transporte Para Playstation 5 Digital Ultra E Ps4 Case Bag Preta",
         "valida": false,
         "valor_parcela": 28.55
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/758714226517956337544954249102.jpg",
-        "link": "https://www.promobit.com.br/oferta/pragmata-playstation-5-3253801/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 203.0,
-        "sem_juros": false,
-        "titulo": "PRAGMATA - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -10517,17 +10534,17 @@
         "valor_parcela": null
       },
       {
-        "alertar": false,
+        "alertar": true,
         "cupom": null,
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/868337574317956460164582543423.png",
         "link": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901/",
         "loja": "Amazon",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 19 min",
-        "nivel": "normal",
+        "motivo": "22% abaixo da média recente (R$ 4763); preço caiu R$ 196 desde o último aviso",
+        "nivel": "especial",
         "parcelas": null,
-        "preco_total": 3929.0,
+        "preco_total": 3732.55,
         "sem_juros": false,
         "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
         "valida": true,
@@ -10745,6 +10762,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-25T23:02:41+00:00"
+    "ts": "2026-11-25T23:12:10+00:00"
   }
 }

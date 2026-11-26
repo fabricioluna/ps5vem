@@ -10,6 +10,11 @@
       "preco": 3599.1,
       "ts": "2026-11-19T19:43:51+00:00"
     },
+    "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484": {
+      "nivel": "normal",
+      "preco": 3955.91,
+      "ts": "2026-11-26T12:56:51+00:00"
+    },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital-3235318": {
       "nivel": "normal",
       "preco": 3905.0,
@@ -43,7 +48,7 @@
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-branco-3256114": {
       "nivel": "normal",
       "preco": 3947.0,
-      "ts": "2026-11-26T09:47:30+00:00"
+      "ts": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "nivel": "normal",
@@ -231,6 +236,26 @@
       "preco": 3947.0,
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
       "ts": "2026-11-26T09:47:30+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/442974813917956636524717590752.jpg",
+      "link": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-branco-3256114/",
+      "loja": "Amazon",
+      "nivel": "normal",
+      "preco": 3947.0,
+      "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
+      "ts": "2026-11-26T12:56:51+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
+      "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
+      "loja": "Shopee",
+      "nivel": "normal",
+      "preco": 3955.91,
+      "titulo": "Console PlayStation 5 Slim Digital 825GB",
+      "ts": "2026-11-26T12:56:51+00:00"
     }
   ],
   "falhas": {
@@ -244,7 +269,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 61
+      "seguidas": 62
     },
     "promobit": {
       "aviso_enviado": false,
@@ -325,8 +350,8 @@
       "menor_preco": 4464.9,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
-      "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-26T08:12:36+00:00"
+      "ultimo_preco": 4464.9,
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.buscape.com.br/lead?oid=1578038536": {
       "fonte": "buscape",
@@ -381,7 +406,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -403,7 +428,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -425,7 +450,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -437,6 +462,17 @@
       "titulo": "PS5 Slim Digital 825GB 1 DualSense 4K 120fps",
       "ultimo_preco": 3599.1,
       "ultimo_visto": "2026-11-19T19:53:06+00:00"
+    },
+    "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484": {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
+      "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
+      "loja": "Shopee",
+      "menor_preco": 3955.91,
+      "primeiro_visto": "2026-11-26T12:56:51+00:00",
+      "titulo": "Console PlayStation 5 Slim Digital 825GB",
+      "ultimo_preco": 3955.91,
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025": {
       "fonte": "promobit",
@@ -612,7 +648,7 @@
       "primeiro_visto": "2026-11-26T03:38:24+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
       "ultimo_preco": 3947.0,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k": {
       "fonte": "zoom",
@@ -623,7 +659,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -645,7 +681,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -656,7 +692,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -677,8 +713,8 @@
       "menor_preco": 4464.9,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
-      "ultimo_preco": 4464.9,
-      "ultimo_visto": "2026-11-26T12:47:22+00:00"
+      "ultimo_preco": 4699.9,
+      "ultimo_visto": "2026-11-26T12:56:51+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -10791,6 +10827,27 @@
       "loja": "KaBuM!",
       "preco": 4369.05,
       "ts": "2026-11-26T12:37:50+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484",
+      "loja": "Shopee",
+      "preco": 3955.91,
+      "ts": "2026-11-26T12:56:51+00:00"
+    },
+    {
+      "fonte": "buscape",
+      "id": "https://www.buscape.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4464.9,
+      "ts": "2026-11-26T12:56:51+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+      "loja": "Amazon",
+      "preco": 4699.9,
+      "ts": "2026-11-26T12:56:51+00:00"
     }
   ],
   "ultima_execucao": {
@@ -11043,34 +11100,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/423518649817956637715409626880.jpg",
-        "link": "https://www.promobit.com.br/oferta/lego-batman-o-legado-do-cavaleiro-das-trevas-playstation-5-3256123/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 229.9,
-        "sem_juros": false,
-        "titulo": "Lego Batman: O Legado do Cavaleiro das Trevas - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/144297895617956636956970080129.jpg",
-        "link": "https://www.promobit.com.br/oferta/control-resonant-edicao-playstation-5-3256116/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 230.75,
-        "sem_juros": false,
-        "titulo": "Control Resonant Edição PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732587/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Cinza_1746714680.jpg",
         "link": "https://www.kabum.com.br/produto/732587/bolsa-mochila-transporte-para-playstation-5-fat-digital-ultra-e-acessorios-cinza",
@@ -11210,6 +11239,20 @@
         "valor_parcela": 49.9
       },
       {
+        "cupom": "CONTROLEBF",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/820192987717956972123429184669.png",
+        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-sony-dualsense-gran-turismo-ps5-pc-3257446/",
+        "loja": "KaBuM!",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 507.0,
+        "sem_juros": false,
+        "titulo": "Controle Sem Fio Sony DualSense Gran Turismo PS5 PC",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/874334/xlarge/Tampas-Capas-Ps5-Slim-Chroma-Teal-Verde-Playstation-5-Sony_1776081815.jpg",
@@ -11322,19 +11365,36 @@
         "valor_parcela": null
       },
       {
-        "alertar": false,
+        "alertar": true,
         "cupom": "BLACK100OFF",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/442974813917956636524717590752.jpg",
         "link": "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-branco-3256114/",
         "loja": "Amazon",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 180 min",
+        "motivo": "<= R$ 4000; janela anti-spam expirou",
         "nivel": "normal",
         "parcelas": null,
         "preco_total": 3947.0,
         "sem_juros": false,
         "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
+        "alertar": true,
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
+        "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
+        "loja": "Shopee",
+        "menor_preco": false,
+        "motivo": "<= R$ 4000; oferta nova",
+        "nivel": "normal",
+        "parcelas": null,
+        "preco_total": 3955.91,
+        "sem_juros": false,
+        "titulo": "Console PlayStation 5 Slim Digital 825GB",
         "valida": true,
         "valor_parcela": null
       },
@@ -11409,9 +11469,9 @@
       {
         "alertar": false,
         "cupom": null,
-        "fonte": "zoom",
+        "fonte": "buscape",
         "imagem": "https://image.zst.com.br/FF8178D8AF29BB183D0609F03FE97ED7_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+        "link": "https://www.buscape.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
         "loja": "Amazon",
         "menor_preco": false,
         "motivo": "acima do limite normal (R$ 4000)",
@@ -11442,9 +11502,9 @@
       },
       {
         "cupom": null,
-        "fonte": "buscape",
+        "fonte": "zoom",
         "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
-        "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
         "loja": "Magazine Luiza",
         "motivo": "falta 'digital' no título",
         "parcelas": 10,
@@ -11453,6 +11513,23 @@
         "titulo": "Playstation 5 Slim 1TB",
         "valida": false,
         "valor_parcela": 486.5
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/FF8178D8AF29BB183D0609F03FE97ED7_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/pre-venda-console-playstation-5-slim-1-tb-sony-1214a-4k",
+        "loja": "Amazon",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": null,
+        "preco_total": 4699.9,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim Edição Digital 1TB",
+        "valida": true,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -11465,20 +11542,6 @@
         "preco_total": 4699.9,
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB Bundle ASTRO BOT + Gran Turismo 7",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 4799.0,
-        "sem_juros": false,
-        "titulo": "Playstation 5 Slim 1TB",
         "valida": false,
         "valor_parcela": null
       },
@@ -11547,6 +11610,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-26T12:47:22+00:00"
+    "ts": "2026-11-26T12:56:51+00:00"
   }
 }

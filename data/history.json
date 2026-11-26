@@ -209,7 +209,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 35
+      "seguidas": 36
     },
     "promobit": {
       "aviso_enviado": false,
@@ -346,7 +346,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -379,7 +379,7 @@
       "primeiro_visto": "2026-11-20T07:38:43+00:00",
       "titulo": "Console Playstation 5 Slim Digital Edition, 825GB, USB, HDMI, Branco",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.kabum.com.br/produto/989702/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital": {
       "fonte": "kabum",
@@ -390,7 +390,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -577,7 +577,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -588,7 +588,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -599,7 +599,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -610,7 +610,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -632,7 +632,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4699.9,
-      "ultimo_visto": "2026-11-26T00:08:51+00:00"
+      "ultimo_visto": "2026-11-26T00:18:17+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -10332,20 +10332,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/892499659117956384956111506294.jpg",
-        "link": "https://www.promobit.com.br/oferta/trails-in-the-sky-1st-chapter-playstation-5-3254228/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 193.89,
-        "sem_juros": false,
-        "titulo": "Trails In The Sky 1St Chapter - Playstation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732581/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Digital-Ultra-E-Ps4-Case-Bag-Preta_1746724879.jpg",
         "link": "https://www.kabum.com.br/produto/732581/bolsa-mochila-transporte-para-playstation-5-digital-ultra-e-ps4-case-bag-preta",
@@ -10369,6 +10355,20 @@
         "preco_total": 246.55,
         "sem_juros": false,
         "titulo": "EA Sports FC 27 - PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/553925238317956345989267110371.jpg",
+        "link": "https://www.promobit.com.br/oferta/metaphor-refantazio-steelbook-ps5-3253856/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 254.0,
+        "sem_juros": false,
+        "titulo": "Metaphor: ReFantazio SteelBook PS5",
         "valida": false,
         "valor_parcela": null
       },
@@ -10794,6 +10794,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-26T00:08:51+00:00"
+    "ts": "2026-11-26T00:18:17+00:00"
   }
 }

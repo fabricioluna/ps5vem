@@ -13,7 +13,7 @@
     "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484": {
       "nivel": "normal",
       "preco": 3955.91,
-      "ts": "2026-11-26T12:56:51+00:00"
+      "ts": "2026-11-26T15:57:14+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital-3235318": {
       "nivel": "normal",
@@ -256,6 +256,16 @@
       "preco": 3955.91,
       "titulo": "Console PlayStation 5 Slim Digital 825GB",
       "ts": "2026-11-26T12:56:51+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
+      "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
+      "loja": "Shopee",
+      "nivel": "normal",
+      "preco": 3955.91,
+      "titulo": "Console PlayStation 5 Slim Digital 825GB",
+      "ts": "2026-11-26T15:57:14+00:00"
     }
   ],
   "falhas": {
@@ -269,7 +279,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 11
+      "seguidas": 12
     },
     "promobit": {
       "aviso_enviado": false,
@@ -406,7 +416,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -428,7 +438,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -450,7 +460,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -472,7 +482,7 @@
       "primeiro_visto": "2026-11-26T12:56:51+00:00",
       "titulo": "Console PlayStation 5 Slim Digital 825GB",
       "ultimo_preco": 3955.91,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025": {
       "fonte": "promobit",
@@ -527,7 +537,7 @@
       "primeiro_visto": "2026-11-26T13:42:09+00:00",
       "titulo": "Console Sony PlayStation 5 SSD 825GB Controle Sem Fio DualSense + 2 Jogos Digitais Edição Digital",
       "ultimo_preco": 4084.05,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.promobit.com.br/oferta/playstation-5-edicao-digital-825gb-1-controle-branco-sony-3237252": {
       "fonte": "promobit",
@@ -670,7 +680,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -692,7 +702,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -703,7 +713,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -725,7 +735,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4364.9,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -747,7 +757,7 @@
       "primeiro_visto": "2026-11-26T14:03:07+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
       "ultimo_preco": 4401.67,
-      "ultimo_visto": "2026-11-26T15:47:42+00:00"
+      "ultimo_visto": "2026-11-26T15:57:14+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -11122,6 +11132,13 @@
       "loja": "Amazon",
       "preco": 7599.9,
       "ts": "2026-11-26T15:38:06+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/console-sony-playstation-5-ssd-825gb-controle-sem-fio-dualsense-2-jogos-digitais-edicao-digital-3257751",
+      "loja": "KaBuM!",
+      "preco": 4084.05,
+      "ts": "2026-11-26T15:57:14+00:00"
     }
   ],
   "ultima_execucao": {
@@ -11148,20 +11165,6 @@
       }
     },
     "itens": [
-      {
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/720237787917956984664931916410.jpg",
-        "link": "https://www.promobit.com.br/oferta/jogo-the-valiant-ps5-3257584/",
-        "loja": "Playstation",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 24.9,
-        "sem_juros": false,
-        "titulo": "Jogo The Valiant - PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
       {
         "cupom": null,
         "fonte": "kabum",
@@ -11457,6 +11460,20 @@
         "valor_parcela": 29.99
       },
       {
+        "cupom": "MELISPH",
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/397220803417957083676674573349.png",
+        "link": "https://www.promobit.com.br/oferta/gta-vi-para-ps5-3258828/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 313.0,
+        "sem_juros": false,
+        "titulo": "GTA VI para PS5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
         "cupom": "SUPEROFERTA",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/603524230517957050347838065198.png",
@@ -11611,14 +11628,14 @@
         "valor_parcela": 133.99
       },
       {
-        "alertar": false,
+        "alertar": true,
         "cupom": null,
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
         "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
         "loja": "Shopee",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 171 min",
+        "motivo": "<= R$ 4000; janela anti-spam expirou",
         "nivel": "normal",
         "parcelas": null,
         "preco_total": 3955.91,
@@ -11898,6 +11915,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-26T15:47:42+00:00"
+    "ts": "2026-11-26T15:57:14+00:00"
   }
 }

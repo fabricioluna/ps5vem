@@ -5,6 +5,11 @@
       "preco": 3999.9,
       "ts": "2026-11-21T12:43:07+00:00"
     },
+    "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0": {
+      "nivel": "especial",
+      "preco": 3510.0,
+      "ts": "2026-11-26T16:54:53+00:00"
+    },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "nivel": "especial",
       "preco": 3599.1,
@@ -19,6 +24,11 @@
       "nivel": "especial",
       "preco": 3510.25,
       "ts": "2026-11-26T16:54:08+00:00"
+    },
+    "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132": {
+      "nivel": "especial",
+      "preco": 3210.25,
+      "ts": "2026-11-26T16:54:53+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259133": {
       "nivel": "especial",
@@ -341,6 +351,26 @@
       "preco": 3695.23,
       "titulo": "PlayStation 5 Edição Digital 825GB 1 Controle Branco Sony",
       "ts": "2026-11-26T16:54:08+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/613816394317957114559162262848.png",
+      "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132/",
+      "loja": "Magazine Luiza",
+      "nivel": "especial",
+      "preco": 3210.25,
+      "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
+      "ts": "2026-11-26T16:54:53+00:00"
+    },
+    {
+      "fonte": "pelando",
+      "imagem": "https://media.pelando.com.br/HVCjCwREccz_gYlq8JZYzebHZ7I=/0x300/filters:format(webp)/d/crawler-image-9765bff8-2909-406d-908b-ed1b81f0bee2-1795711661219-1795711662899.jpg",
+      "link": "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0",
+      "loja": "Magalu",
+      "nivel": "especial",
+      "preco": 3510.0,
+      "titulo": "PlayStation 5 Slim Digital 1TB Branco",
+      "ts": "2026-11-26T16:54:53+00:00"
     }
   ],
   "falhas": {
@@ -353,8 +383,8 @@
       "seguidas": 0
     },
     "pelando": {
-      "aviso_enviado": true,
-      "seguidas": 18
+      "aviso_enviado": false,
+      "seguidas": 0
     },
     "promobit": {
       "aviso_enviado": false,
@@ -491,7 +521,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -513,7 +543,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -535,7 +565,18 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
+    },
+    "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0": {
+      "fonte": "pelando",
+      "imagem": "https://media.pelando.com.br/HVCjCwREccz_gYlq8JZYzebHZ7I=/0x300/filters:format(webp)/d/crawler-image-9765bff8-2909-406d-908b-ed1b81f0bee2-1795711661219-1795711662899.jpg",
+      "link": "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0",
+      "loja": "Magalu",
+      "menor_preco": 3510.0,
+      "primeiro_visto": "2026-11-26T16:54:53+00:00",
+      "titulo": "PlayStation 5 Slim Digital 1TB Branco",
+      "ultimo_preco": 3510.0,
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.pelando.com.br/d/ps5-slim-digital-825gb-1-dualsense-4k-120fps-ebeb": {
       "fonte": "pelando",
@@ -557,7 +598,7 @@
       "primeiro_visto": "2026-11-26T12:56:51+00:00",
       "titulo": "Console PlayStation 5 Slim Digital 825GB",
       "ultimo_preco": 3955.91,
-      "ultimo_visto": "2026-11-26T16:44:40+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025": {
       "fonte": "promobit",
@@ -579,7 +620,18 @@
       "primeiro_visto": "2026-11-26T16:54:08+00:00",
       "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
       "ultimo_preco": 3510.25,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
+    },
+    "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132": {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/613816394317957114559162262848.png",
+      "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132/",
+      "loja": "Magazine Luiza",
+      "menor_preco": 3210.25,
+      "primeiro_visto": "2026-11-26T16:54:53+00:00",
+      "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
+      "ultimo_preco": 3210.25,
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259133": {
       "fonte": "promobit",
@@ -590,7 +642,7 @@
       "primeiro_visto": "2026-11-26T16:54:08+00:00",
       "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
       "ultimo_preco": 3510.0,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259147": {
       "fonte": "promobit",
@@ -667,7 +719,7 @@
       "primeiro_visto": "2026-11-26T16:54:08+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB 1 Controle Branco Sony",
       "ultimo_preco": 3695.23,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.promobit.com.br/oferta/playstation-5-slim-digital-1tb-branco-3259176": {
       "fonte": "promobit",
@@ -810,7 +862,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7599.9,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -832,7 +884,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -843,7 +895,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4369.05,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -865,7 +917,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4364.9,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -887,7 +939,7 @@
       "primeiro_visto": "2026-11-26T14:03:07+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
       "ultimo_preco": 4401.67,
-      "ultimo_visto": "2026-11-26T16:54:08+00:00"
+      "ultimo_visto": "2026-11-26T16:54:53+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -11367,6 +11419,20 @@
       "loja": "Magazine Luiza",
       "preco": 3695.23,
       "ts": "2026-11-26T16:54:08+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132",
+      "loja": "Magazine Luiza",
+      "preco": 3210.25,
+      "ts": "2026-11-26T16:54:53+00:00"
+    },
+    {
+      "fonte": "pelando",
+      "id": "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0",
+      "loja": "Magalu",
+      "preco": 3510.0,
+      "ts": "2026-11-26T16:54:53+00:00"
     }
   ],
   "ultima_execucao": {
@@ -11380,8 +11446,8 @@
         "status": "ok"
       },
       "pelando": {
-        "erro": "HTTP 403 em https://www.pelando.com.br/busca/ps5-slim-digital",
-        "status": "bloqueada"
+        "anuncios": 1,
+        "status": "ok"
       },
       "promobit": {
         "anuncios": 12,
@@ -11859,14 +11925,31 @@
         "alertar": true,
         "cupom": "SQUAD300BF",
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/135285539417957115732678308466.png",
-        "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259147/",
+        "imagem": "https://i.promobit.com.br/300/613816394317957114559162262848.png",
+        "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259132/",
         "loja": "Magazine Luiza",
-        "menor_preco": true,
+        "menor_preco": false,
         "motivo": "<= R$ 3700 (super promoção); oferta nova",
         "nivel": "especial",
         "parcelas": null,
-        "preco_total": 3210.0,
+        "preco_total": 3210.25,
+        "sem_juros": false,
+        "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/754155556917957114562462172763.png",
+        "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259133/",
+        "loja": "Magazine Luiza",
+        "menor_preco": false,
+        "motivo": "<= R$ 3700 (super promoção); especial já avisado há 1 min",
+        "nivel": "especial",
+        "parcelas": null,
+        "preco_total": 3510.0,
         "sem_juros": false,
         "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
         "valida": true,
@@ -11875,11 +11958,11 @@
       {
         "alertar": true,
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/946601058017957118112952687099.png",
-        "link": "https://www.promobit.com.br/oferta/playstation-5-slim-digital-1tb-branco-3259176/",
-        "loja": "Magazine Luiza",
-        "menor_preco": true,
+        "fonte": "pelando",
+        "imagem": "https://media.pelando.com.br/HVCjCwREccz_gYlq8JZYzebHZ7I=/0x300/filters:format(webp)/d/crawler-image-9765bff8-2909-406d-908b-ed1b81f0bee2-1795711661219-1795711662899.jpg",
+        "link": "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0",
+        "loja": "Magalu",
+        "menor_preco": false,
         "motivo": "<= R$ 3700 (super promoção); oferta nova",
         "nivel": "especial",
         "parcelas": null,
@@ -11890,31 +11973,14 @@
         "valor_parcela": null
       },
       {
-        "alertar": true,
-        "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/754155556917957114562462172763.png",
-        "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259133/",
-        "loja": "Magazine Luiza",
-        "menor_preco": true,
-        "motivo": "<= R$ 3700 (super promoção); oferta nova",
-        "nivel": "especial",
-        "parcelas": null,
-        "preco_total": 3510.0,
-        "sem_juros": false,
-        "titulo": "Console Sony PlayStation 5 Slim Digital 1TB DualSense Branco",
-        "valida": true,
-        "valor_parcela": null
-      },
-      {
-        "alertar": true,
+        "alertar": false,
         "cupom": null,
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/140017328917957114737072991911.jpg",
         "link": "https://www.promobit.com.br/oferta/console-sony-playstation-5-slim-digital-1tb-dualsense-branco-3259122/",
         "loja": "Magazine Luiza",
-        "menor_preco": true,
-        "motivo": "<= R$ 3700 (super promoção); oferta nova",
+        "menor_preco": false,
+        "motivo": "<= R$ 3700 (super promoção); especial já avisado há 1 min",
         "nivel": "especial",
         "parcelas": null,
         "preco_total": 3510.25,
@@ -11924,19 +11990,36 @@
         "valor_parcela": null
       },
       {
-        "alertar": true,
+        "alertar": false,
         "cupom": "INFLUBLACK20",
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/150347520917957102648563396054.jpg",
         "link": "https://www.promobit.com.br/oferta/playstation-5-edicao-digital-825gb-1-controle-branco-sony-3258863/",
         "loja": "Magazine Luiza",
         "menor_preco": false,
-        "motivo": "<= R$ 3700 (super promoção); oferta nova",
+        "motivo": "<= R$ 3700 (super promoção); especial já avisado há 1 min",
         "nivel": "especial",
         "parcelas": null,
         "preco_total": 3695.23,
         "sem_juros": false,
         "titulo": "PlayStation 5 Edição Digital 825GB 1 Controle Branco Sony",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/861292129617956975456491656536.jpg",
+        "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3257484/",
+        "loja": "Shopee",
+        "menor_preco": false,
+        "motivo": "<= R$ 4000; já avisado há 58 min",
+        "nivel": "normal",
+        "parcelas": null,
+        "preco_total": 3955.91,
+        "sem_juros": false,
+        "titulo": "Console PlayStation 5 Slim Digital 825GB",
         "valida": true,
         "valor_parcela": null
       },
@@ -12138,6 +12221,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-26T16:54:08+00:00"
+    "ts": "2026-11-26T16:54:53+00:00"
   }
 }

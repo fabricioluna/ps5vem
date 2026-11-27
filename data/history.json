@@ -200,6 +200,11 @@
       "preco": 3999.9,
       "ts": "2026-11-27T03:03:07+00:00"
     },
+    "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941": {
+      "nivel": "normal",
+      "preco": 3999.0,
+      "ts": "2026-11-27T21:19:15+00:00"
+    },
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901": {
       "nivel": "especial",
       "preco": 3732.55,
@@ -841,6 +846,16 @@
       "preco": 3999.9,
       "titulo": "Console PlayStation 5 Slim Edição Digital 825GB + Jogos Astro Bot e Gran Turismo 7",
       "ts": "2026-11-27T21:09:44+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/453533790717958135185801485404.jpg",
+      "link": "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941/",
+      "loja": "Amazon",
+      "nivel": "normal",
+      "preco": 3999.0,
+      "titulo": "PlayStation5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+      "ts": "2026-11-27T21:19:15+00:00"
     }
   ],
   "falhas": {
@@ -854,7 +869,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 19
+      "seguidas": 20
     },
     "promobit": {
       "aviso_enviado": false,
@@ -909,12 +924,12 @@
       "fonte": "buscape",
       "imagem": "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg",
       "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
-      "loja": "Magazine Luiza",
+      "loja": "KaBuM!",
       "menor_preco": 4151.74,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
-      "ultimo_preco": 4151.74,
-      "ultimo_visto": "2026-11-27T21:00:11+00:00"
+      "ultimo_preco": 4289.0,
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "buscape",
@@ -1002,7 +1017,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -1024,7 +1039,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -1046,7 +1061,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4289.0,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0": {
       "fonte": "pelando",
@@ -1244,7 +1259,7 @@
       "primeiro_visto": "2026-11-27T21:09:44+00:00",
       "titulo": "Console PlayStation 5 Slim Edição Digital 825GB + Jogos Astro Bot e Gran Turismo 7",
       "ultimo_preco": 3999.9,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.promobit.com.br/oferta/console-playstation-5-sony-edicao-digital-marvels-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865-3236025": {
       "fonte": "promobit",
@@ -1420,7 +1435,7 @@
       "primeiro_visto": "2026-11-27T20:31:56+00:00",
       "titulo": "PlayStation 5 Digital",
       "ultimo_preco": 3915.52,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.promobit.com.br/oferta/playstation-5-edicao-digital-825gb-1-controle-branco-sony-3237252": {
       "fonte": "promobit",
@@ -1686,6 +1701,17 @@
       "ultimo_preco": 3999.9,
       "ultimo_visto": "2026-11-27T03:03:07+00:00"
     },
+    "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941": {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/453533790717958135185801485404.jpg",
+      "link": "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941/",
+      "loja": "Amazon",
+      "menor_preco": 3999.0,
+      "primeiro_visto": "2026-11-27T21:19:15+00:00",
+      "titulo": "PlayStation5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+      "ultimo_preco": 3999.0,
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
+    },
     "https://www.promobit.com.br/oferta/playstation5-slim-edicao-digital-3238929": {
       "fonte": "promobit",
       "imagem": "https://i.promobit.com.br/300/392147366617952945087033744418.jpg",
@@ -1739,7 +1765,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7789.9,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -1750,7 +1776,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4752.03,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -1761,18 +1787,18 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
       "imagem": "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg",
       "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
-      "loja": "KaBuM!",
+      "loja": "Magazine Luiza",
       "menor_preco": 3999.9,
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
-      "ultimo_preco": 4289.0,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_preco": 4151.74,
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -1794,7 +1820,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4999.9,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -1816,7 +1842,7 @@
       "primeiro_visto": "2026-11-26T14:03:07+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
       "ultimo_preco": 17490.0,
-      "ultimo_visto": "2026-11-27T21:09:44+00:00"
+      "ultimo_visto": "2026-11-27T21:19:15+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -14963,6 +14989,27 @@
       "loja": "Magalu (oferta relâmpago)",
       "preco": 4558.03,
       "ts": "2026-11-27T21:09:44+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941",
+      "loja": "Amazon",
+      "preco": 3999.0,
+      "ts": "2026-11-27T21:19:15+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+      "loja": "Magazine Luiza",
+      "preco": 4151.74,
+      "ts": "2026-11-27T21:19:15+00:00"
+    },
+    {
+      "fonte": "buscape",
+      "id": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+      "loja": "KaBuM!",
+      "preco": 4289.0,
+      "ts": "2026-11-27T21:19:15+00:00"
     }
   ],
   "ultima_execucao": {
@@ -15048,7 +15095,7 @@
       {
         "cupom": null,
         "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/676474434217958130322675957071.jpg",
+        "imagem": "https://i.promobit.com.br/300/898852702517958135308937843567.png",
         "link": "https://www.promobit.com.br/oferta/death-stranding-versao-do-diretor-playstation-5-3269871/",
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
@@ -15084,20 +15131,6 @@
         "preco_total": 110.0,
         "sem_juros": false,
         "titulo": "Jogo The Last of Us Part II Remastered, PS5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": "JOGATUDO",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/153412493917958045585281382894.jpg",
-        "link": "https://www.promobit.com.br/oferta/jogo-horizon-zero-dawn-remastered-ps5-3005776-3268626/",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 118.0,
-        "sem_juros": false,
-        "titulo": "Jogo Horizon Zero Dawn Remastered, PS5 - 3005776",
         "valida": false,
         "valor_parcela": null
       },
@@ -15228,20 +15261,6 @@
         "valor_parcela": 28.55
       },
       {
-        "cupom": "JOGATUDO",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/385636859617958045605794026772.png",
-        "link": "https://www.promobit.com.br/oferta/jogo-nba-2k27-ps5-p5da10000044fgm-3268624/",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 220.0,
-        "sem_juros": false,
-        "titulo": "Jogo NBA 2K27, PS5 - P5DA10000044FGM",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/732587/xlarge/Bolsa-Mochila-Transporte-Para-Playstation-5-Fat-Digital-Ultra-E-Acess-rios-Cinza_1746714680.jpg",
@@ -15310,6 +15329,20 @@
         "titulo": "Bolsa Premium Mochila Transporte Para Playstation 5 Fat Digital Ultra E Acessórios Azul",
         "valida": false,
         "valor_parcela": 34.98
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/994607294917958138133534961306.jpg",
+        "link": "https://www.promobit.com.br/oferta/grand-theft-auto-vi-playstation-5-3269975/",
+        "loja": "Shopee",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 379.91,
+        "sem_juros": false,
+        "titulo": "Grand Theft Auto VI - Playstation 5",
+        "valida": false,
+        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -15487,7 +15520,7 @@
         "link": "https://www.promobit.com.br/oferta/playstation-5-digital-3269650/",
         "loja": "Shopee",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; já avisado há 38 min",
+        "motivo": "<= R$ 4000; já avisado há 47 min",
         "nivel": "normal",
         "parcelas": null,
         "preco_total": 3915.52,
@@ -15500,11 +15533,28 @@
         "alertar": true,
         "cupom": null,
         "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/453533790717958135185801485404.jpg",
+        "link": "https://www.promobit.com.br/oferta/playstation5-slim-digital-825gb-pacote-astro-bot-e-gran-turismo-7-3269941/",
+        "loja": "Amazon",
+        "menor_preco": false,
+        "motivo": "<= R$ 4000; oferta nova",
+        "nivel": "normal",
+        "parcelas": null,
+        "preco_total": 3999.0,
+        "sem_juros": false,
+        "titulo": "PlayStation5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/console_ps5_slim_digital_825gb_jogos_astro_bot_e_gran_turismo_7_2.jpg",
         "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-edicao-digital-825gb-jogos-astro-bot-e-gran-turismo-7-3269923/",
         "loja": "Amazon",
         "menor_preco": false,
-        "motivo": "<= R$ 4000; oferta nova",
+        "motivo": "<= R$ 4000; já avisado há 10 min",
         "nivel": "normal",
         "parcelas": null,
         "preco_total": 3999.9,
@@ -15519,6 +15569,23 @@
         "fonte": "zoom",
         "imagem": "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg",
         "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
+        "loja": "Magazine Luiza",
+        "menor_preco": false,
+        "motivo": "acima do limite normal (R$ 4000)",
+        "nivel": "nenhum",
+        "parcelas": 10,
+        "preco_total": 4151.74,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
+        "valida": true,
+        "valor_parcela": 471.79
+      },
+      {
+        "alertar": false,
+        "cupom": null,
+        "fonte": "buscape",
+        "imagem": "https://image.zst.com.br/D5CD8DD4A1A704B1CC4284D5C56968EA_235_235.jpg",
+        "link": "https://www.buscape.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k",
         "loja": "KaBuM!",
         "menor_preco": false,
         "motivo": "acima do limite normal (R$ 4000)",
@@ -15756,6 +15823,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-27T21:09:44+00:00"
+    "ts": "2026-11-27T21:19:15+00:00"
   }
 }

@@ -654,7 +654,7 @@
     },
     "pelando": {
       "aviso_enviado": true,
-      "seguidas": 16
+      "seguidas": 17
     },
     "promobit": {
       "aviso_enviado": false,
@@ -802,7 +802,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -824,7 +824,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -846,7 +846,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4499.0,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0": {
       "fonte": "pelando",
@@ -1362,8 +1362,8 @@
       "menor_preco": 7314.9,
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
-      "ultimo_preco": 7314.9,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_preco": 7699.9,
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -1374,7 +1374,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4752.03,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -1385,7 +1385,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -1396,7 +1396,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4355.02,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -1418,7 +1418,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4875.08,
-      "ultimo_visto": "2026-11-27T05:30:50+00:00"
+      "ultimo_visto": "2026-11-27T05:40:18+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -13166,6 +13166,13 @@
       "loja": "KaBuM! (oferta relâmpago)",
       "preco": 4499.0,
       "ts": "2026-11-27T05:21:26+00:00"
+    },
+    {
+      "fonte": "zoom",
+      "id": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-slim-1-tb-sony-limitada-do-30-aniversario-4k",
+      "loja": "Amazon",
+      "preco": 7699.9,
+      "ts": "2026-11-27T05:40:18+00:00"
     }
   ],
   "ultima_execucao": {
@@ -13301,6 +13308,20 @@
         "preco_total": 103.41,
         "sem_juros": false,
         "titulo": "2 Jogos + DLCs: Coleção NIOH Collection - PS5 - Mídia Física",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/895750020417957576486097905433.jpg",
+        "link": "https://www.promobit.com.br/oferta/jogo-demons-souls-ps5-midia-fisica-3264744/",
+        "loja": "Amazon",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 119.0,
+        "sem_juros": false,
+        "titulo": "Jogo Demon's Souls - PS5 - Mídia Física",
         "valida": false,
         "valor_parcela": null
       },
@@ -13475,6 +13496,34 @@
       {
         "cupom": null,
         "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/602044879317957573556260340220.png",
+        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-dualsense-playstation-5-chroma-indigo-cor-azul-3264733/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 224.0,
+        "sem_juros": false,
+        "titulo": "Controle Sem Fio Dualsense Playstation 5 Chroma Indigo Cor Azul",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/566357699217957574769556057764.png",
+        "link": "https://www.promobit.com.br/oferta/joystick-sem-fio-bluetooth-azul-claro-sony-cfi-zct1w-ps5-3264736/",
+        "loja": "Mercado Livre",
+        "motivo": "falta 'digital' no título",
+        "parcelas": null,
+        "preco_total": 249.0,
+        "sem_juros": false,
+        "titulo": "Joystick sem fio Bluetooth azul claro Sony CFI-ZCT1W Ps5",
+        "valida": false,
+        "valor_parcela": null
+      },
+      {
+        "cupom": null,
+        "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/304910236917957542478564933566.jpg",
         "link": "https://www.promobit.com.br/oferta/ghost-of-ytei-complete-edition-playstation-5-3264647/",
         "loja": "Amazon",
@@ -13558,20 +13607,6 @@
       },
       {
         "cupom": null,
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/552366666717957505244059111989.jpg",
-        "link": "https://www.promobit.com.br/oferta/grand-theft-auto-vi-gta-6-playstation-5-3264172/",
-        "loja": "Shopee",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 369.55,
-        "sem_juros": false,
-        "titulo": "Grand Theft Auto VI - GTA 6 - PlayStation 5",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": null,
         "fonte": "kabum",
         "imagem": "https://images.kabum.com.br/produtos/fotos/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568_1787058272_original.jpg",
         "link": "https://www.kabum.com.br/produto/1004800/tampa-para-console-playstation-5-slim-rhythm-blue-hyperpop-azul-1000048568",
@@ -13611,34 +13646,6 @@
         "titulo": "Tampas para Console PlayStation 5 Slim, Remix Green - Hyperpop, Verde - 1000048554",
         "valida": false,
         "valor_parcela": 49.9
-      },
-      {
-        "cupom": "GRANDUAL",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/612001046117957521517891940167.png",
-        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-sony-dualsense-edicao-limitada-gran-turismo-ps5-pc-bluetooth-usb-c-1000056957-3264406/",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 457.0,
-        "sem_juros": false,
-        "titulo": "Controle Sem Fio Sony DualSense, Edição Limitada Gran Turismo, PS5, PC, Bluetooth, USB-C 1000056957",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
-        "cupom": "CONTROLEBF",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/381585805417957525029876072431.png",
-        "link": "https://www.promobit.com.br/oferta/controle-sem-fio-sony-dualsense-gran-turismo-ps5-pc-3264415/",
-        "loja": "KaBuM!",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 464.0,
-        "sem_juros": false,
-        "titulo": "Controle Sem Fio Sony DualSense Gran Turismo PS5 PC",
-        "valida": false,
-        "valor_parcela": null
       },
       {
         "cupom": null,
@@ -13762,6 +13769,20 @@
         "valor_parcela": 469.9
       },
       {
+        "cupom": null,
+        "fonte": "zoom",
+        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
+        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
+        "loja": "Magazine Luiza",
+        "motivo": "falta 'digital' no título",
+        "parcelas": 10,
+        "preco_total": 4475.8,
+        "sem_juros": false,
+        "titulo": "Playstation 5 Slim 1TB",
+        "valida": false,
+        "valor_parcela": 486.5
+      },
+      {
         "alertar": false,
         "cupom": null,
         "fonte": "kabum",
@@ -13827,20 +13848,6 @@
         "valor_parcela": 489.9
       },
       {
-        "cupom": null,
-        "fonte": "zoom",
-        "imagem": "https://image.zst.com.br/2C0DB53BF5B39A89341158CDB4D78C3D_235_235.jpg",
-        "link": "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-1tb-sony-4k-hdr",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 4799.0,
-        "sem_juros": false,
-        "titulo": "Playstation 5 Slim 1TB",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "alertar": false,
         "cupom": null,
         "fonte": "zoom",
@@ -13879,7 +13886,7 @@
         "loja": "Amazon",
         "motivo": "falta 'digital' no título",
         "parcelas": null,
-        "preco_total": 5319.9,
+        "preco_total": 5599.9,
         "sem_juros": false,
         "titulo": "Playstation 5 Slim 1TB Bundle Returnal + Ratchet & Clank",
         "valida": false,
@@ -13910,7 +13917,7 @@
         "motivo": "acima do limite normal (R$ 4000)",
         "nivel": "nenhum",
         "parcelas": null,
-        "preco_total": 7314.9,
+        "preco_total": 7699.9,
         "sem_juros": false,
         "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
         "valida": true,
@@ -13922,6 +13929,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-27T05:30:50+00:00"
+    "ts": "2026-11-27T05:40:18+00:00"
   }
 }

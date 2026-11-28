@@ -220,6 +220,11 @@
       "preco": 3999.0,
       "ts": "2026-11-27T21:19:15+00:00"
     },
+    "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167": {
+      "nivel": "especial",
+      "preco": 3955.91,
+      "ts": "2026-11-28T14:49:04+00:00"
+    },
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901": {
       "nivel": "especial",
       "preco": 3732.55,
@@ -931,6 +936,16 @@
       "preco": 3955.91,
       "titulo": "Console PlayStation 5 Slim Digital 825GB",
       "ts": "2026-11-28T14:33:09+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/149134009417958767154526134800.jpg",
+      "link": "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167/",
+      "loja": "Shopee",
+      "nivel": "especial",
+      "preco": 3955.91,
+      "titulo": "PS5 Slim Digital 825GB",
+      "ts": "2026-11-28T14:49:04+00:00"
     }
   ],
   "falhas": {
@@ -944,7 +959,7 @@
     },
     "pelando": {
       "aviso_enviado": false,
-      "seguidas": 1
+      "seguidas": 2
     },
     "promobit": {
       "aviso_enviado": false,
@@ -1092,7 +1107,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5 Edição Digital Slim, SSD 825GB, Controle DualSense, Astro's Playroom, Branco - CFI 2114B",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.kabum.com.br/produto/1065184/console-playstation-5-sony-edicao-digital-marvel-s-wolverine-pacote-de-edicao-limitada-825-gb-amarelo-1000056865": {
       "fonte": "kabum",
@@ -1114,7 +1129,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Digital 825gb + Dualsense + Gran Turismo 7 E Astro Bot",
       "ultimo_preco": 4558.03,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.kabum.com.br/produto/939944/console-playstation-5-slim-digital-edition-825gb-usb-hdmi-branco": {
       "fonte": "kabum",
@@ -1136,7 +1151,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Console Sony PlayStation 5, SSD 825GB, Controle Sem Fio DualSense + 2 Jogos Digitais, Edição Digital",
       "ultimo_preco": 4299.0,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.pelando.com.br/d/playstation-5-slim-digital-1tb-branco-5fd0": {
       "fonte": "pelando",
@@ -1235,7 +1250,7 @@
       "primeiro_visto": "2026-11-28T14:33:09+00:00",
       "titulo": "Console PlayStation 5 Slim Digital 825GB",
       "ultimo_preco": 3955.91,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-pacote-astro-bot-e-gran-turismo-7-branco-3266618": {
       "fonte": "promobit",
@@ -1853,6 +1868,17 @@
       "ultimo_preco": 4101.74,
       "ultimo_visto": "2026-11-28T14:23:06+00:00"
     },
+    "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167": {
+      "fonte": "promobit",
+      "imagem": "https://i.promobit.com.br/300/149134009417958767154526134800.jpg",
+      "link": "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167/",
+      "loja": "Shopee",
+      "menor_preco": 3955.91,
+      "primeiro_visto": "2026-11-28T14:49:04+00:00",
+      "titulo": "PS5 Slim Digital 825GB",
+      "ultimo_preco": 3955.91,
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
+    },
     "https://www.promobit.com.br/oferta/sony-playstation-5-edicao-digital-825gb-1-controle-3254901": {
       "fonte": "promobit",
       "imagem": "https://i.promobit.com.br/300/868337574317956460164582543423.png",
@@ -1895,7 +1921,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Pré-venda Console Playstation 5 Slim Edição Digital Bundle 30º Aniversário",
       "ultimo_preco": 7789.9,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-edicao-digital-sony-4k": {
       "fonte": "zoom",
@@ -1906,7 +1932,7 @@
       "primeiro_visto": "2026-11-19T21:04:33+00:00",
       "titulo": "PlayStation 5 Edição Digital 825GB",
       "ultimo_preco": 4752.03,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-4k": {
       "fonte": "zoom",
@@ -1917,7 +1943,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB",
       "ultimo_preco": 4370.07,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-825gb-sony-ps5-edicao-digital-bundle-4k": {
       "fonte": "zoom",
@@ -1928,7 +1954,7 @@
       "primeiro_visto": "2026-11-19T18:36:54+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 825GB Bundle ASTRO BOT + Gran Turismo 7",
       "ultimo_preco": 4161.42,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/console-de-video-game/console-playstation-5-slim-edicao-digital-1tb-bundle-returnal-ratchet-clank": {
       "fonte": "zoom",
@@ -1950,7 +1976,7 @@
       "primeiro_visto": "2026-11-19T19:43:51+00:00",
       "titulo": "Playstation 5 Slim Edição Digital 1TB",
       "ultimo_preco": 4749.9,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1574164149": {
       "fonte": "zoom",
@@ -1972,7 +1998,7 @@
       "primeiro_visto": "2026-11-26T14:03:07+00:00",
       "titulo": "Sony PlayStation 5 Edição Digital 825GB 1 Controle",
       "ultimo_preco": 18990.0,
-      "ultimo_visto": "2026-11-28T14:39:38+00:00"
+      "ultimo_visto": "2026-11-28T14:49:04+00:00"
     },
     "https://www.zoom.com.br/lead?oid=1579254773": {
       "fonte": "zoom",
@@ -16624,6 +16650,13 @@
       "loja": "Amazon",
       "preco": 18990.0,
       "ts": "2026-11-28T14:39:38+00:00"
+    },
+    {
+      "fonte": "promobit",
+      "id": "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167",
+      "loja": "Shopee",
+      "preco": 3955.91,
+      "ts": "2026-11-28T14:49:04+00:00"
     }
   ],
   "ultima_execucao": {
@@ -16917,20 +16950,6 @@
         "valor_parcela": 28.55
       },
       {
-        "cupom": "Ativar 30% Off",
-        "fonte": "promobit",
-        "imagem": "https://i.promobit.com.br/300/402319341417958657753346329723.jpg",
-        "link": "https://www.promobit.com.br/oferta/monster-hunter-wilds-steelbook-playstation-5-3272490/",
-        "loja": "Amazon",
-        "motivo": "falta 'digital' no título",
-        "parcelas": null,
-        "preco_total": 205.27,
-        "sem_juros": false,
-        "titulo": "Monster Hunter Wilds Steelbook (PlayStation 5)",
-        "valida": false,
-        "valor_parcela": null
-      },
-      {
         "cupom": null,
         "fonte": "promobit",
         "imagem": "https://i.promobit.com.br/300/423742071017958685555563600339.jpg",
@@ -17155,6 +17174,23 @@
         "valor_parcela": null
       },
       {
+        "alertar": true,
+        "cupom": null,
+        "fonte": "promobit",
+        "imagem": "https://i.promobit.com.br/300/149134009417958767154526134800.jpg",
+        "link": "https://www.promobit.com.br/oferta/ps5-slim-digital-825gb-3273167/",
+        "loja": "Shopee",
+        "menor_preco": false,
+        "motivo": "21% abaixo da média recente (R$ 5016); oferta nova",
+        "nivel": "especial",
+        "parcelas": null,
+        "preco_total": 3955.91,
+        "sem_juros": false,
+        "titulo": "PS5 Slim Digital 825GB",
+        "valida": true,
+        "valor_parcela": null
+      },
+      {
         "alertar": false,
         "cupom": null,
         "fonte": "promobit",
@@ -17162,7 +17198,7 @@
         "link": "https://www.promobit.com.br/oferta/console-playstation-5-slim-digital-825gb-3273120/",
         "loja": "Shopee",
         "menor_preco": false,
-        "motivo": "21% abaixo da média recente (R$ 5009); especial já avisado há 6 min",
+        "motivo": "21% abaixo da média recente (R$ 5016); especial já avisado há 16 min",
         "nivel": "especial",
         "parcelas": null,
         "preco_total": 3955.91,
@@ -17400,6 +17436,6 @@
       "normal": 4000.0,
       "parcelas_minimas": 10
     },
-    "ts": "2026-11-28T14:39:38+00:00"
+    "ts": "2026-11-28T14:49:04+00:00"
   }
 }
